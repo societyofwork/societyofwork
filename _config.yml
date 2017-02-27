@@ -13,18 +13,13 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+permalink: /:title/
 
 # Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
-# Sass settings
-sass:
-  add_charset: true
-  sass_dir: assets/sass
-  style: :compressed
 
 # Build settings
 exclude:
@@ -34,10 +29,72 @@ exclude:
   - README.md
   - CNAME
   - node_modules
-  - assets/sass
-
+  - gulpfile.js
+  - _assets
+  
 # Plugin settings
 gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# these will have to be customized but give good examples
+# Picture element presets
+picture:
+  source: "assets/img"
+  output: "assets/processed-img"
+  markup: "picture"
+  presets:
+    team_square:
+      attr:
+        class: "image--team-square"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_400:
+        media: "(min-width: 400px)"
+        width: "334"
+      source_default:
+        width: "254"
+    team_individual:
+      attr:
+        class: "image--team-individual"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_400:
+        media: "(min-width: 400px)"
+        width: "350"
+      source_default:
+        width: "288"
+    team_post_meta:
+      attr:
+        class: "image--team-post-meta"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_default:
+        width: "288"
+    case_study:
+      attr:
+        class: "image--case-study"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_860:
+        media: "(min-width: 860px)"
+        width: "560"
+      source_640:
+        media: "(min-width: 640px)"
+        width: "430"
+      source_400:
+        media: "(min-width: 400px)"
+        width: "560"
+      source_default:
+        width: "400"
+    post_featured_image:
+      attr:
+        class: "image--post-featured-image"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_1120:
+        media: "(min-width: 400px)"
+        width: "737"
+      source_default:
+        width: "400"

@@ -1,5 +1,16 @@
 ---
 layout: default
+navigation_weight: 1
+title: Home
 ---
 
-<h1>Hello world!</h1>
+<h1>The posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title}}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
