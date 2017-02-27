@@ -3,7 +3,6 @@ var appendPrepend  = require('gulp-append-prepend');
 var autoprefixer   = require('autoprefixer');
 var browserSync    = require('browser-sync').create();
 var cleancss       = require('gulp-clean-css');
-// add the uncss task
 var uncss          = require('gulp-uncss');
 var concat         = require('gulp-concat');
 var del            = require('del');
