@@ -4,6 +4,7 @@ var autoprefixer   = require('autoprefixer');
 var browserSync    = require('browser-sync').create();
 var cleancss       = require('gulp-clean-css');
 var uncss          = require('gulp-uncss');
+var critical       = require('critical').stream;
 var concat         = require('gulp-concat');
 var del            = require('del');
 var gulp           = require('gulp');
@@ -39,14 +40,26 @@ gulp.task('build:styles:main', function() {
 
 // Processes critical CSS, to be included in head.html.
 gulp.task('build:styles:critical', function() {
-    return sass(paths.sassFiles + '/critical.scss', {
-        style: 'compressed',
-        trace: true,
-        loadPath: [paths.sassFiles]
-    }).pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
-        .pipe(cleancss())
-        .pipe(gulp.dest('_includes'))
-        .on('error', gutil.log);
+  return gulp.src('_site/index.html')
+  .pipe(critical({
+    base: '_site/',
+    inline: true,
+    css: ['_site/assets/styles/main.css'],
+    dimensions: [
+    {
+      width: 414,
+      height: 716
+    },
+    {
+      width: 1920,
+      height: 1080
+    }
+  ],
+    dest: '_includes/critical.css', // Outputting so I can check to make sure it doesn't go over 10kb
+    minify: true
+  }))
+  .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+  .pipe(gulp.dest('_site'));
 });
 
 // Copies any other CSS files to the assets directory, to be used by pages/posts
@@ -81,7 +94,6 @@ gulp.task('build:html:minify', function() {
 // Builds all styles.
 gulp.task('build:styles', [
     'build:styles:main',
-    'build:styles:critical',
     'build:styles:css'
 ]);
 
@@ -105,11 +117,12 @@ gulp.task('build:scripts', function() {
 
         // Only place in `assets` because Jekyll needs to process the file.
         .pipe(gulp.dest(paths.jekyllJsFiles))
+        .pipe(gulp.dest(paths.siteJsFiles))
         .on('error', gutil.log);
 });
 
 gulp.task('clean:scripts', function(callback) {
-    del([paths.jekyllJsFiles, paths.siteJsFiles]);
+    del([paths.jekyllJsFiles + 'main.js', paths.siteJsFiles + 'main.js']);
     callback();
 });
 
@@ -201,7 +214,7 @@ gulp.task('build', function(callback) {
 
 // Ready site for production.
 gulp.task('prod', function(callback) {
-  runSequence('build', 'build:styles:uncss', 'build:html:minify')
+  runSequence('build', 'build:styles:uncss', 'build:styles:critical', 'build:html:minify')
 })
 
 // Builds site anew using test config.
