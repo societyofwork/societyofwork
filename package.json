@@ -6,7 +6,7 @@
   "author": "Brett Wise <brettdwise@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "global": "^4.3.1",
+    "global": "^4.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
