@@ -77,7 +77,7 @@ gulp.task('build:styles:css', function() {
 gulp.task('build:styles:uncss', function() {
   return gulp.src([paths.siteCssFiles + '/main.css'])
     .pipe(uncss({
-      html: ["./_site/**/*.html"] 
+      html: ["./_site/**/*.html"]
     }))
     .pipe(gulp.dest(paths.siteCssFiles))
     .on('error', gutil.log);
@@ -134,8 +134,7 @@ gulp.task('build:images', function() {
         .pipe(imagemin([
             imagemin.gifsicle(),
             jpegRecompress(),
-            imagemin.optipng(),
-            imagemin.svgo()
+            imagemin.optipng()
         ]))
         .pipe(gulp.dest(paths.jekyllImageFiles))
         .pipe(gulp.dest(paths.siteImageFiles))
