@@ -1,16 +1,12 @@
 ---
 layout: default
+hero_blurb: This is the home page hero blurb.
+hero_button_text: Learn More
+hero_button_link: /about/
 navigation_weight: 1
 title: Home
 ---
 
-<h1>The posts</h1>
+<h1>{{page.hero_blurb}}</h1>
+<a href="{{page.hero_button_link}}" class="button">{{page.hero_button_text}}</a>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title}}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>

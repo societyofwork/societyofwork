@@ -1,0 +1,16 @@
+---
+layout: default
+title: Community
+navigation_weight: 4
+---
+
+<h1>The Following is dynamic: {{ page.title }}</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title}}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

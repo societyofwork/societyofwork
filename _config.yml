@@ -6,13 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: The Innovation District of Chattanooga
+description: The first mid-sized city to designate an innovation district.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://www.chainnovate.com/" # the base hostname & protocol for your site
 permalink: /:title/
 
 # Markdown settings
@@ -20,6 +17,25 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+collections:
+  directory_members:
+    output: false
+  
+defaults:
+  -
+    scope:
+      path: ""
+      type: "directory_members"
+    values:
+      categories: ["Startup Support", "Arts & Culture", "Social Enterprise", "Business Development", "Collision Points", "Civic & Public", "Tech & Design"]
+      filters: ["Funding", "Mentoring", "Training", "Networking", "Workspace"]
+      member:
+        name:
+        bio:
+        address:
+        url:
+      
 
 # Build settings
 exclude:

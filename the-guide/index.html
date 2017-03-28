@@ -1,0 +1,15 @@
+---
+layout: default
+title: The Guide
+navigation_weight: 3
+---
+
+<h1>The Following is dynamic: {{ page.title }}</h1>
+
+<ul>
+  {% for col in site.collections %}
+    <li>
+      {{ col }}
+    </li>
+  {% endfor %}
+</ul>
