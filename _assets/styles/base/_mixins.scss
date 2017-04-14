@@ -1,0 +1,7 @@
+@mixin font-stack($family, $weight: normal) {
+  font: {
+    family: $family;
+    style: normal;
+    weight: $weight;
+  }
+}

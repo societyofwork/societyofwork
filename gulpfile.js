@@ -147,11 +147,11 @@ gulp.task('clean:images', function(callback) {
 });
 
 // Copies fonts.
-gulp.task('build:fonts', ['fontawesome']);
+gulp.task('build:fonts', ['fonts']);
 
 // Places Font Awesome fonts in proper location.
-gulp.task('fontawesome', function() {
-    return gulp.src(paths.fontFiles + '/font-awesome/**.*')
+gulp.task('fonts', function() {
+    return gulp.src(paths.fontFiles + '/**.*')
         .pipe(rename(function(path) {path.dirname = '';}))
         .pipe(gulp.dest(paths.jekyllFontFiles))
         .pipe(gulp.dest(paths.siteFontFiles))

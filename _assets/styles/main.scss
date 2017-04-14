@@ -1,4 +1,7 @@
 @CHARSET 'UTF-8';
 
+@import "base/variables";
+@import "base/mixins";
 @import "foundation-scss/import-me";
+@import "base/typography";
 @import "base/root";

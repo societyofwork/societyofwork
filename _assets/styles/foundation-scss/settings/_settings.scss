@@ -41,7 +41,7 @@
 //  36. Tooltip
 //  37. Top Bar
 
-@import 'util/util';
+@import '../util/util';
 
 // 1. Global
 // ---------
@@ -56,19 +56,21 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: #e6e6e6;
+
+// Imported from _colors.scss
+$light-gray: $light-gray;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$dark-gray: $dark-gray;
+$black: $black;
+$white: $white;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: $gotham;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
-$global-weight-normal: normal;
-$global-weight-bold: bold;
+$global-weight-normal: 400;
+$global-weight-bold: 700;
 $global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
@@ -104,7 +106,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: $lubalin-book;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -114,19 +116,19 @@ $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 19),
+    'h2': ('font-size': 24),
+    'h3': ('font-size': 20),
     'h4': ('font-size': 18),
-    'h5': ('font-size': 17),
-    'h6': ('font-size': 16),
+    'h5': ('font-size': 18),
+    'h6': ('font-size': 18),
   ),
   medium: (
     'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
-    'h6': ('font-size': 16),
+    'h2': ('font-size': 48),
+    'h3': ('font-size': 30),
+    'h4': ('font-size': 30),
+    'h5': ('font-size': 30),
+    'h6': ('font-size': 30),
   ),
 );
 $header-text-rendering: optimizeLegibility;
