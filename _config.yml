@@ -5,6 +5,12 @@ collections:
   directory_members:
     title: Directory Members
     output: false
+  directory_categories:
+    title: Directory Categories
+    output: false
+  directory_filters:
+    title: Directory Filters
+    output: false
   posts:
     title: Posts
     output: true
@@ -16,20 +22,8 @@ defaults:
     path: ''
     type: directory_members
   values:
-    categories:
-    - Startup Support
-    - Arts & Culture
-    - Social Enterprise
-    - Business Development
-    - Collision Points
-    - Civic & Public
-    - Tech & Design
-    filters:
-    - Funding
-    - Mentoring
-    - Training
-    - Networking
-    - Workspace
+    directory_categories:
+    directory_filters:
     member:
       name: 
       bio: 
