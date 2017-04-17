@@ -1,6 +1,6 @@
 ---
 title: The Innovation District of Chattanooga
-timezone: UTC
+timezone: America/New_York
 collections:
   directory_categories:
     title: Directory Categories
@@ -30,7 +30,7 @@ defaults:
       address: 
       url: 
 description: The first mid-sized city to designate an innovation district.
-baseurl: ''
+baseurl: 
 url: https://www.chainnovate.com/
 permalink: "/:title/"
 markdown: kramdown
