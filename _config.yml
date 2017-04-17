@@ -16,8 +16,20 @@ defaults:
     path: ''
     type: directory_members
   values:
-    member_categories: ["Startup Support", "Arts & Culture", "Social Enterprise", "Business Development", "Collision Points", "Civic & Public", "Tech & Design"]
-    member_filters: ["Funding", "Mentoring", "Training", "Networking", "Workspace"]
+    categories:
+    - Startup Support
+    - Arts & Culture
+    - Social Enterprise
+    - Business Development
+    - Collision Points
+    - Civic & Public
+    - Tech & Design
+    filters:
+    - Funding
+    - Mentoring
+    - Training
+    - Networking
+    - Workspace
     member:
       name: 
       bio: 
