@@ -6,14 +6,14 @@ navigation_weight: 3
 
 <h2>Categories</h2>
 <ul>
-{% for cat in site.defaults[0].values.categories %}
-  <li>{{cat}}</li>
+{% for category in site.directory_categories %}
+  <li>{{category.title}}</li>
 {% endfor %}
 </ul>
 
 <h2>Filters</h2>
 <ul>
-{% for filter in site.defaults[0].values.filters %}
-  <li>{{filter}}</li>
+{% for filter in site.directory_filters %}
+  <li>{{filter.title}}</li>
 {% endfor %}
 </ul>
