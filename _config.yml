@@ -23,7 +23,9 @@ defaults:
     type: directory_members
   values:
     directory_categories: 
+      title: Directory Categories
     directory_filters: 
+      title: Directory Filters
     member:
       name: 
       bio: 
