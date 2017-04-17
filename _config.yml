@@ -22,8 +22,8 @@ defaults:
     path: ''
     type: directory_members
   values:
-    Directory Categories: 
-    Directory Filters: 
+    Directory Categories: []
+    Directory Filters: []
     member:
       name: 
       bio: 
