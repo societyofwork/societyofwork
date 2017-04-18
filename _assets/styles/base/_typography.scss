@@ -24,6 +24,7 @@ h2, h4, h5  { color: $black; }
 h3          { color: $red; }
 h6          { color: $teal; }
 nav a       { color: $dark-gray; }
+nav a:hover,
 nav .active { color: $white; }
 
 // Element Font Familes
