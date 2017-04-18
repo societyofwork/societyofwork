@@ -42,8 +42,8 @@ gulp.task('build:styles:main', function() {
 });
 
 // Does the same as above but removes sourcemaps
-// and browsersync. It minifies files
-// before sending to postcss to get vendor prefixes
+// and browsersync. It minifies files and removes inline comments
+// before sending to postcss to get vendor prefixes.
 gulp.task('build:styles:main:prod', function() {
     return sass(paths.sassFiles + '/main.scss', {
         style: 'compressed',
