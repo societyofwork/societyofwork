@@ -1,0 +1,49 @@
+body {
+  @include grid-col-row();
+}
+
+nav,
+main,
+footer {
+  @include grid-column(12);
+}
+
+nav {
+  
+  margin-bottom: 1.5rem;
+  
+  ul {
+    @include menu-base;
+    
+    li {
+      a {
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  
+  @include breakpoint(large) {
+    
+    &__logo {
+      @include grid-column(3)
+    }
+    
+    &__contact {
+      @include grid-column(4);
+    }
+    
+    &__social {
+      @include grid-column(2);
+    }
+    
+    &__blurb {
+      @include grid-column(3);
+    }
+    
+  }
+}
