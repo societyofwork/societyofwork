@@ -1,10 +1,14 @@
 body {
-  @include grid-col-row();
+  @include grid-row();
+  
+  @include breakpoint(large) {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
 }
 
 nav,
-main,
-footer {
+main {
   @include grid-column(12);
 }
 
@@ -13,12 +17,17 @@ nav {
   margin-bottom: 1.5rem;
   
   ul {
+    
+    float: right;
     @include menu-base;
     
     li {
+      
       a {
-        &:first-child {
-          padding-left: 0;
+        
+        @include breakpoint(medium) {
+          padding-right: 21px;
+          padding-left: 21px;
         }
       }
     }
