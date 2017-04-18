@@ -1,5 +1,8 @@
-body {
-  @include grid-row();
+header,
+main,
+footer {
+  
+  @include grid-row;
   
   @include breakpoint(large) {
     padding-right: 65px;

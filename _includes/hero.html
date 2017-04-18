@@ -1,0 +1,18 @@
+<div class="hero-background">
+  <header class="hero">
+    
+    {% include menu.html %}  
+    
+    <img src="https://unsplash.it/293/59" alt="" class="hero__logo">
+    
+    <div class="hero__blurb">
+      <h1>{{page.hero_blurb}}</h1>
+      
+      {% if page.hero_button_text %}
+        <a href="{{page.hero_button_link}}" class="button button--hero">{{page.hero_button_text}}</a>
+      {% endif %}
+      
+    </div>
+    
+  </header>
+</div>

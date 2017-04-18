@@ -1,0 +1,24 @@
+.hero {
+  
+  &-background {
+    background-color: $black;
+  }
+  
+  @include breakpoint(large) {
+    
+    &__logo {
+      position: relative;
+      right: 30px;
+      @include grid-col(5);
+      width: 293px;
+    }
+    
+    &__blurb {
+      @include grid-col(7);
+      margin: 134px 0;
+    }
+    
+  }
+  
+}
+

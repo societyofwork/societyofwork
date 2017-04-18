@@ -1,5 +1,27 @@
 .button {
   font-size: 14px;
   text-transform: uppercase;
+  
+  &--hero {
+    background-color: $black;
+    color: $yellow;
+    border: solid $yellow 1px;
+    
+    &:hover {
+      background-color: lighten($black, 10%);
+      color: $yellow;
+    }
+  }
+  
+  &--for-nav {
+    background-color: $trans-black;
+    color: $teal;
+    font-size: 16px;
+    margin-top: 14px;
+  }
 }
+
+
+
+
 

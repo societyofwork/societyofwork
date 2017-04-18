@@ -3,26 +3,35 @@
 @font-face {
   font-family: "LubalinGraph-Book";
   src: url("../fonts/337DB2_1_0.eot");
-  src: url("../fonts/337DB2_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/337DB2_1_0.woff2") format("woff2"), url("../fonts/337DB2_1_0.woff") format("woff"), url("../fonts/337DB2_1_0.ttf") format("truetype");
+  src: url("../fonts/337DB2_1_0.eot?#iefix") format("embedded-opentype")
+     , url("../fonts/337DB2_1_0.woff2") format("woff2")
+     , url("../fonts/337DB2_1_0.woff") format("woff")
+     , url("../fonts/337DB2_1_0.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "LubalinGraph-BookOblique";
   src: url("../fonts/337DB2_0_0.eot");
-  src: url("../fonts/337DB2_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/337DB2_0_0.woff2") format("woff2"), url("../fonts/337DB2_0_0.woff") format("woff"), url("../fonts/337DB2_0_0.ttf") format("truetype");
+  src: url("../fonts/337DB2_0_0.eot?#iefix") format("embedded-opentype")
+     , url("../fonts/337DB2_0_0.woff2") format("woff2")
+     , url("../fonts/337DB2_0_0.woff") format("woff")
+     , url("../fonts/337DB2_0_0.ttf") format("truetype");
 }
 
-// Header Colors
-h1         { color: $yellow; }
-h2, h4, h5 { color: $black; }
-h3         { color: $red; }
-h6         { color: $teal; }
+// Element Colors
+h1          { color: $yellow; }
+h2, h4, h5  { color: $black; }
+h3          { color: $red; }
+h6          { color: $teal; }
+nav a       { color: $dark-gray; }
+nav .active { color: $white; }
 
 // Element Font Familes
-h1, h2  { @include font-stack($lubalin-book); }
-h3      { @include font-stack($lubalin-book-oblique); }
-h4, nav { @include font-stack($gotham, 700); } // Bold Style
-h5, h6  { @include font-stack($gotham, 400); } // Book Style
+h1, h2   { @include font-stack($lubalin-book); }
+h3       { @include font-stack($lubalin-book-oblique); }
+h4, nav,
+.button  { @include font-stack($gotham, 700); } // Bold Style
+h5, h6   { @include font-stack($gotham, 400); } // Book Style
 
 // Header Line Heights
 @include breakpoint(medium) {
