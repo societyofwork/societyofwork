@@ -33,10 +33,14 @@ description: The first mid-sized city to designate an innovation district.
 baseurl: 
 facebook: https://www.facebook.com/InnovationDistrictCHA/
 twitter: https://twitter.com/ChattanoogaID
-address: The Enterprise Center <br>1100 Market Street, Suite 500 <br>Chattanooga, TN 37402
-phone_number: (423) 661-3300
+address: The Enterprise Center <br>1100 Market Street, Suite 500 <br>Chattanooga,
+  TN 37402
+phone_number: "(423) 661-3300"
 email: enterprisecenter@theenterprisectr.org
-about_us_blurb: Chattanooga is the first mid-sized city with an established innovation district. Larger cities such as Boston, Washington DC, and Barcelona already enjoy the community benefits that come from designing spaces specifically for workers and companies in the new knowledge economy.
+about_us_blurb: Chattanooga is the first mid-sized city with an established innovation
+  district. Larger cities such as Boston, Washington DC, and Barcelona already enjoy
+  the community benefits that come from designing spaces specifically for workers
+  and companies in the new knowledge economy.
 url: https://www.chainnovate.com/
 permalink: "/:title/"
 markdown: kramdown
