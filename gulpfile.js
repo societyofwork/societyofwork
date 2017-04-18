@@ -18,14 +18,33 @@ var rename         = require('gulp-rename');
 var run            = require('gulp-run');
 var runSequence    = require('run-sequence');
 var sass           = require('gulp-ruby-sass');
+var sourcemaps     = require('gulp-sourcemaps');
 var uglify         = require('gulp-uglify');
 
 var paths          = require('./_assets/gulp_config/paths');
 
 
-// Uses Sass compiler to process styles, adds vendor prefixes, minifies, then
-// outputs file to the appropriate location.
+// Compiles SCSS to css, adding sourcemaps and vendor prefixes
+// and then outputs the file to the appropriate location.
+// Finally fires off browsersync to inject new styles.
 gulp.task('build:styles:main', function() {
+    return sass(paths.sassFiles + '/main.scss', {
+        trace: true,
+        sourcemap: true,
+        loadPath: [paths.sassFiles]
+    })
+      .pipe(sourcemaps.write())
+      .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
+        .pipe(gulp.dest(paths.jekyllCssFiles))
+        .pipe(gulp.dest(paths.siteCssFiles))
+        .pipe(browserSync.stream())
+        .on('error', gutil.log);
+});
+
+// Does the same as above but removes sourcemaps
+// and browsersync. It minifies files
+// before sending to postcss to get vendor prefixes
+gulp.task('build:styles:main:prod', function() {
     return sass(paths.sassFiles + '/main.scss', {
         style: 'compressed',
         trace: true,
@@ -34,11 +53,11 @@ gulp.task('build:styles:main', function() {
         .pipe(cleancss())
         .pipe(gulp.dest(paths.jekyllCssFiles))
         .pipe(gulp.dest(paths.siteCssFiles))
-        .pipe(browserSync.stream())
         .on('error', gutil.log);
 });
 
-// Processes critical CSS, to be included in head.html.
+// Inlines CSS needed to render above the fold content
+// to be included in head.html so FOUC is avoided.
 gulp.task('build:styles:critical', function() {
   return gulp.src('_site/index.html')
   .pipe(critical({
@@ -55,7 +74,7 @@ gulp.task('build:styles:critical', function() {
       height: 1080
     }
   ],
-    dest: '_includes/critical.css', // Outputting so I can check to make sure it doesn't go over 10kb
+    dest: '_includes/critical.css', // Outputting so you can check to make sure it doesn't go over 10kb
     minify: true
   }))
   .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
@@ -73,7 +92,7 @@ gulp.task('build:styles:css', function() {
       .on('error', gutil.log);
 });
 
-// Minifies CSS
+// Removes unreferenced CSS classes. Used for prod task.
 gulp.task('build:styles:uncss', function() {
   return gulp.src([paths.siteCssFiles + '/main.css'])
     .pipe(uncss({
@@ -91,9 +110,15 @@ gulp.task('build:html:minify', function() {
     .pipe(gulp.dest(paths.siteDir));
 });
 
-// Builds all styles.
+// Builds styles for local dev.
 gulp.task('build:styles', [
     'build:styles:main',
+    'build:styles:css'
+]);
+
+// Builds styles for production.
+gulp.task('build:styles:prod', [
+    'build:styles:main:prod',
     'build:styles:css'
 ]);
 
@@ -211,9 +236,21 @@ gulp.task('build', function(callback) {
         callback);
 });
 
-// Ready site for production.
+// Used by prod task immediately below. 
+// Builds site anew and gets it into _site folder
+// so that final tasks of uncssing, inlining of critical CSS,
+// and minification of HTML can be completed on prod files.
+gulp.task('build:prod', function(callback) {
+    runSequence('clean',
+        ['build:scripts', 'build:images', 'build:styles:prod', 'build:fonts'],
+        'build:jekyll',
+        callback);
+});
+
+// Removes unused CSS rules with uncss, inlines above the fold CSS,
+// and minifies HTML for production site.
 gulp.task('prod', function(callback) {
-  runSequence('build', 'build:styles:uncss', 'build:styles:critical', 'build:html:minify')
+  runSequence('build:prod', 'build:styles:uncss', 'build:styles:critical', 'build:html:minify')
 })
 
 // Builds site anew using test config.
