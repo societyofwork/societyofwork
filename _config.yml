@@ -23,11 +23,11 @@ defaults:
     type: pages
   values:
     hero:
-      blurb:
-      button_txt:
-      button_link:
-      image:
-      image_description_for_the_visually_impaired:
+      blurb: 
+      button_txt: 
+      button_link: 
+      image: 
+      image_description_for_the_visually_impaired: 
 - scope:
     path: ''
     type: directory_members
