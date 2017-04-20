@@ -11,6 +11,9 @@ collections:
   directory_members:
     title: Directory Members
     output: false
+  homepage-testimonials:
+    title: Homepage Testimonials
+    output: true
   posts:
     title: Posts
     output: true
