@@ -37,7 +37,7 @@ defaults:
   values:
     homepage_testimonials:
       company_name: 
-      testimonial: 
+      testimonial_text: 
       author_image: 
       author_name: 
       author_title: 
