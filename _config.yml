@@ -60,12 +60,12 @@ defaults:
     type: selected_tweets
   values:
     selected_tweets:
-      tweet:
-      tweet_link:
-      author_profile_image:
-      author_name:
-      handle:
-      is_featured_on_homepage:
+      tweet: 
+      tweet_link: 
+      author_profile_image: 
+      author_name: 
+      handle: 
+      is_featured_on_homepage: 
 description: The first mid-sized city to designate an innovation district.
 baseurl: 
 facebook: https://www.facebook.com/InnovationDistrictCHA/
