@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include header.html header_img="the-guide-header-background.svg" %}
+
+<main role="main" class="main" aria-label="Content">
+  <h2>Categories</h2>
+  <ul>
+    {% for category in site.directory_categories %}
+    <li>{{category.title}}</li>
+    {% endfor %}
+  </ul>
+  
+  <h2>Filters</h2>
+  <ul>
+    {% for filter in site.directory_filters %}
+    <li>{{filter.title}}</li>
+    {% endfor %}
+  </ul>
+</main>
