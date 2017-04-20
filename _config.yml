@@ -43,7 +43,7 @@ description: The first mid-sized city to designate an innovation district.
 baseurl: 
 facebook: https://www.facebook.com/InnovationDistrictCHA/
 twitter: https://twitter.com/ChattanoogaID
-logo: /assets/img/logo/full-logo.svg
+logo: "/assets/img/logo/full-logo.svg"
 address: The Enterprise Center <br>1100 Market Street, Suite 500 <br>Chattanooga,
   TN 37402
 phone_number: "(423) 661-3300"
