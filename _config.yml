@@ -17,6 +17,9 @@ collections:
   posts:
     title: Posts
     output: true
+  selected_tweets:
+    title: Selected Tweets
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -52,6 +55,17 @@ defaults:
       bio: 
       address: 
       url: 
+- scope:
+    path: ''
+    type: selected_tweets
+  values:
+    selected_tweets:
+      tweet:
+      tweet_link:
+      author_profile_image:
+      author_name:
+      handle:
+      is_featured_on_homepage:
 description: The first mid-sized city to designate an innovation district.
 baseurl: 
 facebook: https://www.facebook.com/InnovationDistrictCHA/
