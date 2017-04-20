@@ -1,7 +1,7 @@
 ---
 title: About
-layout: about
 date: 2017-04-19 10:45:00 -04:00
+layout: about
 navigation_weight: 2
 header:
   image: 
