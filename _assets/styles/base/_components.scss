@@ -1,16 +1,26 @@
-.hero {
+.header {
   
-  &-background {
-    background-color: $black;
+  &__background {
+    background-size: cover;
   }
   
   @include breakpoint(large) {
     
     &__logo {
-      position: relative;
-      right: 30px;
+      
       @include grid-col(5);
-      width: 293px;
+      
+      position: relative;
+      right: 80px;
+      
+      &-mark {
+        margin-right: 21px;
+        width: 61px;
+      }
+      
+      &-words {
+        width: 212px;
+      }
     }
     
     &__blurb {

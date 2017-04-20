@@ -1,0 +1,28 @@
+<div style="background-image: url('/assets/img/header-backgrounds/{{ include.header_img }}')" class="header__background">
+  <header class="header">
+    {% include menu.html %}  
+    
+    <div class="header__logo">
+      
+      <img src="/assets/img/logo/logo-mark.svg" 
+      class="header__logo-mark"
+      alt="fun looking multi-colored logo mark combining the letters 'I' and 'D' 
+      for standing for Innovation District.">
+      
+      <img src="/assets/img/logo/logo-words.svg"
+      class="header__logo-words"
+      alt="Words in logo that read 'Innovation District of Chattanooga'">
+      
+    </div>
+    
+    <div class="header__blurb">
+      <h1>{{page.header.blurb}}</h1>
+      
+      {% if page.header.button_txt %}
+        <a href="{{page.header.button_link}}" class="button button--header">{{page.header.button_txt}}</a>
+      {% endif %}
+      
+    </div>
+    
+  </header>
+</div>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1300px" height="501px" viewBox="0 0 1300 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>about-header-background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1300" height="501"></rect>
+    </defs>
+    <g id="SIte-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="/about/">
+            <g id="Group-33">
+                <g id="about-header-background">
+                    <rect id="Rectangle-Copy-7" fill="#3B3D40" x="0" y="0" width="1300" height="501"></rect>
+                    <g id="Group-32-Copy" opacity="0.5">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#3B3D40" xlink:href="#path-1"></use>
+                        <g opacity="0.28" mask="url(#mask-2)">
+                            <g transform="translate(339.000000, -223.000000)">
+                                <polygon id="Fill-1" fill="#000000" points="0.99644683 0.0206201726 0.976754135 46.3109679 959.380845 1102.81155 959.380845 31.0565686 957.864507 0.0206201726"></polygon>
+                                <g id="Group-31" stroke-width="1" fill="none" transform="translate(0.978723, 0.021277)">
+                                    <polygon id="Fill-2" fill="#FFFFFF" points="870.010146 1102.7975 958.397526 1102.7975 958.397526 0.00656423174 870.010146 0.00656423174"></polygon>
+                                    <polygon id="Fill-3" fill="#FFFFFF" points="693.248514 1102.7975 781.635894 1102.7975 781.635894 0.00656423174 693.248514 0.00656423174"></polygon>
+                                    <polygon id="Fill-4" fill="#FFFFFF" points="516.473753 1102.7975 604.861134 1102.7975 604.861134 0.00656423174 516.473753 0.00656423174"></polygon>
+                                    <polygon id="Fill-5" fill="#FFFFFF" points="339.698992 1102.7975 428.086373 1102.7975 428.086373 0.00656423174 339.698992 0.00656423174"></polygon>
+                                    <polygon id="Fill-6" fill="#FFFFFF" points="162.930796 1102.7975 251.318176 1102.7975 251.318176 0.00656423174 162.930796 0.00656423174"></polygon>
+                                    <polygon id="Fill-7" fill="#FFFFFF" points="0.0196926952 1102.7975 74.5499798 1102.7975 74.5499798 0.00656423174 0.0196926952 0.00656423174"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
