@@ -38,7 +38,7 @@ defaults:
     path: ''
     type: posts
   values:
-    featured_image:
+    featured_image: 
     image_description_for_the_visually_impaired: 
 - scope:
     path: ''

@@ -1,7 +1,7 @@
 ---
 title: When You are Down and out How Do You Get Up and Go Foward
-is_featured_on_homepage: true
 date: 2017-04-21 11:53:00 -04:00
+is_featured_on_homepage: true
 ---
 
 Philosophy is considered a science but it is difficult to say, when one has to compare with an ordinary science, for example biology, or chemistry. This is a question that turns into a burning problem among the scientists and linguists all over the world. Can philosophy be a science? What does philosophy operate with? It operates with categories, which can be as wide and as interchangeable as one can only imagine. Ordinary science operates with definitions, which are quite limited in their field of research. Ordinary science uses terms and laws of that very science to continue the research, uniting with the others in very rare cases. Philosophy gets into the sense of every science trying to achieve results.
