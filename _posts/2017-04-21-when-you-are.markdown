@@ -1,5 +1,5 @@
 ---
-title: When You are Down and out How Do You Get Up and Go Foward
+title: Test Post 3
 is_featured_on_homepage: true
 date: 2017-04-21 11:53:00 -04:00
 ---

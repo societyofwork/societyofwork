@@ -36,6 +36,12 @@ defaults:
       image_description_for_the_visually_impaired: 
 - scope:
     path: ''
+    type: posts
+  values:
+    featured_image:
+    image_description_for_the_visually_impaired: 
+- scope:
+    path: ''
     type: homepage_testimonials
   values:
     company_name: 
