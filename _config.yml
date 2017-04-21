@@ -38,12 +38,11 @@ defaults:
     path: ''
     type: homepage_testimonials
   values:
-    homepage_testimonials:
-      company_name: 
-      testimonial_text: 
-      author_image: 
-      author_name: 
-      author_title: 
+    company_name: 
+    testimonial_text: 
+    author_image: 
+    author_name: 
+    author_title: 
 - scope:
     path: ''
     type: directory_members
@@ -59,13 +58,12 @@ defaults:
     path: ''
     type: selected_tweets
   values:
-    selected_tweets:
-      tweet: 
-      tweet_link: 
-      author_profile_image: 
-      author_name: 
-      handle: 
-      is_featured_on_homepage: 
+    tweet: 
+    tweet_link: 
+    author_profile_image: 
+    author_name: 
+    handle: 
+    is_featured_on_homepage: 
 description: The first mid-sized city to designate an innovation district.
 baseurl: 
 facebook: https://www.facebook.com/InnovationDistrictCHA/
