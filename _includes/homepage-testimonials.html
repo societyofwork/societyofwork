@@ -1,0 +1,11 @@
+{% for testimonial in site.homepage_testimonials %}
+<div class="testimonials">
+  <div class="testimonial">
+    <h4 class="testimonial__company">{{testimonial.company_name}}</h4>
+    <p class="testimonial__text">{{testimonial.testimonial_text}}</p>
+    <img src="{{testimonial.author_image}}" alt="" class="testimonial__image">
+    <p class="testimonial__author-name">{{testimonial.author_name}}</p>
+    <p class="testimonial__author-title">{{testimonial.author_title}}</p>
+  </div>
+</div>
+{% endfor %}
