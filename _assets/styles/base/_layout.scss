@@ -4,10 +4,10 @@ footer {
   
   @include grid-row;
   
-  @include breakpoint(large) {
-    padding-right: 65px;
-    padding-left: 65px;
-  }
+  // @include breakpoint(large) {
+  //   padding-right: 65px;
+  //   padding-left: 65px;
+  // }
 }
 
 nav,
@@ -17,8 +17,8 @@ main {
 
 nav {
   
+  float: right;
   margin-bottom: 1.5rem;
-  padding-right: 0;
   
   ul {
     

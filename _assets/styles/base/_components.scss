@@ -9,9 +9,7 @@
     &__logo {
       
       @include grid-col(5);
-      
-      position: relative;
-      right: 80px;
+      padding-left: 0 !important;
       
       &-mark {
         margin-right: 21px;
