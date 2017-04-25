@@ -33,8 +33,8 @@ gulp.task('build:styles:main', function() {
     sourcemap: true,
     loadPath: [paths.sassFiles]
   })
-  .pipe(sourcemaps.write())
   .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
+  .pipe(sourcemaps.write())
   .pipe(gulp.dest(paths.jekyllCssFiles))
   .pipe(gulp.dest(paths.siteCssFiles))
   .pipe(browserSync.stream())
