@@ -1,18 +1,15 @@
 header,
 main,
-footer {
+.footer,
+.copyright {
   
-  @include grid-row;
-  
-  // @include breakpoint(large) {
-  //   padding-right: 65px;
-  //   padding-left: 65px;
-  // }
+  @include grid-row();
 }
 
 nav,
 main {
-  @include grid-column(12);
+  float: none !important;
+  @include grid-column;
 }
 
 nav {
@@ -40,23 +37,54 @@ nav {
 
 .footer {
   
+  @include grid-column;
+  padding-bottom: 3rem;
+  
+  &__contact { max-width: 400px; }
+  &__blurb { max-width: 400px; }
+  
+  &__email {
+    display: block;
+    margin-top: 0.75rem;
+  }
+  
+  @include breakpoint(medium) {
+    &__logo    { @include grid-column(7); }
+    &__contact { @include grid-column(7); }
+    &__social  { @include grid-column(7); }
+    &__blurb   { @include grid-column(7); }
+    
+    &__logo,
+    &__contact { margin-bottom: 2rem; }
+  }
+  
+  @include breakpoint(large) {
+    &__logo    { @include grid-column(4); }
+    &__contact { @include grid-column(4); }
+    &__social  { @include grid-column(2); }
+    &__blurb   { @include grid-column(4); }
+  }
+  
+}
+
+.copyright {
+  
+  background-color: $black;
+  
+  @include breakpoint(medium down) {
+    @include grid-column;
+  }
+  
   @include breakpoint(large) {
     
-    &__logo {
-      @include grid-column(3)
-    }
-    
-    &__contact {
+    &__info {
+      @include grid-col-pos(1);
       @include grid-column(4);
     }
     
-    &__social {
-      @include grid-column(2);
+    &__holder {
+      @include grid-column(7);
     }
-    
-    &__blurb {
-      @include grid-column(3);
-    }
-    
   }
+  
 }

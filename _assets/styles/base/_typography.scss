@@ -18,21 +18,27 @@
      , url("../fonts/337DB2_0_0.ttf") format("truetype");
 }
 
-// Element Colors
-h1          { color: $yellow; }
-h2, h4, h5  { color: $black; }
-h3          { color: $red; }
-h6          { color: $teal; }
-nav a       { color: $dark-gray; }
+// Font Colors
+h1, .footer__header          { color: $yellow; }
+h2, h4, h5                   { color: $black; }
+h3                           { color: $red; }
+h6                           { color: $teal; }
+nav a                        { color: $dark-gray; }
 nav a:hover,
-nav .active { color: $white; }
+nav .active,
+footer,
+footer p,
+a[href^=tel]                 { color: $white; }
+
 
 // Element Font Familes
-h1, h2   { @include font-stack($lubalin-book); }
-h3       { @include font-stack($lubalin-book-oblique); }
+h1, h2              { @include font-stack($lubalin-book); }
+h3                  { @include font-stack($lubalin-book-oblique); }
 h4, nav,
-.button  { @include font-stack($gotham, 700); } // Bold Style
-h5, h6   { @include font-stack($gotham, 400); } // Book Style
+.button,
+.footer__header,
+.copyright__holder  { @include font-stack($gotham, 700); } // Bold Style
+h5, h6              { @include font-stack($gotham, 400); } // Book Style
 
 // Header Line Heights
 @include breakpoint(medium) {
@@ -41,6 +47,18 @@ h5, h6   { @include font-stack($gotham, 400); } // Book Style
   h3     { line-height: 36px; }
   h4     { line-height: 32px; } 
   h5, h6 { line-height: 34px; }
+}
+
+// Uppercase Fonts
+.footer__header,
+.copyright__holder {
+  text-transform: uppercase;
+}
+
+.copyright__holder,
+.copyright__info,
+.footer__about-us-blurb {
+  font-size: 12px;
 }
 
 // Body Font

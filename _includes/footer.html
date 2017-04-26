@@ -1,24 +1,35 @@
 <footer>
   
-  <div class="footer__logo">
-    Logo Goes Here
+  <div class="footer">
+    
+    <div class="footer__logo">
+      Logo Goes Here
+    </div>
+    
+    <div class="footer__contact">
+      <p class="footer__header">Contact</p>
+      <address>
+        {{site.address}}
+      </address>
+      <a href="tel:{{site.phone_number}}">{{site.phone_number}}</a>
+      <a class="footer__email" href="mailto:{{site.email}}">{{site.email}}</a>
+    </div>
+    
+    <div class="footer__social">
+      <p class="footer__header">Follow Us</p>
+    </div>
+    
+    <div class="footer__blurb">
+      <p class="footer__header">About Us</p>
+      <p class="footer__about-us-blurb">{{site.footer_about_blurb}}</p>
+    </div>
+    
   </div>
   
-  <div class="footer__contact">
-    <p class="footer__header">Contact</p>
-    <address>
-      {{site.address}}
-    </address>
-    <a href="tel:{{site.phone_number}}">{{site.phone_number}}</a>
-    <a href="mailto:{{site.email}}">{{site.email}}</a>
-  </div>
+  <hr>
   
-  <div class="footer__social">
-    <p class="footer__header">Follow Us</p>
+  <div class="copyright">
+    <p class="copyright__info">Copyright© {{ 'now' | date: "%Y" }}</p>
+    <a class="copyright__holder" href="http://www.theenterprisectr.org/">The Enterprise Center</a>
   </div>
-  
-  <div class="footer__blurb">
-    <p class="footer__header">About Us</p>
-  </div>
-  
 </footer>
