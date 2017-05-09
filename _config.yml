@@ -29,6 +29,11 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: blog_authors
+  values:
+    50px_square_image:
+- scope:
+    path: ''
     type: pages
   values:
     header:
