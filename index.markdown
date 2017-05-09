@@ -11,11 +11,14 @@ main_section:
   sub_section_1:
     title:
     body:
+    image:
   sub_section_2:
     title:
     body:
+    image:
   sub_section_3:
     title:
     body:
+    image:
 ---
 
