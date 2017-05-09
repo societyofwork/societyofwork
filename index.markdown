@@ -7,15 +7,15 @@ header:
   button_link: "/about/"
   button_txt: Learn More
 main_section:
-  title:
+  title: 
   sub_section_1:
-    title:
-    body:
+    title: 
+    body: 
   sub_section_2:
-    title:
-    body:
+    title: 
+    body: 
   sub_section_3:
-    title:
-    body:
+    title: 
+    body: 
 ---
 
