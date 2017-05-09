@@ -9,16 +9,16 @@ header:
 main_section:
   title: 
   sub_section_1:
-    title:
-    body:
-    image:
+    title: 
+    body: 
+    image: 
   sub_section_2:
-    title:
-    body:
-    image:
+    title: 
+    body: 
+    image: 
   sub_section_3:
-    title:
-    body:
-    image:
+    title: 
+    body: 
+    image: 
 ---
 
