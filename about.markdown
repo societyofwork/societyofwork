@@ -1,18 +1,16 @@
 ---
 title: About
 date: 2017-04-19 10:45:00 -04:00
-layout: about
-navigation_weight: 2
 header:
-  image: 
   blurb: A Brief History of Creativity
   button_txt: Seeing Is...
   button_link: "/"
+navigation_weight: 2
 top_blurb:
-  title: 
+  title: Area History
   body: 
 first_section:
-  title: 
+  title: Edney Innovation Center
   sub_section_1:
     image: 
     body: 
@@ -35,5 +33,6 @@ second_section:
     image: 
     body: 
   bottom_body_section: 
+layout: about
 ---
 
