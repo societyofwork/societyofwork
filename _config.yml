@@ -46,6 +46,7 @@ defaults:
     path: ''
     type: posts
   values:
+    blog_author:
     featured_image: 
     image_description_for_the_visually_impaired: 
 - scope:
