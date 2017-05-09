@@ -31,7 +31,7 @@ defaults:
     path: ''
     type: blog_authors
   values:
-    50px_square_image: 
+    image: 
 - scope:
     path: ''
     type: pages
