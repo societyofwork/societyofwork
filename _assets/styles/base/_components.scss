@@ -4,28 +4,12 @@
     background-size: cover;
   }
   
-  @include breakpoint(large) {
+  &__logo-words {
+    display: none;
     
-    &__logo {
-      
-      @include grid-col(5);
-      padding-left: 0 !important;
-      
-      &-mark {
-        margin-right: 21px;
-        width: 61px;
-      }
-      
-      &-words {
-        width: 212px;
-      }
+    @include breakpoint(1287px) {
+      display: inline-block;
     }
-    
-    &__blurb {
-      @include grid-col(7);
-      margin: 134px 0;
-    }
-    
   }
   
 }

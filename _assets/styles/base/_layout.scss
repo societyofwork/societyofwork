@@ -7,32 +7,203 @@ main,
 }
 
 nav,
-main {
+main,
+.header {
   float: none !important;
   @include grid-column;
 }
 
-nav {
+
+// Menu styles for mobile / tablet sized screens. Desktop below this.
+@include breakpoint(1114px down) {
   
-  float: right;
-  margin-bottom: 1.5rem;
+  /* Overlay style */
+  .overlay {
+    background: $dark-trans-black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
   
-  ul {
+  /* Overlay closing cross */
+  .overlay .overlay-close {
+    border: none;
+    background: url(../img/cross.png) no-repeat center center;
+    color: transparent;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    outline: none;
+    text-indent: 200%;
+    z-index: 100;
+  }
+  
+  /* Menu style */
+  .overlay nav {
+    position: relative;
+    top: 50%;
+    height: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .overlay ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+  .overlay ul li {
+    backface-visibility: hidden;
+    display: block;
+    height: 20%;
+    height: calc(100% / 5);
+    min-height: 54px;
+  }
+  
+  .overlay ul li a {
+    color: #fff;
+    display: block;
+    font-size: 54px;
+    font-weight: 300;
+    transition: color 0.2s;
+  }
+  
+  .overlay ul li a:hover,
+  .overlay ul li a:focus {
+    color: #f0f0f0;
+  }
+  
+  /* Effects */
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  .container { overflow-x: hidden;
+    transition: transform 0.5s;	
+  }
+  
+  .container.overlay-open {
+    transform: translateX(50%);
+  }
+  
+  .container::after {
+    background: rgba(0,0,0,0.6);
+    content: '';
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+  
+  .container.overlay-open::after {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  
+  .overlay-contentpush {
+    backface-visibility: hidden;
+    background: $black;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: transform 0.5s, visibility 0s 0.5s;
+  }
+  
+  .overlay-contentpush.open {
+    transform: translateX(0%);
+    transition: transform 0.5s;
+    visibility: visible;
+  }
+  
+  @media screen and (max-height: 30.5em) {
+    .overlay nav {
+      height: 70%;
+      font-size: 34px;
+    }
+    .overlay ul li {
+      min-height: 34px;
+    }
+  }
+  
+}
+
+// Desktop menu styles
+@include breakpoint(1115px) {
+  
+  .main-nav {
     
+    position: absolute;
+    top: 0;
+    right: 0;
     float: right;
-    @include menu-base;
+    margin-bottom: 1.5rem;
     
-    li {
+    .overlay-close { display: none; }
+    
+    ul {
       
-      a {
+      // Imports foundation menu styles right into element.
+      @include menu-base;
+      float: right;
+      
+      li {
         
-        @include breakpoint(medium) {
-          padding-right: 21px;
-          padding-left: 21px;
+        vertical-align: baseline;
+        
+        a {
+          
+          @include breakpoint(medium) {
+            padding-right: 21px;
+            padding-left: 21px;
+          }
         }
       }
     }
+    
   }
+  
+}
+
+.header {
+  
+  @include breakpoint(large) {
+    
+    &__logo {
+      
+      @include grid-col(5);
+      padding-left: 0 !important;
+      
+      &-mark {
+        margin-right: 21px;
+        width: 61px;
+      }
+      
+      &-words {
+        width: 212px;
+      }
+    }
+    
+    &__blurb {
+      @include grid-col(7);
+      margin: 134px 0;
+    }
+    
+  }
+  
 }
 
 .footer {
@@ -87,4 +258,18 @@ nav {
     }
   }
   
+}
+
+.hamburger-menu-button {
+  
+  float: right;
+  padding: 15px 20px;
+  
+  color: $white;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+  @include breakpoint(1115px) {
+    display: none;
+  }
 }

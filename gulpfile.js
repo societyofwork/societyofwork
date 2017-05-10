@@ -133,7 +133,7 @@ gulp.task('clean:styles', function(callback) {
 gulp.task('build:scripts', function() {
   return gulp.src([
     paths.jsFiles + '/global/lib' + paths.jsPattern,
-    paths.jsFiles + '/global/*.js'
+    paths.jsFiles + '/main.js'
   ])
   .pipe(concat('main.js'))
   .pipe(uglify())
@@ -148,7 +148,7 @@ gulp.task('build:scripts', function() {
 });
 
 gulp.task('clean:scripts', function(callback) {
-  del([paths.jekyllJsFiles + 'main.js', paths.siteJsFiles + 'main.js']);
+  del([paths.jekyllJsFiles + '/main.js', paths.siteJsFiles + '/main.js']);
   callback();
 });
 
@@ -168,7 +168,7 @@ gulp.task('build:images', function() {
 });
 
 gulp.task('clean:images', function(callback) {
-  del([paths.jekyllImageFiles, paths.siteImageFiles]);
+  del([paths.jekyllImageFiles, paths.siteImageFiles, paths.siteImageFiles + '/background-accents', paths.siteImageFiles + '/header-backgrounds']);
   callback();
 });
 

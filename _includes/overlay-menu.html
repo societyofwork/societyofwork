@@ -1,0 +1,20 @@
+<div class="overlay overlay-contentpush main-nav" id="overlay-contentpush">
+  <button type="button" class="overlay-close" id="overlay-close">Close</button>
+  <nav>
+    <ul id="menu-items">
+      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+      {% for p in navigation_pages %}
+      {% if p.navigation_weight %}
+      <li>
+        <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+          {{ p.title }}
+        </a>
+      </li>
+      {% endif %}
+      {% endfor %}
+      <li>
+        <a class="button button--for-nav" href="http://www.theenterprisectr.org/">The Enterprise Center</a>
+      </li>
+    </ul>
+  </nav>
+</div>
