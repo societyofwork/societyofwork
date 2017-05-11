@@ -1,5 +1,5 @@
 ---
-title: Test Post
+title: 'Test Post #1'
 date: 2017-04-21 11:53:00 -04:00
 is_featured_on_homepage: false
 ---
