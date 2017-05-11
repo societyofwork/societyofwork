@@ -1,6 +1,9 @@
 ---
 title: Test Post 3
 date: 2017-04-21 11:53:00 -04:00
+featured_image: "/uploads/flatiron-building.jpg"
+image_description_for_the_visually_impaired: A photo of the Flatiron Building close
+  to it from street level looking up. Blue skies above.
 is_featured_on_homepage: true
 ---
 
