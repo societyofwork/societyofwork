@@ -1,11 +1,10 @@
+// Starts and initializes the pjax library, barba in order to create faster experience
+// Yes it gracefully degrades!
+Barba.Pjax.start();
+Barba.Prefetch.init();
 
 // iife to keep variables from poluting the global namespace
 (function() {
-  
-  // Starts and initializes the pjax library, barba in order to create faster experience
-  // Yes it gracefully degrades!
-  Barba.Pjax.start();
-  Barba.Prefetch.init();
   
   // Grabbing mobile menu elements 
   var mobileMenuButton = document.getElementById('mobile-menu-button')
@@ -37,5 +36,17 @@
   closeButton.addEventListener('click', function(e) {
     toggleMenu(e);
   });
+  
+  // Sieam Slier
+  var mySiema = new Siema({
+    perPage: 2,
+  });
+  
+  var prev = document.querySelector('.prev');
+  var next = document.querySelector('.next');
+  
+  prev.addEventListener('click', () => mySiema.prev(2));
+  next.addEventListener('click', () => mySiema.next(2));
+  
   
 })();

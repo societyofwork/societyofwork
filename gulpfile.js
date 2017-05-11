@@ -136,10 +136,11 @@ gulp.task('build:scripts', function() {
     paths.jsFiles + '/main.js'
   ])
   .pipe(concat('main.js'))
-  .pipe(uglify())
+  // .pipe(uglify())
+  .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })  
   
   // We need to add front matter so Jekyll will process variables.
-  .pipe(appendPrepend.prependFile('./_assets/gulp_config/front-matter.txt'))
+  // .pipe(appendPrepend.prependFile('./_assets/gulp_config/front-matter.txt'))
   
   // Only place in `assets` because Jekyll needs to process the file.
   .pipe(gulp.dest(paths.jekyllJsFiles))
