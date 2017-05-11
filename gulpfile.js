@@ -1,6 +1,7 @@
 // Define variables.
 var appendPrepend  = require('gulp-append-prepend');
 var autoprefixer   = require('autoprefixer');
+var babel          = require('gulp-babel');
 var browserSync    = require('browser-sync').create();
 var cleancss       = require('gulp-clean-css');
 var uncss          = require('gulp-uncss');
@@ -136,6 +137,9 @@ gulp.task('build:scripts', function() {
     paths.jsFiles + '/main.js'
   ])
   .pipe(concat('main.js'))
+  .pipe(babel({
+    presets: ['es2015-no-strict']
+  }))
   // .pipe(uglify())
   .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })  
   

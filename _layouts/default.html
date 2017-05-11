@@ -10,7 +10,19 @@
     <button id="mobile-menu-button" class="hamburger-menu-button" type="button">Menu</button>
     
     <div id="barba-wrapper">
-      <div class="barba-container">
+      
+      <!-- Checks to see which page we are on and output a data attributes if we are. -->
+      <!-- Barba needs this for firing page specific JS -->
+      <div class="barba-container"
+      {% if page.url == "/" %} 
+      data-namespace="homepage" 
+      {% elsif page.url == "/guide/" %}
+      data-namespace="guide"  
+      {% elsif page.url == "/community/" %}
+      data-namespace="community"
+      {% endif %}
+      >
+      
         
         <!-- This is the container that the mobile menu is pushing aside. -->
         {{ content }}
