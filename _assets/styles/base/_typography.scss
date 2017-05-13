@@ -55,6 +55,10 @@ h5, h6              { @include font-stack($gotham, 400); } // Book Style
   text-transform: uppercase;
 }
 
+.testimonials {
+  text-align: center;
+}
+
 .copyright__holder,
 .copyright__info,
 .footer__about-us-blurb {

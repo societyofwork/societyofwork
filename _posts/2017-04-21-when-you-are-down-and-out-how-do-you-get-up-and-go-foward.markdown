@@ -1,6 +1,7 @@
 ---
 title: When You are Down and out How Do You Get Up and Go Foward
 date: 2017-04-21 11:53:00 -04:00
+featured_image: "/uploads/flatiron-building.jpg"
 is_featured_on_homepage: true
 ---
 

@@ -6,13 +6,16 @@ main,
   @include grid-row();
 }
 
+header {
+  margin-bottom: 2rem;
+}
+
 nav,
 main,
 .header {
   float: none !important;
   @include grid-column;
 }
-
 
 // Menu styles for mobile / tablet sized screens. Desktop below this.
 @include breakpoint(1114px down) {

@@ -1,5 +1,6 @@
 @CHARSET 'UTF-8';
 
+@import "_vendor/font-awesome/font-awesome.scss";
 @import "base/variables";
 @import "base/mixins";
 @import "foundation-scss/import-me";
@@ -7,3 +8,5 @@
 @import "base/layout";
 @import "base/components";
 @import "base/buttons";
+
+@import "components/featured-posts";

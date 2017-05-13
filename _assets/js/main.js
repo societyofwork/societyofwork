@@ -35,24 +35,24 @@ function initHomepageSlider() {
   // Sieam Slier
   const mySiema = new Siema({
     duration: 200
-    , draggable: false
     , loop: true
-    , perPage: 2
   });
   
-  const prevTwo = document.querySelector('.prev-two');
-  const nextTwo = document.querySelector('.next-two');
+  const prevTwo = document.querySelector('.prev-feature');
+  const nextTwo = document.querySelector('.next-feature');
   
-  prevTwo.addEventListener('click', () => mySiema.prev(2));
-  nextTwo.addEventListener('click', () => mySiema.next(2));
+  prevTwo.addEventListener('click', () => mySiema.prev(1));
+  nextTwo.addEventListener('click', () => mySiema.next(1));
 }
-initHomepageSlider();
+
+setTimeout(function(){
+  initHomepageSlider();
+}, 2000);
 
 function initHomepageTestimonials() {
   // Sieam Slier
   const mySiema = new Siema({
     duration: 200
-    , draggable: false
     , loop: true
     , selector: '.testimonials'
   });
