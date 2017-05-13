@@ -34,7 +34,7 @@ function initHomepageSlider() {
   
   // Sieam Slier
   const mySiema = new Siema({
-    duration: 200
+    duration: 300
     , loop: true
   });
   
@@ -43,6 +43,8 @@ function initHomepageSlider() {
   
   prevTwo.addEventListener('click', () => mySiema.prev(1));
   nextTwo.addEventListener('click', () => mySiema.next(1));
+  
+  setTimeout(() => mySiema.next(), 2800)
 }
 
 setTimeout(function(){
@@ -52,18 +54,32 @@ setTimeout(function(){
 function initHomepageTestimonials() {
   // Sieam Slier
   const mySiema = new Siema({
-    duration: 200
+    duration: 300
     , loop: true
     , selector: '.testimonials'
   });
   
-  const prev = document.querySelector('.prev');
-  const next = document.querySelector('.next');
+  const next = document.querySelector('.testimonials__button');
   
-  prev.addEventListener('click', () => mySiema.prev(1));
   next.addEventListener('click', () => mySiema.next(1));
+  
+  // Add a function that generates pagination to prototype
+  Siema.prototype.addPagination = function() {
+    for (let i = 0; i < this.innerElements.length; i++) {
+      const btn = document.createElement('button');
+      btn.className = "testimonials__pagination-button";
+      btn.addEventListener('click', () => this.goTo(i));
+      this.selector.appendChild(btn);
+    }
+  }
+  
+  // Trigger pagination creator
+  mySiema.addPagination();
 }
-initHomepageTestimonials();
+
+setTimeout(function(){
+  initHomepageTestimonials();
+}, 2000);
 
 // This hooks into Barba lifecycle. So when data-namespace='homepage' element 
 // is loaded the contained functions are fired.

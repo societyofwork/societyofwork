@@ -1,13 +1,15 @@
 header,
 main,
 .footer,
+.featured-posts,
 .copyright {
   
   @include grid-row();
 }
 
-header {
-  margin-bottom: 2rem;
+.featured-posts,
+.testimonials {
+  padding-top: 2rem;
 }
 
 nav,
@@ -213,6 +215,7 @@ main,
   
   @include grid-column;
   padding-bottom: 3rem;
+  float: none; 
   
   &__contact { max-width: 400px; }
   &__blurb { max-width: 400px; }

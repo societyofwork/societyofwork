@@ -1,0 +1,47 @@
+.testimonial {
+  
+  &__ {
+    &img {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 82px;
+      margin-bottom: 1rem;
+      
+      img { border-radius: 50px; }
+    }
+    
+    &text { @include breakpoint(medium) { font-size: 24px; } }
+    
+  }
+  
+}
+
+.testimonials {
+  &__ {
+    &button {
+      background-color: $yellow;
+      border-radius: 50px;
+      color: darken($yellow, 20%);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      bottom: 27px;
+      width: 32px;
+      height: 32px;
+    }
+    
+    &pagination-button {
+      height: 11px;	
+      width: 11px;	
+      border: 1px solid #AAAAAA;	
+      border-radius: 50px;
+      background-color: #FFFFFF;
+      margin-right: 25px;
+      
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}

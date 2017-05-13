@@ -4,10 +4,12 @@ layout: default
 
 {% include header.html header_img="home-header-background.svg" %}
 
-{% include featured-posts-slider.html %}
+<div class="gray-background homepage-accent">
+  {% include featured-posts-slider.html %}
+  {% include homepage-testimonials.html %}
+</div>
 
 <main role="main" aria-label="Content">
   
-  {% include homepage-testimonials.html %}
   
 </main>
