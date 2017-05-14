@@ -20,7 +20,8 @@
 
 // Font Colors
 h1, .footer__header          { color: $yellow; }
-h2, h4, h5                   { color: $black; }
+h2, h4, h5, 
+.subsection__content_title   { color: $black; }
 h3                           { color: $red; }
 h6                           { color: $teal; }
 nav a                        { color: $dark-gray; }
@@ -32,14 +33,17 @@ a[href^=tel]                 { color: $white; }
 
 // Element Font Familes
 h1, h2,
-.testimonial__text  { @include font-stack($lubalin-book); }
-h3                  { @include font-stack($lubalin-book-oblique); }
-h4, nav,
-.button,
-.testimonial__author-name,
+.testimonial__text         { @include font-stack($lubalin-book); }
+
+h3                         { @include font-stack($lubalin-book-oblique); }
+
+h4, nav, .button,
 .footer__header,
-.copyright__holder  { @include font-stack($gotham, 700); } // Bold Style
-h5, h6              { @include font-stack($gotham, 400); } // Book Style
+.copyright__holder,
+.testimonial__author-name, { @include font-stack($gotham, 700); } // Bold Style
+
+h5, h6,
+.subsection__content_title { @include font-stack($gotham, 400); } // Book Style
 
 // Header Line Heights
 @include breakpoint(medium) {

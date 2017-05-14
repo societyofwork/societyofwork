@@ -8,7 +8,8 @@ main,
 }
 
 .featured-posts,
-.testimonials {
+.testimonials,
+main {
   padding-top: 2rem;
 }
 
@@ -17,6 +18,15 @@ main,
 .header {
   float: none !important;
   @include grid-column;
+}
+
+.main-section {
+  @include grid-col(2);
+}
+
+.subsection {
+  @include grid-row;
+  @include grid-col-off(2);
 }
 
 // Menu styles for mobile / tablet sized screens. Desktop below this.

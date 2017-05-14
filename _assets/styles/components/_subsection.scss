@@ -1,0 +1,47 @@
+.subsection {
+  
+  margin-bottom: 52px;
+  
+  &__ {
+    
+    &content {
+      background-color: $white;
+      z-index: 9;
+      
+      &--lower-left-overlap {
+        position: relative;
+        left: 15%;
+        top: 100px;
+        max-width: 450px;
+        padding: 15px 30px;
+      }
+      
+      &--lower-right-overlap {
+        float: right;
+        position: relative;
+        bottom: 129px;
+        max-width: 742px;
+        padding: 23px 38px 32px;
+        
+        .subsection__content_title {
+          max-width: 537px;
+        }
+        
+        .subsection__content_body {
+          max-width: 627px;
+        }
+      }
+      
+      &--upper-right-overlap {
+      }
+    }
+  }
+}
+
+.limited-height {
+  max-height: 450px;
+}
+
+.move-up {
+  
+}
