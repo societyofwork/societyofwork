@@ -10,13 +10,24 @@
       img { border-radius: 50px; }
     }
     
-    &text { @include breakpoint(medium) { font-size: 24px; } }
+    &text { 
+      
+      @include breakpoint(medium) { 
+        font-size: 24px; 
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 914px;
+      } 
+    }
     
   }
   
 }
 
 .testimonials {
+  
+  @include grid-row;
+  
   &__ {
     &button {
       background-color: $yellow;
