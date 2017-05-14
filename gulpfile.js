@@ -99,6 +99,7 @@ gulp.task('build:styles:uncss', function() {
   return gulp.src([paths.siteCssFiles + '/main.css'])
   .pipe(uncss({
     html: ["./_site/**/*.html"]
+    , ignore: ['.open', '.overlay-open', '.testimonials__pagination-button']
   }))
   .pipe(gulp.dest(paths.siteCssFiles))
   .on('error', gutil.log);
