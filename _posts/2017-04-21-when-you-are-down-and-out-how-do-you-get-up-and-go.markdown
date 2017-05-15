@@ -1,14 +1,33 @@
 ---
-title: 'Test Post #1'
+title: ChattaNewbies
 date: 2017-04-21 11:53:00 -04:00
-featured_image: "/uploads/flatiron-building.jpg"
-is_featured_on_homepage: false
+Blog Author: Nikki Sneed
+featured_image: "/uploads/Chattanewbies%20-%20February%202017-3.jpg"
+is_featured_on_homepage: true
 ---
 
-Philosophy is considered a science but it is difficult to say, when one has to compare with an ordinary science, for example biology, or chemistry. This is a question that turns into a burning problem among the scientists and linguists all over the world. Can philosophy be a science? What does philosophy operate with? It operates with categories, which can be as wide and as interchangeable as one can only imagine. Ordinary science operates with definitions, which are quite limited in their field of research. Ordinary science uses terms and laws of that very science to continue the research, uniting with the others in very rare cases. Philosophy gets into the sense of every science trying to achieve results.
+Moving to a new city can be overwhelming. 
 
-![post-picture-bfcc71.jpg](/uploads/post-picture-bfcc71.jpg)
+There’s finding a place to live, packing your entire life into liquor store boxes and shoving those into the back of a moving truck that will probably get lost, saying goodbye to all of your friends and favorite places, finding a way to fit in at the new job, battling traffic until you find that perfect route to and from work… It’s chaos. 
 
-We also can not call philosophy a supra-science, for it also uses hypothesis and arguments to state the opinion. But there is the obvious thing: there are now laws in philosophy and never will be, for the science changes with the age, the needs, beliefs and requirements of the citizens. To prove your opinion, you can write the definition essay and state all the facts and arguments you know to prove one way or another. This is also a nice way to research the problem and see what the solution is. But you have to research it carefully; otherwise definition essays will not be fruitful. As all sciences philosophy has gone through its stages of development. Some scientists believe that the crib of philosophy was mythology and religion. If to see the principles of life and some primitive morals stated in some myths we may see that the statement is quite true and philosophy still continues to develop out of social beliefs and ideas. Philosophy is a science which is obligatory learned by every college student in order for him to establish his own philosophy of life. It is quite exciting to find answers to ever existing questions: who am I? What do I know? What can I know? What am I destined to do? Here is one more interesting observation. You can see that all famous philosophers were researching other science fields also. For example, Freud, Yung, Kafka and others were doing research in linguistics and social sciences. Their numerous creations are the pride of human history for they revealed some secrets that remained undiscovered for a long time before their great contributions.
- 
-{% include pullquote.html quote=" There are so many currents and branches, so many schools of philosophy that it is hard to decide, which one do you prefer and agree with." %} This much depends on the country, family, society you live in. This is one more difference between philosophy and other natural sciences. The law is stable for any country; gravity exists in India, same as in Brazil. Philosophy is a hard science, for it is very difficult to understand the sense of the dogma reading it only once. It is of course, not easy, but gives credit for you if you get interested and somewhere, being at the social event you quote one of the famous doctors of philosophy and make a great impression of an educated and intelligent personality.
+And when the final box is unpacked and the furniture’s been rearranged a dozen times, you finally sit down to relax—only to realize that now you have to find a way to meet new people and start plugging into your new city. 
+
+Don’t worry—ChattaNewbies has you covered!
+
+![Chattanewbies-22.jpg](/uploads/Chattanewbies-22.jpg)
+
+ChattaNewbies is a free monthly meetup to help newcomers get connected with natives (not just natives) and engaged in their new city. 
+
+With designated networking time, dedicated native “connectors” to help make introductions, and a different special topic for each meeting, ChattaNewbies is designed to help you get connected with your new city. 
+
+The February ChattaNewbies event was at [Oddstory Brewing Company](http://oddstorybrewing.co/), Chattanooga’s newest brewery located in the heart of the Innovation District, on February 22. Not only was the event free to attend, but newbies will also got to enjoy free beer from Oddstory!
+
+![Chattanewbies - February 2017-14.jpg](/uploads/Chattanewbies%20-%20February%202017-14.jpg)
+
+The theme for February was “play” and featured [Chattanooga Sports Leagues](https://www.playcsl.com/), a local intramural sports and social organization. In addition to the standard networking time, guests had the opportunity to sign up for some of CSL’s sports, including kickball, softball, and soccer. 
+
+January’s gathering was at [The Tomorrow Building](http://www.tomorrowbuilding.com/), Chattanooga’s new co-living apartment building, and focused on residential options and neighborhoods. And the inaugural event was an initial meet-and-greet at the [Waterhouse Pavilion](http://www.waterhousepavilion.com/new/miller-plaza) in December 2016. Both events were highly successful. 
+
+[River City Company](http://www.rivercitycompany.com/), [Causeway](http://www.causeway.org/), [The Tomorrow Building](http://www.tomorrowbuilding.com/), [Society of Work](http://societyofwork.com/), and [The Enterprise Center](http://www.theenterprisectr.org/) have teamed up to sponsor the recurring, informative event on the last Wednesday of every month. 
+
+To learn more about ChattaNewbies, or to register for the next event, check out their [Facebook page](https://www.facebook.com/events/255617934861300/).
