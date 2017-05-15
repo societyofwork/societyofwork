@@ -1,11 +1,10 @@
 ---
 title: Home
-layout: index
-navigation_weight: 1
 header:
-  blurb: Benjamin Franklin S Method Of Habit Formation
-  button_link: "/about/"
-  button_txt: Learn More
+  blurb: One Of America's Most Startup-Friendly Cities Is In Tennessee
+  button_txt: Read More
+  button_link: http://fortune.com/2017/05/08/tech-startup-innovation-chattanooga-tennessee/
+navigation_weight: 1
 main_section:
   title: Title to go here
   sub_section_1:
@@ -29,5 +28,6 @@ main_section:
       Ipod has more than one pitfall associated with it, and this article will tell
       you the best way to
     image: "/uploads/downtown-subsection-3.jpg"
+layout: index
 ---
 
