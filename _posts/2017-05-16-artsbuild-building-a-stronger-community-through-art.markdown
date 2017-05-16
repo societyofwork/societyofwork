@@ -2,11 +2,14 @@
 title: 'ArtsBuild: Building a Stronger Community Through Art'
 date: 2017-05-16 10:23:00 -04:00
 Blog Author: Nikki Sneed
+featured_image: "/uploads/Doug%20Barnette%20Photography_4142.jpg"
 ---
 
 Founded in 1969 as a united arts fund, ArtsBuild is a Chattanooga nonprofit located in the heart of the Innovation District with the mission of building a stronger community through the arts. 
 
-“At ArtsBuild, we believe fully in the intersection between art and innovation, and that intersection is creativity. One cannot embrace innovation without creative, out-of-the-box thinking,” says Julie Jackson, Director of Development and Communications for Artsbuild.
+“At ArtsBuild, we believe fully in the intersection between art and innovation, and that intersection is creativity. One cannot embrace innovation without creative, out-of-the-box thinking,” says Julie Jackson, Director of Development and Communications for ArtsBuild.
+
+![9798.jpg](/uploads/9798.jpg)
 
 “ArtsBuild is funded by contributions from many individuals, corporations, and foundations. It also receives annual funding from the City of Chattanooga and the Tennessee Arts Commission,” says Jackson.
 
@@ -21,9 +24,13 @@ Since 2012, ArtsBuild has run the grant initiative [Community Cultural Connectio
 
 “ArtsBuild is expanding its grant programs beginning in 2017 to provide even more arts and cultural organizations the opportunity to receive funding. Our goal is to touch as large—and diverse—a population in our community as possible with the power of creativity,” says Jackson.
 
+![IMG_3836.jpg](/uploads/IMG_3836.jpg)
+
 Another incredible ArtsBuild project is the Imagine! Initiative, which provides Hamilton County Elementary School Students in grades [one through four with an introduction and exposure to the arts through professional performances](http://artsbuild.com/about/). Through public and private donations, ArtsBuild is [able to cover the students’ tickets, transportation, and pre- and post-performance curriculum](http://artsbuild.com/arts-education/imagine/) for an event at Chattanooga Theatre Centre, Chattanooga Ballet, and another arts and culture venues. With the help of a generous donation, ArtsBuild will be adding Kindergarten to the Imagine! Initiative in the 2017-2018 school year.
 
 ArtsBuild also provides professional development for Hamilton County teachers through the [John F. Kennedy Center for the Performing Arts’ Partners in Education Program](http://artsbuild.com/arts-education/arts-education-overview/), which helps teachers integrate arts into all classroom subjects. 
+
+![Imagine_Day1_09.jpg](/uploads/Imagine_Day1_09.jpg)
 
 In 2015, ArtsBuild opened the Arts Building in Chattanooga’s Innovation District. Located on E. 11th Street, the Arts Building houses ArtsBuild, Townsend Atelier, Scenic City Clay Arts, Southern Lit Alliance, and SoundCorps. 
 
