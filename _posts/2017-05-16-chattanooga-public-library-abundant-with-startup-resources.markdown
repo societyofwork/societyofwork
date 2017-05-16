@@ -1,6 +1,7 @@
 ---
 title: Chattanooga Public Library Abundant with Startup Resources
 date: 2017-05-16 09:38:00 -04:00
+Blog Author: Nikki Sneed
 ---
 
 Do you have a startup, a small business, or  a potentially great idea and you need the resources to jumpstart it? Well, good news: You don’t need a ton of capital yet, you just need a library card.
