@@ -99,7 +99,17 @@ gulp.task('build:styles:uncss', function() {
   return gulp.src([paths.siteCssFiles + '/main.css'])
   .pipe(uncss({
     html: ["./_site/**/*.html"]
-    , ignore: ['.open', '.overlay-open', '.testimonials__pagination-button']
+    , ignore: [
+      '.open'
+      , '.overlay-open'
+      , '.container.overlay-open'
+      , '.testimonials__pagination-button'
+      , '.overlay'
+      , '.container::after'
+      , '.container.overlay-open::after'
+      , '.overlay-contentpush'
+      , '.overlay-contentpush.open'
+    ]
   }))
   .pipe(gulp.dest(paths.siteCssFiles))
   .on('error', gutil.log);
