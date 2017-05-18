@@ -1,47 +1,109 @@
-.subsection {
+$homepage-breakpoint: 1250px;
+
+@include breakpoint(1249px down) {
+  .main-section {
+    @include grid-col-row;
+    text-align: center;
+  }
   
-  margin-bottom: 52px;
+  .subsection {
+    @include grid-col-row;
+  }
+}
+
+@include breakpoint($homepage-breakpoint) {
   
-  &__ {
+  .homepage-main {
+    padding-top: 6rem;
+  }
+  
+  .subsection {
     
-    &content {
-      background-color: $white;
-      z-index: 9;
+    @include grid-row();
+    @include grid-col-off(2);
+    margin-bottom: 1rem;
+    
+    &__ {
       
-      &--lower-left-overlap {
+      &content {
+        background-color: $white;
+        padding: 15px 30px !important;
         position: relative;
-        left: 15%;
-        top: 100px;
-        max-width: 450px;
-        padding: 15px 30px;
+        
       }
       
-      &--lower-right-overlap {
-        float: right;
-        position: relative;
-        bottom: 129px;
-        max-width: 742px;
-        padding: 23px 38px 32px;
-        
-        .subsection__content_title {
-          max-width: 537px;
+      &two-thirds {
+        &--left {
+          .subsection__ {
+            
+            &content { 
+              
+              @include grid-col(5);
+              @include grid-col-pos(-8);
+              margin-bottom: 15px;
+            }
+            
+            &img { 
+              margin-top: -40px;
+              @include grid-col(9);
+              @include grid-col-pos(5);
+            }
+          }
         }
         
-        .subsection__content_body {
-          max-width: 627px;
+        &--right {
+          .subsection__ {
+            &img {
+              @include grid-col(9);
+            }
+            
+            &content {
+              @include grid-col(5);
+              margin-left: -50px;
+            }
+          }
+          
         }
       }
       
-      &--upper-right-overlap {
+      &bottom-right {
+        
+        .subsection__ {
+          
+          &img {
+            @include grid-col(14);
+          }
+          
+          &content {
+            @include grid-col(12);
+            @include grid-col-off(2);
+            margin-top: -70px;
+            margin-bottom: 15px;
+            padding: 15px 77px 15px 30px !important;
+          }
+        }
       }
     }
   }
 }
 
-.limited-height {
-  max-height: 450px;
-}
-
-.move-up {
+@include breakpoint($homepage-breakpoint) {
+  
+  .shadow {
+    position: relative;
+    
+    &:after {
+      content: " ";
+      background: red;
+      position: absolute;
+      height: 50px;
+      z-index: -10;
+      bottom: 12px;
+      left: 8%;
+      width: 85%;
+      height: 50px;
+      box-shadow: 0 2px 50px rgba(0,0,0, 25%);
+    }
+  }
   
 }

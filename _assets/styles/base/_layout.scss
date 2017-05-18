@@ -24,11 +24,6 @@ main,
   @include grid-col(2);
 }
 
-.subsection {
-  @include grid-row;
-  @include grid-col-off(2);
-}
-
 // Menu styles for mobile / tablet sized screens. Desktop below this.
 @include breakpoint(1114px down) {
   
