@@ -9,7 +9,7 @@ $black:       rgba(59, 61, 64, 1);
 $trans-black: rgba(59, 61, 64, 0.5);
 $dark-trans-black: rgba(59, 61, 64, 0.8);
 
-.gray-background { background-color: $light-gray; }
+.gray-background { background-color: hsl(180, 5%, 96%); }
 
 // Fonts
 $lubalin-book:         "LubalinGraph-Book", Georgia, Times, "Times New Roman", serif;

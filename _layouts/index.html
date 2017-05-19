@@ -11,58 +11,10 @@ layout: default
 
 <main role="main" aria-label="Content" class="homepage-main">
   
-  <div class="main-section">
-    <h4 class="main-section__title">{{page.main_section.title}}</h4>
-  </div>
-  
-  <a href="{{ page.main_subsection.subsection_1.link }}" class="subsection__link" target="_blank">
-    <div class="subsection subsection__two-thirds--left">
-      <div class="shadow subsection__img">
-        <img src="{{ page.main_section.sub_section_1.image }}" alt="">
-      </div>
-      <div class="shadow subsection__content">
-        <h3 class="subsection__content_title">{{ page.main_section.sub_section_1.title }}</h3>
-        <p class="subsection__content_body">{{ page.main_section.sub_section_1.body }}</p>
-      </div>
-    </div>
-  </a>
-  
-  <a href="{{ page.main_subsection.subsection_2.link }}" class="subsection__link" target="_blank">
-    <div class="subsection subsection__bottom-right">
-      <div class="shadow subsection__img">
-        <img src="{{ page.main_section.sub_section_2.image }}" alt="">
-      </div>
-      <div class="shadow subsection__content subsection__content--lower-right-overlap">
-        <h3 class="subsection__content_title">{{ page.main_section.sub_section_2.title }}</h3>
-        <p class="subsection__content_body">{{ page.main_section.sub_section_2.body }}</p>
-      </div>
-    </div>
-  </a>
-  
-  <a href="{{ page.main_subsection.subsection_3.link }}" class="subsection__link" target="_blank">
-    <div class="subsection subsection__two-thirds--right">
-      <div class="shadow subsection__img">
-        <img src="{{ page.main_section.sub_section_3.image }}" alt="">
-      </div>
-      <div class="shadow subsection__content">
-        <h3 class="subsection__content_title">{{ page.main_section.sub_section_3.title }}</h3>
-        <p class="subsection__content_body">{{ page.main_section.sub_section_3.body }}</p>
-      </div>
-    </div>
-  </a>
+{% include homepage-subsections.html %}
   
 </main>
 
-<div class="homepage-tweets">
-  <h4 class="homepage-tweets__title">Tweets</h4>
-  {% for tweet in site.selected_tweets %}
-  <a href="{{ tweet.tweet_link }}" target="_blank" class="tweet">
-    <div class="tweet__body">{{ tweet.content }}</div>
-    <div class="tweet__author_img-box">
-      <img class="tweet__author_img" src="{{ tweet.author_profile_image }}" />
-    </div>
-    <span class="tweet__author_name"> {{ tweet.author_name }}</span>
-    <span class="tweet__author_handle">{{ tweet.author_handle }}</span>
-  </a>
-  {% endfor %}
-</div>
+{% include homepage-tweets.html %}
+
+{% include map.html %}
