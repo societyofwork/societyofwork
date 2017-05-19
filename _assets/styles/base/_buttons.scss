@@ -4,8 +4,12 @@
   
   &--header {
     background-color: $black;
-    color: $yellow;
     border: solid $yellow 1px;
+    color: $yellow;
+    
+    @include breakpoint(medium) {
+      margin-bottom: 75px; 
+    }
     
     &:hover {
       background-color: lighten($black, 10%);

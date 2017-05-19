@@ -4,5 +4,61 @@ layout: default
 
 {% include header.html header_img="about-header-background.svg" %}
 
+{% include top-blurb.html %}
+
 <main role="main" class="main" aria-label="Content">
+  <section class="floater">
+    
+    
+    <h4 class="floater__header">{{ page.first_section.title}}</h4>
+    
+    
+    <div class="floater__img floater__img--lower-left shadow">
+      <img src="{{ page.first_section.sub_section_1.image }}">
+    </div>
+    <div class="floater__body floater__body--lower-left shadow">{{ page.first_section.sub_section_1.body }}</div>
+  </section>
+  
+  <section class="floater">
+    <div class="floater__img floater__img--lower-right shadow">
+      <img src="{{ page.first_section.sub_section_2.image }}">
+    </div>
+    <div class="floater__body floater__body--lower-right shadow">{{ page.first_section.sub_section_2.body }}</div>
+    <div class="floater__bottom-body-section">{{ page.first_section.bottom_body_section }}</div>
+  </section>
+  
+  <section class="floater">
+    
+    
+    <h4 class="floater__header">{{ page.second_section.title}}</h4>
+    
+    
+    <div class="floater__img floater__img--lower-left shadow">
+      <img src="{{ page.second_section.sub_section_1.image }}">
+    </div>
+    <div class="floater__body floater__body--lower-left mt-33 shadow">{{ page.second_section.sub_section_1.body }}</div>
+  </section>
+  
+  <section class="floater">
+    <div class="floater__img floater__img--lower-right shadow">
+      <img src="{{ page.second_section.sub_section_2.image }}">
+    </div>
+    <div class="floater__body floater__body--upper-right shadow">{{ page.second_section.sub_section_2.body }}</div>
+  </section>
+  
+  <section class="floater">
+    <div class="floater__img floater__img--upper-left shadow mb3">
+      <img src="{{ page.second_section.sub_section_3.image }}">
+    </div>
+    <div class="floater__body floater__body--upper-left shadow">{{ page.second_section.sub_section_3.body }}</div>
+  </section>
+  
+  <section class="floater">
+    <div class="floater__img floater__img--lower-right push-right shadow">
+      <img src="{{ page.second_section.sub_section_4.image }}">
+    </div>
+    <div class="floater__body floater__body--upper-right shadow">{{ page.second_section.sub_section_4.body }}</div>
+    <div class="floater__bottom-body-section">{{ page.second_section.bottom_body_section }}</div>
+  </section>
+  
 </main>

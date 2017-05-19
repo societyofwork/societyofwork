@@ -5,6 +5,7 @@ header:
   blurb: A History of Collaboration
   button_txt: Seeing Is...
   button_link: "/"
+  image: "/uploads/about-header.jpg"
 navigation_weight: 2
 top_blurb:
   title: Area History
@@ -15,10 +16,10 @@ top_blurb:
 first_section:
   title: Edney Innovation Center
   sub_section_1:
-    image: 
+    image: "/uploads/sub-section-1.jpg"
     body: 'Anchoring the Innovation District is the Edney Innovation Center. '
   sub_section_2:
-    image: 
+    image: "/uploads/sub-section-2.jpg"
     body: The 90,000 square foot, 10-story building sits at the corner of Market and
       11th Streets, serving as a connecting point, support base and catalyst for the
       local entrepreneurial ecosystem.
@@ -30,21 +31,21 @@ first_section:
 second_section:
   title: District Improvements
   sub_section_1:
-    image: 
+    image: "/uploads/desk-windows.jpg"
     body: "**Multimodality.** The innovation district is among the most well connected
       areas of the city. It features wide sidewalks and numerous stations of the city’s
       bike share program, buses and free shuttle."
   sub_section_2:
-    image: 
+    image: "/uploads/buildings-sky.jpg"
     body: "**Public Art.** Chattanooga has a robust and acclaimed public art program
       that features permanent and rotating pieces throughout the district, including
       the largest mural in the Southeast."
   sub_section_3:
-    image: 
+    image: "/uploads/rust-buildings.jpg"
     body: "**Nightfall.** For 28 years, this free Friday night concert series has
       provided a five month program of diverse, quality entertainment in Miller Plaza."
   sub_section_4:
-    image: 
+    image: "/uploads/table-chairs.jpg"
     body: "**River City Company.** The city’s downtown development non-profit programs
       a wide variety of offerings during the week in Miller Plaza, including a monthly
       community co-working series called Basecamp."

@@ -1,0 +1,30 @@
+@mixin two-columns {
+  line-height: 28px;
+  
+  @include breakpoint(large) {
+    @include grid-col(9);
+    
+    column-count: 2;
+    column-gap: 30px;
+  }
+}
+
+.top-blurb {
+  
+  @include grid-row;
+  
+  &__ {
+    
+    &header {
+      @include breakpoint(large) {
+        @include grid-col(3);
+      }
+    }
+    
+    &body {
+      padding-bottom: 3rem;
+      
+      @include two-columns;
+    }
+  }
+}

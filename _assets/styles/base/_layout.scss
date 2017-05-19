@@ -281,3 +281,17 @@ main,
     display: none;
   }
 }
+
+.overlap-header-img {
+  @include grid-col-row;
+  margin-bottom: 2rem;
+  
+  @include breakpoint(medium) {
+    @include grid-col(12);
+    @include grid-col-pos(center);
+    
+    img {
+      margin-top: -114px;
+    }
+  }
+}
