@@ -73,11 +73,10 @@ defaults:
     path: ''
     type: selected_tweets
   values:
-    tweet: 
     tweet_link: 
     author_profile_image: 
     author_name: 
-    handle: 
+    author_handle: 
     is_featured_on_homepage: 
 description: The first mid-sized city to designate an innovation district.
 baseurl: 

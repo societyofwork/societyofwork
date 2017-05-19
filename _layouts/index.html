@@ -46,3 +46,17 @@ layout: default
   </div>
   
 </main>
+
+<div class="homepage-tweets">
+  <h4 class="homepage-tweets__title">Tweets</h4>
+  {% for tweet in site.selected_tweets %}
+  <a href="{{ tweet.tweet_link }}" target="_blank" class="tweet">
+    <div class="tweet__body">{{ tweet.content }}</div>
+    <div class="tweet__author_img-box">
+      <img class="tweet__author_img" src="{{ tweet.author_profile_image }}" />
+    </div>
+    <span class="tweet__author_name"> {{ tweet.author_name }}</span>
+    <span class="tweet__author_handle">{{ tweet.author_handle }}</span>
+  </a>
+  {% endfor %}
+</div>

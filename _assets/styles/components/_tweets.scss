@@ -1,0 +1,78 @@
+.homepage-tweets {
+  
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  @include grid-col-row;
+  
+  &__ {
+    
+    &title {
+      @include grid-col-row;
+      text-align: center;
+      
+      @include breakpoint(large) { 
+        @include grid-col(2); 
+        text-align: left;
+      }
+    }
+  }
+}
+
+.tweet {
+  
+  @include breakpoint(small) { @include grid-col-row; }
+  
+  @include breakpoint(medium) { 
+    margin-bottom: 1rem;
+    
+    @include grid-col(7); 
+    &:last-child {
+      float: left !important;
+    }
+    
+  }
+  
+  @include breakpoint(large) { @include grid-col(3); }
+  
+  &__ {
+    
+    &body {
+      text-align: center;
+      
+      @include breakpoint(medium) {
+        text-align: left;
+      }
+    }
+    
+    &author_ {
+      
+      &img {
+        display: inline-block;
+        border-radius: 50px;
+        width: 50px;
+      }
+      
+      &img-box {
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        @include breakpoint(medium) {
+          margin-right: 14px;
+          float: left;
+        }
+      }
+      
+      &name,
+      &handle {
+        display: block;
+        text-align: center;
+        
+        @include breakpoint(medium) {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

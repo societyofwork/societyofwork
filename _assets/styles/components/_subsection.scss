@@ -13,6 +13,10 @@ $homepage-breakpoint: 1250px;
 
 @include breakpoint($homepage-breakpoint) {
   
+  .main-section {
+    @include grid-col(2);
+  }
+  
   .homepage-main {
     padding-top: 6rem;
   }

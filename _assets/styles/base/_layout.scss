@@ -2,7 +2,8 @@ header,
 main,
 .footer,
 .featured-posts,
-.copyright {
+.copyright,
+.homepage-tweets {
   
   @include grid-row();
 }
@@ -18,10 +19,6 @@ main,
 .header {
   float: none !important;
   @include grid-column;
-}
-
-.main-section {
-  @include grid-col(2);
 }
 
 // Menu styles for mobile / tablet sized screens. Desktop below this.
