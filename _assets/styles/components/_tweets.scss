@@ -40,6 +40,10 @@
     &body {
       text-align: center;
       
+      p {
+        font-size: 14px;
+      }
+      
       @include breakpoint(medium) {
         text-align: left;
       }
@@ -67,6 +71,7 @@
       &name,
       &handle {
         display: block;
+        font-size: 12px;
         text-align: center;
         
         @include breakpoint(medium) {

@@ -3,7 +3,8 @@ main,
 .footer,
 .featured-posts,
 .copyright,
-.homepage-tweets {
+.homepage-tweets
+{
   
   @include grid-row();
 }

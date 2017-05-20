@@ -1,6 +1,3 @@
-$homepage-breakpoint: 1250px;
-$hover-transition: 0.3s cubic-bezier(0.82, 0.03, 0.77, 0.7);
-
 @include breakpoint(1249px down) {
   .main-section {
     @include grid-col-row;

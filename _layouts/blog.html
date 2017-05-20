@@ -1,21 +1,49 @@
 ---
 layout: default
 ---
-
-{% include header.html header_img="blog-header-background.svg" %}
-
-<main role="main" class="main" aria-label="Content">
+<div class="blog">
   
-  <h1>The Following is dynamic: {{ page.title }}</h1>
+  {% include header.html header_img="blog-header-background.svg" %}
   
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title}}</a>
-      {{ post.excerpt }}
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="gray-background about-bg-accent">
+    
+    <div class="top-blurb">
+      
+      {% assign post = site.posts.first %}
+      
+      <div class="overlap-header-img shadow">
+        <img src="{{ post.featured_image }}">
+      </div>
+      
+      <h4 class="top-blurb__header">{{ post.title }}</h4>
+      <div class="top-blurb__body">{{ post.excerpt }}</div>
+    </div>
+    
+  </div>
   
-</main>
-
+  <main role="main" class="row" aria-label="Content">
+    
+    <div class="posts">
+      <h4 class="row">Posts</h4>
+      <div class="row small-up-1 medium-up-2" data-equalizer data-equalize-by-row="row">
+        {% for post in site.posts offset: 1 %}
+        <div class="post column column-block" data-equalizer-watch>
+          <a href="{{ post.url }}">
+            <img class="post__img" src="{{ post.featured_image }}">
+            <h5 class="post__title">{{ post.title }}</h5>
+            <p>{{ post.excerpt }}</p>
+            <a class="post__read-more" href="{{ post.url }}">Read More</a>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="blog-tweets">
+      {% include tweets.html %}
+    </div>
+    
+  </main>
+  
+  
+</div>

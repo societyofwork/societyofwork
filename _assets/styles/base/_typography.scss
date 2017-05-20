@@ -21,7 +21,8 @@
 // Font Colors
 h1, .footer__header          { color: $yellow; }
 h2, h4, h5, 
-.subsection__content_title   { color: $black; }
+.subsection__content_title,
+.tweet__author_name          { color: $black; }
 h3                           { color: $red; }
 h6                           { color: $teal; }
 nav a                        { color: $dark-gray; }
@@ -33,14 +34,16 @@ a[href^=tel]                 { color: $white; }
 
 // Element Font Familes
 h1, h2,
-.testimonial__text         { @include font-stack($lubalin-book); }
+.testimonial__text,
+.tweet__body p             { @include font-stack($lubalin-book); }
 
 h3                         { @include font-stack($lubalin-book-oblique); }
 
 h4, nav, .button,
 .footer__header,
 .copyright__holder,
-.testimonial__author-name, { @include font-stack($gotham, 700); } // Bold Style
+.testimonial__author-name,
+.tweet__author_name        { @include font-stack($gotham, 700); } // Bold Style
 
 h5, h6,
 .subsection__content_title { @include font-stack($gotham, 400); } // Book Style
@@ -56,7 +59,8 @@ h5, h6,
 
 // Uppercase Fonts
 .footer__header,
-.copyright__holder {
+.copyright__holder,
+.tweet__author_name {
   text-transform: uppercase;
 }
 
