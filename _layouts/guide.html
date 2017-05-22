@@ -2,22 +2,50 @@
 layout: default
 ---
 
-{% include header.html header_img="the-guide-header-background.svg" %}
-
-{% include overlap-header-image.html %}
-
-<main role="main" class="main" aria-label="Content">
-  <h2>Categories</h2>
-  <ul>
-    {% for category in site.directory_categories %}
-    <li>{{category.title}}</li>
-    {% endfor %}
-  </ul>
+<div class="guide">
   
-  <h2>Filters</h2>
-  <ul>
-    {% for filter in site.directory_filters %}
-    <li>{{filter.title}}</li>
-    {% endfor %}
-  </ul>
-</main>
+  {% include header.html header_img="the-guide-header-background.svg" %}
+  
+  <div class="gray-background">
+    
+    {% include overlap-header-image.html %}
+    
+    <div class="filters">
+      
+      <h4>Area Directory</h4>
+      <form class="filter filter--category">
+        {% for category in site.directory_categories %}
+          <input type="checkbox" id="{{ category.title }}" />
+          <label class="filter__item" for="{{ category.title }}">{{ category.title }}</label>
+          <span>|</span>
+        {% endfor %}
+      </form>
+      
+      <form class="filter filter--filter">
+        {% for filter in site.directory_filters %}
+          <input type="checkbox" class="filter__item" id="{{ filter.title }}"/>
+          <label for="{{ filter.title }}">{{ filter.title }}</label>
+        {% endfor %}
+      </form>
+    </div>
+    
+  </div>
+  
+  <main role="main" class="main" aria-label="Content">
+    <ul class="dir-cards medium-up-3">
+      <li class="dir-cards__card column column-block">
+        <div class="dir-cards__card_title">Company Name</div>
+        <p class="dir-cards__card_body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <address class="dir-cards__card_address">372 Jaren Coves Suite 305 Chattanooga, TN 37402</address>
+        <a href="" class="dir-cards__card_link">http://www.companyname.com</a>
+      </li>
+    </ul>
+  </main>
+  
+</div>
