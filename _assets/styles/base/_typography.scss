@@ -30,7 +30,7 @@ nav a:hover,
 nav .active,
 footer,
 footer p,
-a[href^=tel]                 { color: $white; }
+.footer__contact > a[href^=tel]                 { color: $white; }
 
 // Element Font Familes
 h1, h2,
