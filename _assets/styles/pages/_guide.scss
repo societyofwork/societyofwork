@@ -103,6 +103,11 @@
 
 .dir-cards {
   
+  @include breakpoint(1100px) {
+    @include grid-col(13);
+    @include grid-col-pos(center);
+  }
+  
   &__card {
     
     &_title {

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ID-TheGuide" transform="translate(-497.000000, -2473.000000)" fill="#FFD13F">
+            <g id="Group-5-Copy" transform="translate(80.000000, 2148.000000)">
+                <g id="Group-3-Copy-4" transform="translate(390.000000, 0.000000)">
+                    <g id="Group-2" transform="translate(27.000000, 325.000000)">
+                        <path d="M9.651,23.759 C9.464,23.919 9.232,24 9,24 C8.768,24 8.536,23.919 8.349,23.759 C8.008,23.466 0,16.504 0,9.043 C0,4.057 4.037,0 9,0 C13.963,0 18,4.057 18,9.043 C18,16.504 9.992,23.466 9.651,23.759 Z M9,2 C5.141,2 2,5.16 2,9.043 C2,14.445 7.148,19.866 8.999,21.64 C10.85,19.864 16,14.435 16,9.043 C16,5.16 12.859,2 9,2 Z M9,13.074 C6.794,13.074 5,11.28 5,9.074 C5,6.869 6.794,5.074 9,5.074 C11.206,5.074 13,6.869 13,9.074 C13,11.28 11.206,13.074 9,13.074 Z M9,7.074 C7.898,7.074 7,7.971 7,9.074 C7,10.177 7.898,11.074 9,11.074 C10.103,11.074 11,10.177 11,9.074 C11,7.971 10.103,7.074 9,7.074 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

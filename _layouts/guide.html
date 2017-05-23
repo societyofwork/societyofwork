@@ -33,16 +33,33 @@ layout: default
   
   <main role="main" class="main" aria-label="Content">
     <ul class="dir-cards medium-up-2 large-up-3">
+      
       {% for member in site.data.members %}
-      <li class="dir-cards__card column column-block">
-        <div class="dir-cards__card_title">{{ member["Organization/Resource"] }}</div>
-        <p class="dir-cards__card_body">
-          {{ member["Short Description"] }}
-        </p>
-        <address class="dir-cards__card_address">{{ member["Location"] }}</address>
-        <a href="{{ member["Website"] }}" class="dir-cards__card_link">{{ member["Website"] }}</a>
-      </li>
+        <li class="dir-cards__card column column-block">
+          <div class="dir-cards__card_title">
+            {{ member["Organization/Resource"] }}
+          </div>
+          <p class="dir-cards__card_body">
+            {{ member["Short Description"] }}
+          </p>
+          
+          {% if member["Location"] %}
+            <address class="dir-cards__card_address">
+              <img src="/assets/img/icons/map-marker.svg">
+              {{ member["Location"] }}
+            </address>
+          {% endif %}
+          
+          {% if member["Website"] %}
+          <a href="{{ member["Website"] }}" class="dir-cards__card_link">
+            <img src="/assets/img/icons/www-globe.svg">
+            {{ member["Website"] }}
+          </a>
+          {% endif %}
+          
+        </li>
       {% endfor %}
+      
     </ul>
   </main>
   
