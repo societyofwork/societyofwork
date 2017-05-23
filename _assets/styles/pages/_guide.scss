@@ -1,8 +1,13 @@
 .guide {
+  
   .overlap-header-img {
     
     @include grid-col(14);
     @include grid-col-pos(center);
+  }
+  
+  ul {
+    list-style: none;
   }
   
   /* Base for label styling */
@@ -96,3 +101,12 @@
   }
 }
 
+.dir-cards {
+  
+  &__card {
+    
+    &_title {
+      font-size: 24px;
+    }
+  }
+}
