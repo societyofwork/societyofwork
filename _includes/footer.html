@@ -2,11 +2,18 @@
   
   <div class="footer">
     
-    <div class="footer__logo">
-      Logo Goes Here
+    <div class="footer__section footer__logo">
+      <img src="/assets/img/logo/logo-mark.svg" 
+      alt="fun looking multi-colored logo mark combining the letters 'I' and 'D' 
+      for standing for Innovation District.">
+      
+      <img src="/assets/img/logo/logo-words.svg"
+      class="logo-words"
+      alt="Words in logo that read 'Innovation District of Chattanooga'">
+      
     </div>
     
-    <div class="footer__contact">
+    <div class="footer__section footer__contact">
       <p class="footer__header">Contact</p>
       <address>
         {{site.address}}
@@ -15,11 +22,13 @@
       <a class="footer__email" href="mailto:{{site.email}}">{{site.email}}</a>
     </div>
     
-    <div class="footer__social">
+    <div class="footer__section footer__social">
       <p class="footer__header">Follow Us</p>
+      <a class="footer__social_icon" href="{{ site.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+      <a class="footer__social_icon" href="{{ site.facebook }}"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
     </div>
     
-    <div class="footer__blurb">
+    <div class="footer__section footer__blurb">
       <p class="footer__header">About Us</p>
       <p class="footer__about-us-blurb">{{site.footer_about_blurb}}</p>
     </div>

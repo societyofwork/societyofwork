@@ -22,17 +22,6 @@ footer {
     margin-bottom: 1.5rem;
   }
   
-  a[href^=tel] {
-    border: white 1px solid;
-    border-radius: 2px;
-    padding: 5px 10px;
-    
-    
-    &:hover {
-      background-color: lighten($black, 10%);
-    }
-  }
-  
   hr {
     max-width: 100%;
     padding: 0;

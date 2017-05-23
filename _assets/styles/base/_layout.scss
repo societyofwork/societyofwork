@@ -225,12 +225,34 @@ main,
   padding-bottom: 3rem;
   float: none; 
   
+  &__section {
+    @include breakpoint(small only) {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  &__logo { max-height: 59px; }
   &__contact { max-width: 400px; }
-  &__blurb { max-width: 400px; }
+  &__blurb   { max-width: 400px; }
   
   &__email {
     display: block;
     margin-top: 0.75rem;
+  }
+  
+  &__social {
+    &_icon {
+      color: $white;
+      display: block;
+      
+      i {
+        margin-right: 5px;
+      }
+      
+      .fa-facebook {
+        margin-right: 11px;
+      }
+    }
   }
   
   @include breakpoint(medium) {
@@ -417,3 +439,6 @@ main,
   }
 }
 
+.logo-words {
+  margin-left: 19px;
+}
