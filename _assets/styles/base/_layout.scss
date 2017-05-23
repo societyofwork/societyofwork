@@ -195,6 +195,7 @@ main,
     
     &__logo {
       
+      display: none;
       @include grid-col(5);
       padding-left: 0 !important;
       
@@ -209,6 +210,7 @@ main,
     }
     
     &__blurb {
+      @include grid-col-pos(5);
       @include grid-col(7);
       margin: 134px 0;
     }
