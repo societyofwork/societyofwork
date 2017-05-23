@@ -43,7 +43,9 @@ h4, nav, .button,
 .footer__header,
 .copyright__holder,
 .testimonial__author-name,
-.tweet__author_name        { @include font-stack($gotham, 700); } // Bold Style
+.tweet__author_name,
+.post__author-name,
+.post__date                { @include font-stack($gotham, 700); } // Bold Style
 
 h5, h6,
 .subsection__content_title { @include font-stack($gotham, 400); } // Book Style
@@ -60,7 +62,8 @@ h5, h6,
 // Uppercase Fonts
 .footer__header,
 .copyright__holder,
-.tweet__author_name {
+.tweet__author_name,
+.post__author-name {
   text-transform: uppercase;
 }
 

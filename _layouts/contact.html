@@ -6,6 +6,33 @@ layout: default
 
 <main role="main" class="main" aria-label="Content">
   
-  <h1>The Following is dynamic: {{ page.title }}</h1>
+  <div class="contact-info">
+    <a class="contact-info__email" href="mailto:{{site.email}}">{{site.email}}</a>
+    <address class="contact-info__address">
+      {{site.address}}
+    </address>
+    <a href="" class="contact-info__map-link"></a>
+    <a class="contact-info__phone button" href="tel:{{ site.phone_number }}">{{ site.phone_number  }}</a>
+  </div>
+  
+  <form action="" class="contact-form">
+    <label>
+      Name
+      <input type="text" required placeholder="Pat Smith" class="contact-form__name">
+    </label>
+    <label>
+      Email
+      <input type="email" required placeholder="patsmith@gmail.com" class="contact-form__email">
+    </label>
+    <label>
+      Phone Number
+      <input type="tel" placeholder="555-555-5555" class="contact-form__phone">
+    </label>
+    <label>
+      Message
+      <textarea type="text" required placeholder="Just saying hi!"></textarea>
+    </label>
+    <input class="button contact-form__submit" value="Send Message">
+  </form>
   
 </main>

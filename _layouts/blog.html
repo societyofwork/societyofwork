@@ -24,16 +24,16 @@ layout: default
   
   <main role="main" class="row" aria-label="Content">
     
-    <div class="posts">
+    <div class="entries">
       <h4 class="row">Posts</h4>
       <div class="row small-up-1 medium-up-2" data-equalizer data-equalize-by-row="row">
         {% for post in site.posts offset: 1 %}
-        <div class="post column column-block" data-equalizer-watch>
+        <div class="entry column column-block" data-equalizer-watch>
           <a href="{{ post.url }}">
-            <img class="post__img" src="{{ post.featured_image }}">
-            <h5 class="post__title">{{ post.title }}</h5>
+            <img class="entry__img" src="{{ post.featured_image }}">
+            <h5 class="entry__title">{{ post.title }}</h5>
             <p>{{ post.excerpt }}</p>
-            <a class="post__read-more" href="{{ post.url }}">Read More</a>
+            <a class="entry__read-more" href="{{ post.url }}">Read More</a>
           </a>
         </div>
         {% endfor %}

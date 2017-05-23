@@ -5,8 +5,8 @@ layout: guide
 navigation_weight: 3
 header:
   image: "/uploads/map.png"
-  blurb: A Brief History of Creativity
-  button_txt: Seeing Is...
+  blurb: Learn About the Organizations in the Innovation District
+  button_txt: 
   button_link: "/"
 ---
 

@@ -4,6 +4,7 @@ date: 2017-04-21 11:53:00 -04:00
 Blog Author: Nikki Sneed
 featured_image: "/uploads/Covalence2.jpg"
 is_featured_on_homepage: false
+layout: post
 ---
 
 With growth comes challenges. That’s true for everything, but especially true for the growing economy of an evolving city. One of the challenges faced by Chattanooga is actually a positive problem to have: According to data from the Chattanooga Chamber of Commerce in 2016, there were more than 8,000 programming-related jobs listed over the past five years. So, how are we going to fill all the jobs requiring new tech skills? 

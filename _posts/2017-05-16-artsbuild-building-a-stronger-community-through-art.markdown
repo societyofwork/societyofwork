@@ -3,6 +3,7 @@ title: 'ArtsBuild: Building a Stronger Community Through Art'
 date: 2017-05-16 10:23:00 -04:00
 Blog Author: Nikki Sneed
 featured_image: "/uploads/Doug%20Barnette%20Photography_4142.jpg"
+layout: post
 ---
 
 Founded in 1969 as a united arts fund, ArtsBuild is a Chattanooga nonprofit located in the heart of the Innovation District with the mission of building a stronger community through the arts. 

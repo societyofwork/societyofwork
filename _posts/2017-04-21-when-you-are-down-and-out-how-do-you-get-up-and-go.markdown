@@ -4,6 +4,7 @@ date: 2017-04-21 11:53:00 -04:00
 Blog Author: Nikki Sneed
 featured_image: "/uploads/Chattanewbies%20-%20February%202017-3.jpg"
 is_featured_on_homepage: true
+layout: post
 ---
 
 Moving to a new city can be overwhelming. 

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% assign author = site.blog_authors | where: "title", page["Blog Author"] | first %}
+
+<article class="post">  
+  
+  <span class="post__date">{{ page.date | date: '%B %d, %Y' }}</span>
+  
+  <header class="post__header">
+    <h2 class="post__title">{{ page.title }}</h2>
+    
+    {% if author %}
+      <img class="post__author-img" src="{{ author.image }}" alt="{{ author.title }}">
+      <span class="post__author-name">{{ author.title }}</span>
+    {% endif %}
+    
+  </header>
+  
+  <div class="post__content">{{ content }}</div>
+  
+</article>

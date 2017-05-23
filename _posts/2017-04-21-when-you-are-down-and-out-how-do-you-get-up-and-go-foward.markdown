@@ -4,6 +4,7 @@ date: 2017-04-21 11:53:00 -04:00
 Blog Author: 'Nikki Sneed '
 featured_image: "/uploads/flatiron-building.jpg"
 is_featured_on_homepage: true
+layout: post
 ---
 
 Innovation districts have been profiled in the [New York Times](https://www.nytimes.com/2016/08/07/education/edlife/innovation-campus-entrepreneurship-engineering-arts.html), the [Wall Street Journal](https://www.wsj.com/articles/new-york-public-library-looks-at-innovative-models-for-renovation-1404090627) and online media from [Business Insider](http://www.businessinsider.com/innovation-districts-could-reshape-small-cities-2016-7) to [Demos Quarterly](https://quarterly.demos.co.uk/article/issue-10/innovation-and-the-city-centre/). 

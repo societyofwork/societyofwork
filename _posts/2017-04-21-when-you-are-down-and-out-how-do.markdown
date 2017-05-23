@@ -4,6 +4,7 @@ date: 2017-04-21 11:53:00 -04:00
 Blog Author: Nikki Sneed
 featured_image: "/uploads/Tomorrow%20Building.jpg"
 is_featured_on_homepage: true
+layout: post
 ---
 
 Chattanooga is all about taking it to the next level. We did it with the Internet by being the first city to offer “the gig.” Now we’re doing it with co-living at The Tomorrow Building.

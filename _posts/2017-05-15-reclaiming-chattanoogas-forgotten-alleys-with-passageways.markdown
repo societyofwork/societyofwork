@@ -3,6 +3,7 @@ title: Reclaiming Chattanooga’s Forgotten Alleys with Passageways
 date: 2017-05-15 15:36:00 -04:00
 Blog Author: Nikki Sneed
 featured_image: "/uploads/AlleyMovie4.jpg"
+layout: post
 ---
 
 Have you seen the amazing, decorative, interactive alleyways around Chattanooga? They’re not just pretty to look at, or take a photo with, they’re part of an architecture exhibit meant to exemplify the potential of often overlooked spaces in the city center. 

@@ -4,7 +4,7 @@
   }
 }
 
-.posts {
+.entries {
   @include grid-col(14);
   
   @include breakpoint(1050px) {
@@ -29,7 +29,7 @@
 @include breakpoint(large) {
   
   .medium-up-2 {
-    .post {
+    .entry {
       margin-left: 2.5%;
       margin-right: 2.5%;
       margin-bottom: 30px;
@@ -38,7 +38,7 @@
   }
 }
 
-.post {
+.entry {
   background-color: $white;
   list-style: none;
   margin-bottom: 1rem;

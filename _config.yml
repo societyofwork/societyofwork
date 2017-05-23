@@ -45,6 +45,7 @@ defaults:
 - scope:
     path: ''
     type: posts
+    layout: "post"
   values:
     Blog Author: 
     featured_image: 
