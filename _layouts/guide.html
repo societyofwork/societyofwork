@@ -51,7 +51,7 @@ layout: default
           {% endif %}
           
           {% if member["Website"] %}
-          <a href="{{ member["Website"] }}" class="dir-cards__card_link">
+          <a target="_blank" href="{{ member["Website"] }}" class="dir-cards__card_link">
             <img src="/assets/img/icons/www-globe.svg">
             {{ member["Website"] }}
           </a>
