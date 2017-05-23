@@ -4,16 +4,10 @@ layout: default
 
 {% include header.html header_img="home-header-background.svg" %}
 
+<div class="contact-background">
 <main role="main" class="main" aria-label="Content">
   
-  <div class="contact-info">
-    <a class="contact-info__email" href="mailto:{{site.email}}">{{site.email}}</a>
-    <address class="contact-info__address">
-      {{site.address}}
-    </address>
-    <a href="" class="contact-info__map-link"></a>
-    <a class="contact-info__phone button" href="tel:{{ site.phone_number }}">{{ site.phone_number  }}</a>
-  </div>
+  {% include contact-info.html %}
   
   <div class="contact-form">
     <h4>Message sent. Thank you!</h4>

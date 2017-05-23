@@ -7,14 +7,7 @@ layout: default
 <div class="contact-background">
 <main role="main" class="main" aria-label="Content">
   
-  <div class="contact-info">
-    <a class="contact-info__email" href="mailto:{{site.email}}">{{site.email}}</a>
-    <address class="contact-info__address">
-      {{site.address}}
-    </address>
-    <a href="" class="contact-info__map-link"></a>
-    <a class="contact-info__phone" href="tel:{{ site.phone_number }}">{{ site.phone_number  }}</a>
-  </div>
+  {% include contact-info.html %}
   
   <form name="contact-page-form" action="/contact-form-thank-you" class="contact-form" netlify>
     <label>
