@@ -81,6 +81,20 @@ setTimeout(function(){
   initHomepageTestimonials();
 }, 2000);
 
+function initSearch() {
+  
+  var options = {
+    valueNames: [
+      'dir-cards__card_title'
+      , 'dir-cards__card_body'
+    ]
+  };
+  
+  var memberList = new List('member-list', options);
+}
+
+initSearch();
+
 // This hooks into Barba lifecycle. So when data-namespace='homepage' element 
 // is loaded the contained functions are fired.
 const Homepage = Barba.BaseView.extend({
@@ -88,6 +102,10 @@ const Homepage = Barba.BaseView.extend({
   , onEnter: function() {
     initHomepageSlider();
     initHomepageTestimonials();
+  },
+  namespace: 'guide'
+  , onEnter: function() {
+    initSearch();
   }
 });
 Homepage.init();

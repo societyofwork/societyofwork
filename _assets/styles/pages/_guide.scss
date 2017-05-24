@@ -1,10 +1,12 @@
 .guide {
   
   .overlap-header-img {
-    
+    @include grid-row;
     @include grid-col(14);
     @include grid-col-pos(center);
   }
+  
+  
   
   ul {
     list-style: none;
@@ -73,16 +75,43 @@
 }
 
 .filters {
-  @include grid-col-row;
+  @include grid-row;
+  
+  &__section {
+    @include grid-col-row;
+    
+    @include breakpoint(small only) {
+      text-align: center;
+    }
+  }
+  
+  &__title,
+  &__search {
+    @include breakpoint(medium) {
+      @include grid-col(7);
+    }
+  }
+  
+  &__search { 
+    
+    input {
+      @include breakpoint(medium) {
+        float: right;
+      }
+      display: inline;
+      width: 160px;
+    }
+    
+    .fa { float: right; }
+  }
   
   .filter {
+    @include grid-col-row;
     list-style: none;
     margin-left: 0;
-    margin-bottom: 2rem;
     text-align: center;
     
     &--category {
-      background-color: $white;
       padding: 5px;
       
       label {
@@ -92,10 +121,18 @@
       span {
         color: $dark-gray;
         
+        @include breakpoint(small only) {
+          display: none;
+        }
+        
         &:last-child {
           display: none;
         }
       }
+    }
+    
+    &--filter {
+      margin-bottom: 2rem;
     }
     
   }

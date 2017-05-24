@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="guide">
+<div id="member-list" class="guide">
   
   {% include header.html header_img="the-guide-header-background.svg" %}
   
@@ -12,52 +12,81 @@ layout: default
     
     <div class="filters">
       
-      <h4>Area Directory</h4>
+      <div class="filters__section">
+        <h4 class="filters__title">Area Directory</h4>
+        <div class="filters__search">
+          <input type="text" placeholder="search" class="search" />
+        </div>
+      </div>
+      
       <form class="filter filter--category">
+        
         {% for category in site.directory_categories %}
-          <input type="checkbox" id="{{ category.title }}" />
-          <label class="filter__item" for="{{ category.title }}">{{ category.title }}</label>
+        
+          <input type="checkbox" id="{{ category.title | downcase }}" value="{{ category.title | downcase }}"/>
+          <label class="filter__item" for="{{ category.title | downcase }}">{{ category.title }}</label>
           <span>|</span>
+        
         {% endfor %}
+        
       </form>
       
+      <div class="row column">
+        <hr class="row column">
+      </div>
+      
       <form class="filter filter--filter">
+        
         {% for filter in site.directory_filters %}
-          <input type="checkbox" class="filter__item" id="{{ filter.title }}"/>
-          <label for="{{ filter.title }}">{{ filter.title }}</label>
+        
+          <input type="checkbox" class="filter__item" id="{{ filter.title | downcase }}" value="{{ filter.title | downcase }}"/>
+          <label for="{{ filter.title | downcase }}">{{ filter.title }}</label>
+          
         {% endfor %}
+        
       </form>
     </div>
     
   </div>
   
   <main role="main" class="main" aria-label="Content">
-    <ul class="dir-cards medium-up-2 large-up-3">
+    <ul class="dir-cards medium-up-2 large-up-3 list">
       
       {% for member in site.data.members %}
-        <li class="dir-cards__card column column-block">
-          <div class="dir-cards__card_title">
-            {{ member["Organization/Resource"] }}
-          </div>
-          <p class="dir-cards__card_body">
-            {{ member["Short Description"] }}
-          </p>
-          
-          {% if member["Location"] %}
-            <address class="dir-cards__card_address">
-              <img src="/assets/img/icons/map-marker.svg">
-              {{ member["Location"] }}
-            </address>
-          {% endif %}
-          
-          {% if member["Website"] %}
-          <a target="_blank" href="{{ member["Website"] }}" class="dir-cards__card_link">
-            <img src="/assets/img/icons/www-globe.svg">
-            {{ member["Website"] }}
-          </a>
-          {% endif %}
-          
-        </li>
+      
+      <li class="dir-cards__card column column-block" 
+      data-category1="{{ member["Category 1"] }}"
+      data-category2="{{ member["Category 2"] }}">
+        <div class="dir-cards__card_title">
+          {{ member["Organization/Resource"] }}
+        </div>
+        <p class="dir-cards__card_body">
+          {{ member["Short Description"] }}
+        </p>
+        <p class="dir-cards__card_category1">
+          {{ member["Category 1"]}}
+        </p>
+        
+        <p class="dir-cards__card_category2">
+          {{ member["Category 2"]}}
+        </p>
+        
+        {% if member["Location"] %}
+        <address class="dir-cards__card_address">
+          <img src="/assets/img/icons/map-marker.svg">
+          {{ member["Location"] }}
+        </address>
+        {% endif %}
+        
+        {% if member["Website"] %}
+        <a target="_blank" href="{{ member["Website"] }}" class="dir-cards__card_link">
+          <img src="/assets/img/icons/www-globe.svg">
+          {{ member["Website"] | truncate: 30 }}
+        </a>
+        {% endif %}
+        
+      </li>
+      
       {% endfor %}
       
     </ul>
