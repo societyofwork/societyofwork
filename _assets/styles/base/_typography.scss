@@ -45,8 +45,9 @@ h4, nav, .button,
 .testimonial__author-name,
 .tweet__author_name,
 .post__author-name,
-.post__date,
-.dir-cards__card_title                { @include font-stack($gotham, 700); } // Bold Style
+.date,
+.dir-cards__card_title,
+.share                     { @include font-stack($gotham, 700); } // Bold Style
 
 h5, h6,
 .subsection__content_title { @include font-stack($gotham, 400); } // Book Style
