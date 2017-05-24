@@ -360,6 +360,10 @@ main,
     background-position: top left, bottom right;
   }
   
+  @include breakpoint(1375px) {
+    background-image: none;
+  }
+  
   @include grid-row;
   padding-bottom: 6rem;
   
