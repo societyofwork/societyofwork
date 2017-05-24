@@ -306,17 +306,33 @@ main,
   
 }
 
-.hamburger-menu-button {
+
+
+.hamburger-menu {
   
-  float: right;
-  padding: 15px 20px;
+  &-wrapper {
+    background-color: $black;
+    height: 46px;
+    width: 100%;
+    
+    @include breakpoint(1115px) {
+      display: none;
+    }
+  }
   
-  color: $white;
-  cursor: pointer;
-  text-transform: uppercase;
   
-  @include breakpoint(1115px) {
-    display: none;
+  &-button {
+    
+    float: right;
+    padding: 15px 20px;
+    
+    color: $white;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+    @include breakpoint(1115px) {
+      display: none;
+    }
   }
 }
 
@@ -401,7 +417,7 @@ main,
     img {
       
       @include breakpoint(1100px) {
-      max-width: 957px;
+        max-width: 957px;
         margin-left: -110px;
       }
       margin-top: 2rem;
