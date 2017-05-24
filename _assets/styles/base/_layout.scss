@@ -337,7 +337,7 @@ main,
 }
 
 .overlap-header-img {
-  @include grid-col-row;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   
   @include breakpoint(medium) {

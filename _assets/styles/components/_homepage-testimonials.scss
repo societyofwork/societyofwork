@@ -1,5 +1,7 @@
 .testimonial {
   
+  @include grid-col-row;
+  
   &__ {
     &img {
       margin-right: auto;
