@@ -201,6 +201,16 @@ main,
 
 .header {
   
+  min-height: 140px;
+  
+  &__logo {
+    display: none;
+  }
+  
+  &__blurb {
+    padding-top: 1.4rem;
+  }
+  
   @include breakpoint(large) {
     
     &__logo {
