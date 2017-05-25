@@ -2,7 +2,7 @@
 title: ChattaNewbies
 date: 2017-04-21 11:53:00 -04:00
 Blog Author: Nikki Sneed
-featured_image: "/uploads/Chattanewbies%20-%20February%202017-3.jpg"
+featured_image: "/uploads/Chattanewbies---February-2017-3.jpg"
 is_featured_on_homepage: true
 layout: post
 ---
@@ -23,7 +23,7 @@ With designated networking time, dedicated native “connectors” to help make 
 
 The February ChattaNewbies event was at [Oddstory Brewing Company](http://oddstorybrewing.co/), Chattanooga’s newest brewery located in the heart of the Innovation District, on February 22. Not only was the event free to attend, but newbies will also got to enjoy free beer from Oddstory!
 
-![Chattanewbies - February 2017-14.jpg](/uploads/Chattanewbies%20-%20February%202017-14.jpg)
+![Chattanewbies - February 2017-14.jpg](/uploads/Chattanewbies---February-2017-14.jpg)
 
 The theme for February was “play” and featured [Chattanooga Sports Leagues](https://www.playcsl.com/), a local intramural sports and social organization. In addition to the standard networking time, guests had the opportunity to sign up for some of CSL’s sports, including kickball, softball, and soccer. 
 

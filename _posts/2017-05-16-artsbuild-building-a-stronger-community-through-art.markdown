@@ -2,7 +2,7 @@
 title: 'ArtsBuild: Building a Stronger Community Through Art'
 date: 2017-05-16 10:23:00 -04:00
 Blog Author: Nikki Sneed
-featured_image: "/uploads/Doug%20Barnette%20Photography_4142.jpg"
+featured_image: "/uploads/Doug-Barnette-Photography_4142.jpg"
 layout: post
 ---
 
