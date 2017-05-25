@@ -95,7 +95,7 @@ url: https://www.chainnovate.com/
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
-  cloud_name: "the-innovation-district"
+  cloud_name: the-innovation-district
   verbose: true
   presets:
     default:
@@ -103,7 +103,7 @@ cloudinary:
       max_width: 2000
       fallback_max_width: 1300
       steps: 5
-      sizes: '(min-width: 1100px) 957px, 100vw'
+      sizes: "(min-width: 1100px) 957px, 100vw"
 kramdown:
   input: GFM
   syntax_highlighter: rouge
