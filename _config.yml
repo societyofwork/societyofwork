@@ -94,6 +94,16 @@ footer_about_blurb: Chattanooga is the first mid-sized city with an established 
 url: https://www.chainnovate.com/
 permalink: "/:title/"
 markdown: kramdown
+cloudinary:
+  cloud_name: "the-innovation-district"
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 2000
+      fallback_max_width: 1300
+      steps: 5
+      sizes: '(min-width: 1100px) 957px, 100vw'
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -110,3 +120,4 @@ gems:
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
+- jekyll-cloudinary
