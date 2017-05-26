@@ -1,9 +1,7 @@
 .homepage-tweets {
   
-  margin-top: 2rem;
-  padding-bottom: 3rem;
   padding-top: 1rem;
-  @include grid-col-row;
+  padding-bottom: 3rem;
   
   &__ {
     
@@ -21,12 +19,20 @@
 
 .tweet {
   
-  @include breakpoint(small) { @include grid-col-row; }
+  @include breakpoint(small) { 
+    @include grid-col-row; 
+    float: left !important;
+    padding-bottom: 2.4rem;
+    
+    &:last-child {
+      padding-bottom: 1rem;
+    }
+  }
   
   @include breakpoint(medium) { 
+    @include grid-col(7); 
     margin-bottom: 1rem;
     
-    @include grid-col(7); 
     &:last-child {
       float: left !important;
     }

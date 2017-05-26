@@ -47,7 +47,7 @@ function initHomepageSlider() {
   setTimeout(() => mySiema.next(), 2800)
 }
 
-initHomepageSlider();
+
 
 function initHomepageTestimonials() {
   // Sieam Slier
@@ -74,8 +74,10 @@ function initHomepageTestimonials() {
   // Trigger pagination creator
   mySiema.addPagination();
 }
-
-initHomepageTestimonials();
+setTimeout(function() {
+  initHomepageSlider();
+  initHomepageTestimonials();
+}, 1900);
 
 function initSearch() {
   

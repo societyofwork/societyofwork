@@ -42,7 +42,11 @@
   background-color: $white;
   list-style: none;
   margin-bottom: 1rem;
-  padding: 33px;
+  
+  @include breakpoint(medium) {
+    padding: 33px;
+  }
+  
   position: relative;
   
   @include breakpoint(large) {

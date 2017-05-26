@@ -147,11 +147,21 @@
   
   &__card {
     
-    padding: 20px 24px 30px;
-    margin-bottom: 50px;
-    
-    &_title {
-      font-size: 24px;
+    @include breakpoint(small only) {
+      padding-left: 3px !important;
+      padding-right: 24px !important;
     }
+    
+    @include breakpoint(medium) {
+      
+      padding: 20px 24px 30px;
+      margin-bottom: 50px;
+      
+      &_title {
+        font-size: 24px;
+      }
+      
+    }
+    
   }
 }

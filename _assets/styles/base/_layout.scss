@@ -1,4 +1,5 @@
 header,
+nav,
 main,
 .footer,
 .featured-posts,
@@ -16,10 +17,9 @@ main {
 }
 
 nav,
-main,
 .header {
   float: none !important;
-  @include grid-column;
+  @include grid-col(14);
 }
 
 
@@ -45,8 +45,8 @@ main,
     background: url(../img/cross.png) no-repeat center center;
     color: transparent;
     cursor: pointer;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     position: absolute;
     right: 20px;
     top: 20px;
@@ -515,4 +515,13 @@ main,
 
 .logo-words {
   margin-left: 19px;
+}
+
+.footer {
+  .logo-words {
+    
+    @include breakpoint(small) {
+      width: 187px;
+    }
+  }
 }

@@ -11,6 +11,16 @@ $about-breakpoint: 1227px;
 
 .floater {
   
+  padding-bottom: 2rem;
+  
+  @include breakpoint($about-breakpoint down) {
+    @include grid-col-row;
+    
+    &__img {
+      padding-bottom: 1rem;
+    }
+  }
+  
   @include grid-row;
   
   &__ {
@@ -99,12 +109,13 @@ $about-breakpoint: 1227px;
     margin-top: -33%;
   }
   
+  .mb3 {
+    margin-bottom: 3rem;
+  }
+  
   .push-right {
     @include grid-col-pos(1);
   }
 }
 
-.mb3 {
-  margin-bottom: 3rem;
-}
 

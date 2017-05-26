@@ -1,11 +1,26 @@
 @include breakpoint(1249px down) {
   .main-section {
     @include grid-col-row;
-    text-align: center;
   }
   
   .subsection {
     @include grid-col-row;
+    
+    padding-bottom: 2rem;
+    
+    &__img {
+      padding-bottom: 1rem;
+    }
+    
+    &__content {
+      
+      &_title {
+        @include breakpoint(small) {
+          font-size: 20px;
+        }
+      }
+            
+    }
   }
 }
 
