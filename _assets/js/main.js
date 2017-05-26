@@ -110,3 +110,7 @@ const Guide = Barba.BaseView.extend({
 });
 
 Guide.init();
+
+Barba.Dispatcher.on('newPageReady', function() {
+   window.scrollTo(0, 0);   
+ });
