@@ -47,9 +47,7 @@ function initHomepageSlider() {
   setTimeout(() => mySiema.next(), 2800)
 }
 
-setTimeout(function(){
-  initHomepageSlider();
-}, 2000);
+initHomepageSlider();
 
 function initHomepageTestimonials() {
   // Sieam Slier
@@ -77,9 +75,7 @@ function initHomepageTestimonials() {
   mySiema.addPagination();
 }
 
-setTimeout(function(){
-  initHomepageTestimonials();
-}, 2000);
+initHomepageTestimonials();
 
 function initSearch() {
   
@@ -102,10 +98,15 @@ const Homepage = Barba.BaseView.extend({
   , onEnter: function() {
     initHomepageSlider();
     initHomepageTestimonials();
-  },
+  }
+});
+Homepage.init();
+
+const Guide = Barba.BaseView.extend({
   namespace: 'guide'
   , onEnter: function() {
     initSearch();
   }
 });
-Homepage.init();
+
+Guide.init();
