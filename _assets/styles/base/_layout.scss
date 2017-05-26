@@ -86,7 +86,8 @@ nav,
     color: #fff;
     display: block;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 700;
+    letter-spacing: 2px;
     transition: color 0.2s;
   }
   
@@ -338,6 +339,8 @@ nav,
     
     color: $white;
     cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
     text-transform: uppercase;
     
     @include breakpoint(1115px) {
