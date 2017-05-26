@@ -15,6 +15,14 @@
   
   &__ {
     
+    &link {
+      &:hover .shadow {
+        &:after {
+          box-shadow: 0 9px 80px rgba(0,0,0, 25%);
+        }
+      }
+    }
+    
     &header,
     &body {
       @include grid-col-row;

@@ -12,12 +12,14 @@ layout: default
       
       {% assign post = site.posts.first %}
       
-      <div class="overlap-header-img shadow">
-        <img src="{{ post.featured_image }}">
-      </div>
-      
-      <h4 class="top-blurb__header">{{ post.title }}</h4>
-      <div class="top-blurb__body">{{ post.excerpt }}</div>
+      <a href="{{ post.url}}" class="top-blurb__link">
+        <div class="overlap-header-img shadow">
+          <img src="{{ post.featured_image }}">
+        </div>
+        
+        <h4 class="top-blurb__header">{{ post.title }}</h4>
+        <div class="top-blurb__body">{{ post.excerpt }}</div>
+      </a>
     </div>
     
   </div>
