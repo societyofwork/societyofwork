@@ -22,13 +22,38 @@ nav,
   @include grid-col(14);
 }
 
+.menu-logo {
+  
+  &__words {
+    margin-left: 8px;
+    height: 24px;
+  }
+  
+}
 
 // Menu styles for mobile / tablet sized screens. Desktop below this.
 @include breakpoint(1114px down) {
   
-  .menu-logo-mark {
-    display: none;
+  
+  .menu-logo {
+    
+    margin-top: -27px;
+    
+    &__mark {
+      height: 48px;
+    }
+    
+    &__words {
+      position: relative;
+      top: 2px;
+    }
+    
   }
+  
+  #menu-items {
+    margin-top: 1rem;
+  }
+  
   /* Overlay style */
   .overlay {
     background: $dark-trans-black;
@@ -157,10 +182,14 @@ nav,
 // Desktop menu styles
 @include breakpoint(1115px) {
   
+  .menu-logo {
+    display: inline;
+  }
+  
   .main-nav {
     background-color: $black;
     padding-left: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     margin-bottom: 1.5rem;
