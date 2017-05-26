@@ -2,12 +2,19 @@
   <button type="button" class="overlay-close" id="overlay-close">Close</button>
   <nav>
     
-    <a href="/" class="menu-logo">
+    <a href="/" class="menu-logo--desktop">
       <img class="menu-logo__mark" src="/assets/img/logo/logo-mark.svg">
       <img class="menu-logo__words" src="/assets/img/logo/logo-words.svg">
     </a>
     
     <ul id="menu-items">
+      <li>
+        <a href="/" class="menu-logo menu-logo--mobile">
+          <img class="menu-logo__mark" src="/assets/img/logo/logo-mark.svg">
+          <img class="menu-logo__words" src="/assets/img/logo/logo-words.svg">
+        </a>
+      </li>
+      
       {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
       
       {% for p in navigation_pages %}

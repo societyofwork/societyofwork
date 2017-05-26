@@ -39,6 +39,10 @@ nav,
     
     margin-top: -27px;
     
+    &--desktop {
+      display: none !important;
+    }
+    
     &__mark {
       height: 42px;
     }
@@ -184,6 +188,10 @@ nav,
   
   .menu-logo {
     display: inline;
+    
+    &--mobile {
+      display: none !important;
+    }
   }
   
   .main-nav {
