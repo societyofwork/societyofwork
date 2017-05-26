@@ -81,7 +81,7 @@
     @include grid-col-row;
     
     @include breakpoint(small only) {
-      text-align: center;
+      
     }
   }
   
@@ -97,9 +97,9 @@
     input {
       @include breakpoint(medium) {
         float: right;
+        width: 160px;
       }
       display: inline;
-      width: 160px;
     }
     
     .fa { float: right; }
@@ -109,10 +109,16 @@
     @include grid-col-row;
     list-style: none;
     margin-left: 0;
-    text-align: center;
+    
+    @include breakpoint(medium) {
+      
+      text-align: center;
+    }
     
     &--category {
       padding: 5px;
+      
+      display: none;
       
       label {
         margin-right: 8px;
@@ -131,7 +137,12 @@
       }
     }
     
+    &--divider {
+      display: none;
+    }
+    
     &--filter {
+      display: none;
       margin-bottom: 2rem;
     }
     
