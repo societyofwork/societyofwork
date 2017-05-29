@@ -1,34 +1,39 @@
-// Colors
-$white:       rgba(255, 255, 255, 1);
-$light-gray:  rgba(234, 236, 237, 1);
-$dark-gray:   rgba(170, 170, 170, 1);
-$teal:        rgba(59, 176, 201, 1);
-$yellow:      rgba(255, 209, 63, 1);
-$red:         rgba(247, 50, 63, 1);
-$black:       rgba(59, 61, 64, 1);
-$trans-black: rgba(59, 61, 64, 0.5);
-$dark-trans-black: rgba(59, 61, 64, 0.8);
+// -----------------------------------------------
+// // // Variables
+// -----------------------------------------------
 
+// -----------------------------------------------
+// Font Stacks
+// -----------------------------------------------
+$prompt-stack: 'Prompt', sans-serif;
+$libre-stack: 'Libre Baskerville', serif;
+
+// -----------------------------------------------
+// Colors
+// -----------------------------------------------
+$white:       #FFF;
+$dark-blue:   #1F2D42;
+$light-blue:  #4FC1E9; 
+$dark-gray:   #3B3D40;
+$body-gray:   #656B6F;
+$light-gray:  #BABABA;
+$dark-yellow: #FFC338;
+$trans-black: rgba(59, 61, 64, 0.5);
+
+footer
+, #homepage > .header__background
+{ background-color: $dark-blue; }
+
+button
+, .button {
+  color: #1F2D42;
+  background-color: $dark-yellow;
+}
 
 @mixin background {
   position: relative;
   z-index: 0;
 }
-
-.gray-background   { 
-  background-color: hsl(180, 5%, 96%); 
-  @include background;
-}
-
-.grayer-background { 
-  background-color: hsl(180, 7%, 94%); 
-  @include background;
-}
-
-// Fonts
-$lubalin-book:         "LubalinGraph-Book", Georgia, Times, "Times New Roman", serif;
-$lubalin-book-oblique: "LubalinGraph-BookOblique", Georgia, Times, "Times New Roman", serif;
-$gotham:               "Gotham A", "Gotham B", Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 $homepage-breakpoint: 1250px;
 $hover-transition: 0.3s cubic-bezier(0.82, 0.03, 0.77, 0.7);

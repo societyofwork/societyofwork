@@ -53,11 +53,11 @@ $global-lineheight: 1.5;
 // 
 // Colors below were imported from _variables.scss
 $foundation-palette: (
-  primary: $teal,
-  secondary: $light-gray,
+  primary: $dark-blue,
+  secondary: $light-blue,
   success: #3adb76,
-  warning: $yellow,
-  alert: $red,
+  warning: $dark-yellow,
+  alert: $dark-yellow,
 );
 
 // 
@@ -66,11 +66,11 @@ $foundation-palette: (
 $light-gray: $light-gray;
 $medium-gray: #cacaca;
 $dark-gray: $dark-gray;
-$black: $black;
+$black: $dark-gray;
 $white: $white;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: $gotham;
+$body-font-family: $libre-stack;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -111,7 +111,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $lubalin-book;
+$header-font-family: $prompt-stack;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;

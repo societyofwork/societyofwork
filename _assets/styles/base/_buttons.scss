@@ -3,30 +3,26 @@
   text-transform: uppercase;
   
   &--header {
-    background-color: $black;
-    border: solid $yellow 1px;
-    color: $yellow;
+    background-color: $trans-black;
+    border: solid $dark-yellow 1px;
+    color: $dark-yellow;
     
     @include breakpoint(medium) {
       margin-bottom: 75px; 
     }
     
     &:hover {
-      background-color: lighten($black, 10%);
-      color: $yellow;
+      background-color: lighten($dark-yellow, 10%);
+      color: $dark-yellow;
     }
   }
   
   &--for-nav {
     background-color: darken($trans-black, 20%);
     border-radius: 0px;
-    color: $teal !important;
+    color: $dark-yellow;
     font-size: 16px;
     padding: 20px 22px;
   }
 }
-
-
-
-
 

@@ -5,14 +5,14 @@ Barba.Prefetch.init();
 
 // iife to keep variables from poluting the global namespace
 
-// Grabbing mobile menu elements 
+// Grabbing mobile menu elements
 const mobileMenuButton = document.getElementById('mobile-menu-button')
-, closeButton       = document.getElementById('overlay-close')
-, contentPush        = document.getElementById('overlay-contentpush')
-, menuItems          = document.getElementById('menu-items')
-, container          = document.getElementById('container');
+, closeButton          = document.getElementById('overlay-close')
+, contentPush          = document.getElementById('overlay-contentpush')
+, menuItems            = document.getElementById('menu-items')
+, container            = document.getElementById('container');
 
-// Classes to slide in and slide out the menu 
+// Classes to slide in and slide out the menu
 // as well as toggle and push content underneath for extra wow.
 function toggleMenu(e) {
   container.classList.toggle('overlay-open');
@@ -30,89 +30,15 @@ mobileMenuButton.addEventListener('click', (e) => toggleMenu(e));
 // Listens for clicks on the mobile menu's close button and closes it.
 closeButton.addEventListener('click', (e) => toggleMenu(e));
 
-function initHomepageSlider() {
-  
-  // Sieam Slier
-  const mySiema = new Siema({
-    duration: 300
-    , loop: true
-  });
-  
-  const prevTwo = document.querySelector('.prev-feature');
-  const nextTwo = document.querySelector('.next-feature');
-  
-  prevTwo.addEventListener('click', () => mySiema.prev(1));
-  nextTwo.addEventListener('click', () => mySiema.next(1));
-  
-  setTimeout(() => mySiema.next(), 2800)
-}
-
-
-
-function initHomepageTestimonials() {
-  // Sieam Slier
-  const mySiema = new Siema({
-    duration: 300
-    , loop: true
-    , selector: '.testimonials'
-  });
-  
-  const next = document.querySelector('.testimonials__button');
-  
-  next.addEventListener('click', () => mySiema.next(1));
-  
-  // Add a function that generates pagination to prototype
-  Siema.prototype.addPagination = function() {
-    for (let i = 0; i < this.innerElements.length; i++) {
-      const btn = document.createElement('button');
-      btn.className = "testimonials__pagination-button";
-      btn.addEventListener('click', () => this.goTo(i));
-      this.selector.appendChild(btn);
-    }
-  }
-  
-  // Trigger pagination creator
-  mySiema.addPagination();
-}
-setTimeout(function() {
-  initHomepageSlider();
-  initHomepageTestimonials();
-}, 1900);
-
-function initSearch() {
-  
-  var options = {
-    valueNames: [
-      'dir-cards__card_title'
-      , 'dir-cards__card_body'
-    ]
-  };
-  
-  var memberList = new List('member-list', options);
-}
-
-initSearch();
-
-// This hooks into Barba lifecycle. So when data-namespace='homepage' element 
+// This hooks into Barba lifecycle. So when data-namespace='homepage' element
 // is loaded the contained functions are fired.
 const Homepage = Barba.BaseView.extend({
   namespace: 'homepage'
   , onEnter: function() {
-    initHomepageSlider();
-    initHomepageTestimonials();
-  }
+  },
 });
 Homepage.init();
 
-const Guide = Barba.BaseView.extend({
-  namespace: 'guide'
-  , onEnter: function() {
-    initSearch();
-  }
-});
-
-Guide.init();
-
 Barba.Dispatcher.on('newPageReady', function() {
-   window.scrollTo(0, 0);   
- });
+   window.scrollTo(0, 0);
+});

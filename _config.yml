@@ -1,28 +1,13 @@
 ---
-title: The Innovation District of Chattanooga
+title: The Enterprise Center
 timezone: America/New_York
 collections:
   blog_authors:
     title: Blog Authors
     output: false
-  directory_categories:
-    title: Directory Categories
-    output: false
-  directory_filters:
-    title: Directory Filters
-    output: false
-  directory_members:
-    title: Directory Members
-    output: false
-  homepage_testimonials:
-    title: Homepage Testimonials
-    output: false
   posts:
     title: Posts
     output: true
-  selected_tweets:
-    title: Selected Tweets
-    output: false
   uploads:
     title: Uploads
     output: true
@@ -49,39 +34,10 @@ defaults:
     Blog Author: 
     featured_image: 
     image_description_for_the_visually_impaired: 
-- scope:
-    path: ''
-    type: homepage_testimonials
-  values:
-    company_name: 
-    testimonial_text: 
-    author_image: 
-    author_name: 
-    author_title: 
-- scope:
-    path: ''
-    type: directory_members
-  values:
-    Directory Categories: []
-    Directory Filters: []
-    member:
-      name: 
-      bio: 
-      address: 
-      url: 
-- scope:
-    path: ''
-    type: selected_tweets
-  values:
-    tweet_link: 
-    author_profile_image: 
-    author_name: 
-    author_handle: 
-    is_featured_on_homepage: 
-description: The first mid-sized city to designate an innovation district.
-baseurl: https://chainnovate.com
-facebook: https://www.facebook.com/InnovationDistrictCHA/
-twitter: https://twitter.com/ChattanoogaID
+description: Establishing Chattanooga as a hub of innovation, improving people’s lives by leveraging the city’s digital technology to create, demonstrate, test, and apply solutions for the 21st century.
+baseurl: https://www.theenterprisectr.org/
+facebook: https://www.facebook.com/theenterprisectr/
+twitter: 
 logo: "/assets/img/logo/full-logo.svg"
 address: The Enterprise Center <br>1100 Market Street, Suite 500 <br>Chattanooga,
   TN 37402
@@ -95,7 +51,7 @@ url: https://www.chainnovate.com/
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
-  cloud_name: the-innovation-district
+  cloud_name: the-enterprise-center
   verbose: true
   presets:
     default:

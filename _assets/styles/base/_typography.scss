@@ -1,93 +1,122 @@
-@import url("//hello.myfonts.net/count/337db2");
+// -----------------------------------------------
+// Font Stacks // located in _variables.scss
+// -----------------------------------------------
+// $prompt-stack: 'Prompt', sans-serif;
+// $libre-stack: 'Libre Baskerville', serif;
 
-@font-face {
-  font-family: "LubalinGraph-Book";
-  src: url("../fonts/337DB2_1_0.eot");
-  src: url("../fonts/337DB2_1_0.eot?#iefix") format("embedded-opentype")
-     , url("../fonts/337DB2_1_0.woff2") format("woff2")
-     , url("../fonts/337DB2_1_0.woff") format("woff")
-     , url("../fonts/337DB2_1_0.ttf") format("truetype");
+// -----------------------------------------------
+// Font Families
+// -----------------------------------------------
+// Regular Libre
+p, .subsection__content_body {
+  @include font-stack($libre-stack, 400);
 }
 
-@font-face {
-  font-family: "LubalinGraph-BookOblique";
-  src: url("../fonts/337DB2_0_0.eot");
-  src: url("../fonts/337DB2_0_0.eot?#iefix") format("embedded-opentype")
-     , url("../fonts/337DB2_0_0.woff2") format("woff2")
-     , url("../fonts/337DB2_0_0.woff") format("woff")
-     , url("../fonts/337DB2_0_0.ttf") format("truetype");
+// Italic Libre
+.pull-quote
+, .pull-box__title {
+  @include font-stack($libre-stack, 400i);
+} 
+// Prompt Regular
+.subsection__content_title
+, h3 {
+  @include font-stack($prompt-stack, 400);
 }
 
+// Prompt Bold
+.footer__header {
+  @include font-stack($prompt-stack, 700);
+}
+
+// -----------------------------------------------
 // Font Colors
-h1, .footer__header          { color: $yellow; }
-h2, h4, h5, 
-.subsection__content_title,
-.tweet__author_name,
-.main-section__title          { color: $black; }
-h3                           { color: $red; }
-h6                           { color: $teal; }
-nav a                        { color: $dark-gray; }
-nav a:hover,
-nav .active,
-footer,
-footer p,
-.footer__contact > a[href^=tel]                 { color: $white; }
+// -----------------------------------------------
+// Light Blue
+#homepage > .header__blurb_blurb
+, .footer__about-us-blurb {
+  color: $light-blue;
+}
 
-// Element Font Familes
-h1, h2,
-.testimonial__text,
-.tweet__body p             { @include font-stack($lubalin-book); }
+// White
+.footer__header
+, nav .active
+, nav a:hover
+, .header__blurb_blurb {
+  color: $white;
+}
 
-h3                         { @include font-stack($lubalin-book-oblique); }
+// Dark Gray
+.subsection__content_title
+, h3
+, .post__author-name
+, .date
+, .share {
+  color: $dark-gray;
+}
 
-h4, nav, .button,
-.footer__header,
-.copyright__holder,
-.testimonial__author-name,
-.tweet__author_name,
-.post__author-name,
-.date,
-.dir-cards__card_title,
-.share,
-.main-section__title                     { @include font-stack($gotham, 700); } // Bold Style
+// Light Gray
+nav a
+, .footer__contact > a[href^=tel]
+, .copyright__holder
+, footer p {
+  color: $light-gray;
+}
 
-h5, h6,
-.subsection__content_title { @include font-stack($gotham, 400); } // Book Style
-
-// Header Line Heights
-@include breakpoint(medium) {
-  
-  h1, h2 { line-height: 52px; }
-  h3     { line-height: 36px; }
-  h4     { line-height: 32px; } 
-  h5, h6 { line-height: 34px; }
+// Body Gray
+p
+, .subsection__content_body {
+  color: $body-gray;
 }
 
 // Uppercase Fonts
 .footer__header,
 .copyright__holder,
-.tweet__author_name,
 .post__author-name {
   text-transform: uppercase;
 }
 
-.testimonials {
-  text-align: center;
+// -----------------------------------------------
+// Letter Spacing
+// -----------------------------------------------
+// 1px
+p {
+  letter-spacing: 1px;
+}
+
+// 2px
+// { letter-spacing: 2px; }
+
+// 3px
+nav a
+, h3
+, button
+, .button
+, .subsection__blurb_title {
+  letter-spacing: 3px;
 }
 
 .copyright__holder,
-.copyright__info,
-.footer__about-us-blurb {
+.copyright__info {
   font-size: 12px;
 }
 
-// Body Font
-p {
-  color: $black;
-  @include font-stack($gotham, 400);
-}
+// -----------------------------------------------
+// Header Line Heights
+// -----------------------------------------------
+@include breakpoint(medium) {
+  h1, h2 {
+    line-height: 52px;
+  }
 
-nav {
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  h3 {
+    line-height: 36px;
+  }
+
+  h4 {
+    line-height: 32px;
+  }
+
+  h5, h6 {
+    line-height: 34px;
+  }
 }
