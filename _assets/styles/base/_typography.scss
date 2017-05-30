@@ -12,6 +12,7 @@
 
 p
 , .header__blurb_blurb
+, .header__title
 , .subsection__content_body {
   @include font-stack($libre-stack, 400);
 }
@@ -58,6 +59,7 @@ address {
 // White
 
 .footer__header
+, .header__title
 , nav .active
 , nav a:hover
 , .header__blurb_blurb {

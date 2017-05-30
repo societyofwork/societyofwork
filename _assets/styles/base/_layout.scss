@@ -233,6 +233,14 @@ nav,
   padding: 2.5rem 1.5rem;
   min-height: 140px;
 
+  @include breakpoint(medium) {
+    min-height: 471px;
+  }
+
+  &__title {
+    padding-top: 13%;
+  }
+
   &__blurb {
     padding-top: 1.4rem;
   }
