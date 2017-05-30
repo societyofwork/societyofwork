@@ -150,7 +150,7 @@ nav,
 
   .overlay-contentpush {
     backface-visibility: hidden;
-    background: $black;
+    background: $dark-blue;
     visibility: hidden;
     transform: translateX(-100%);
     transition: transform 0.5s, visibility 0s 0.5s;
@@ -186,7 +186,7 @@ nav,
   }
 
   .main-nav {
-    background-color: $black;
+    background-color: $dark-blue;
     padding-left: 0;
     position: fixed;
     top: 0;
@@ -230,17 +230,11 @@ nav,
 
 .header {
 
+  padding: 2.5rem 1.5rem;
   min-height: 140px;
 
   &__blurb {
     padding-top: 1.4rem;
-  }
-
-  &__logo {
-
-    @include breakpoint(medium down) {
-      display: none;
-    }
   }
 
   @include breakpoint(large) {
@@ -341,7 +335,7 @@ nav,
 .hamburger-menu {
 
   &-wrapper {
-    background-color: $black;
+    background-color: $dark-blue;
     height: 46px;
     width: 100%;
 

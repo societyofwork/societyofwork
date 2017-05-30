@@ -121,7 +121,11 @@ p {
 }
 
 .header__blurb_blurb {
-  font-size: 30px;
+  font-size: 20px;
+
+  @include breakpoint(medium) {
+    font-size: 30px;
+  }
 }
 
 // -----------------------------------------------
