@@ -4,6 +4,13 @@ layout: default
 
 {% include header.html %}
 
+  <div class="sidebar">
+    <nav></nav>
+  </div>
+
 <main role="main" class="main" aria-label="Content">
   
+  {% include sidebar.html %}
+  
+  {{ content }}
 </main>
