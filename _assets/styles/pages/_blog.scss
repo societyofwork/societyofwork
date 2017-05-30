@@ -1,9 +1,3 @@
-.blog {
-  .top-blurb {
-    padding-bottom: 4rem;
-  }
-}
-
 .entries {
   @include grid-col(14);
   

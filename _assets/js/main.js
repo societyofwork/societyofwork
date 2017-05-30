@@ -7,10 +7,10 @@ Barba.Prefetch.init();
 
 // Grabbing mobile menu elements
 const mobileMenuButton = document.getElementById('mobile-menu-button')
-, closeButton          = document.getElementById('overlay-close')
-, contentPush          = document.getElementById('overlay-contentpush')
-, menuItems            = document.getElementById('menu-items')
-, container            = document.getElementById('container');
+    , closeButton      = document.getElementById('overlay-close')
+    , contentPush      = document.getElementById('overlay-contentpush')
+    , menuItems        = document.getElementById('menu-items')
+    , container        = document.getElementById('container');
 
 // Classes to slide in and slide out the menu
 // as well as toggle and push content underneath for extra wow.

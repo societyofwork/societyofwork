@@ -24,12 +24,6 @@ footer
 , #homepage > .header__background
 { background-color: $dark-blue; }
 
-button
-, .button {
-  color: #1F2D42;
-  background-color: $dark-yellow;
-}
-
 @mixin background {
   position: relative;
   z-index: 0;

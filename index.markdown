@@ -1,33 +1,24 @@
 ---
 title: Home
 header:
-  blurb: Chattanooga’s Innovation District Beckons To Young Entrepreneurs
-  button_txt: Read More
-  button_link: 'https://www.nytimes.com/2016/08/17/realestate/commercial/chattanoogas-innovation-district-beckons-to-young-entrepreneurs.html?_r=0 '
+  blurb: Establishing Chattanooga as a hub of innovation, improving people’s lives by leveraging the city’s digital technology to create, demonstrate, test, and apply solutions for the 21st century.
+  image:
+  button_txt:
+  button_link:
 navigation_weight: 1
-main_section:
-  title: 'What''s New '
-  sub_section_1:
-    title: Nokia Video Highlights Chattanooga's Rise
-    body: Nokia has been an instrumental part of building Chattanooga's citywide 10-gigabyte
-      network and envisioning applications for the gig. In their new video, Nokia
-      documents Chattanooga's remarkable transformation from the "dirtiest city in
-      America" into "the city of the future."
-    image: "/uploads/conference-room-subsection-1.jpg"
-  sub_section_2:
-    title: The Edney Innovation Center
-    body: The Edney Innovation Center is the front door to Chattanooga's Innovation
-      District. It's a connection point, support base, and catalyst for the local
-      entrepreneurial ecosystem. The Edney is where startups come to accelerate, grow
-      and thrive. Ideas are born here everyday at community events and workshops hosted
-      on the Fifth Floor.
-    image: "/uploads/blured-desk-subsection-2.jpg"
-  sub_section_3:
-    title: In The News
-    body: |-
-      **One Of America's Most Startup-Friendly Cities Is In Tennessee**
-      In this article, Fortune Magazine examines the Innovation District’s use of Chattanooga’s gigabit network and expanding entrepreneurial epicenter.
-    image: "/uploads/downtown-subsection-3.jpg"
+subsection:
+  one:
+    title: Innovation District of Chattanooga
+    body: The Chattanooga Innovation District, designated in January 2015, is part of Chattanooga's dense and walkable urban core that contains a catalytic mix of start-up businesses, incubators, accelerators and other innovation economy generators and amenities.
+    image: "/uploads/edney.jpg"
+  two:
+    title: "RESEARCH & APPLICATION DEVELOPMENT: THE GIG"
+    body: Our agenda aims to increase Chattanooga’s opportunities as a national test-bed, or living laboratory, for the creation, development, education, and business generation potential of the city's digital assets, in particular the gigabit network and smart grid.
+    image: "/uploads/people-sow.jpg"
+  three:
+    title: DIGITAL EQUITY & INCLUSION
+    body: To promote digital asset availability to everyone in Chattanooga, Tech Goes Home is a digital inclusion program that works with community partners to help residents across Hamilton County gain access to the skills, hardware, and Internet connectivity required for 21st century success. 
+    image: "/uploads/around-comp.jpg"
 layout: index
 ---
 

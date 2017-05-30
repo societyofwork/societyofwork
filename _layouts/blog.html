@@ -3,33 +3,17 @@ layout: default
 ---
 
 <div class="blog">
-  
+
   {% include header.html header_img="blog-header-background.svg" %}
-  
-  <div class="about-bg-accent">
-    
-    <div class="top-blurb">
-      
-      {% assign post = site.posts.first %}
-      
-      <a href="{{ post.url}}" class="top-blurb__link">
-        <div class="overlap-header-img shadow">
-          <img src="{{ post.featured_image }}">
-        </div>
-        
-        <h4 class="top-blurb__header">{{ post.title }}</h4>
-        <div class="top-blurb__body">{{ post.excerpt }}</div>
-      </a>
-    </div>
-    
-  </div>
-  
+
   <main role="main" class="row" aria-label="Content">
-    
+
     <div class="entries">
       <h4 class="row column">Posts</h4>
       <div class="row small-up-1 medium-up-2" data-equalizer data-equalize-by-row="row">
+
         {% for post in site.posts offset: 1 %}
+
         <div class="entry column column-block" data-equalizer-watch>
           <a href="{{ post.url }}">
             <img class="entry__img" src="{{ post.featured_image }}">
@@ -38,15 +22,12 @@ layout: default
             <a class="entry__read-more" href="{{ post.url }}">Read More</a>
           </a>
         </div>
+
         {% endfor %}
+
       </div>
     </div>
-    
-    <div class="blog-tweets">
-      {% include tweets.html %}
-    </div>
-    
+
   </main>
-  
-  
+
 </div>

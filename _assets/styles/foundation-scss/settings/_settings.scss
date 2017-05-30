@@ -247,12 +247,12 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 16px 45px;
+$button-padding: 22px 27px 18px 22px;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
-$button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-color: $white;
+$button-background: $dark-yellow;
+$button-background-hover: scale-color($button-background, $lightness: 15%);
+$button-color: $dark-blue;
 $button-color-alt: $black;
 $button-radius: $global-radius;
 $button-sizes: (

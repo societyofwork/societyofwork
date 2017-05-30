@@ -14,8 +14,12 @@
   
 }
 
+footer,
+.copyright {
+  background-color: $dark-blue;
+}
+
 footer {
-  background-color: $black;
   padding-top: 36px;
   
   address {
@@ -36,4 +40,8 @@ footer {
 
 .copyright__info {
   margin-bottom: 0;
+
+  &:hover {
+    color: darken($dark-yellow, 20%);
+  }
 }

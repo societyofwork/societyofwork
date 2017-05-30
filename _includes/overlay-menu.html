@@ -1,12 +1,12 @@
 <div class="overlay overlay-contentpush main-nav" id="overlay-contentpush">
   <button type="button" class="overlay-close" id="overlay-close">Close</button>
   <nav>
-    
+
     <a href="/" class="menu-logo--desktop">
       <img class="menu-logo__mark" src="/assets/img/logo/logo-mark.svg">
       <img class="menu-logo__words" src="/assets/img/logo/logo-words.svg">
     </a>
-    
+
     <ul id="menu-items">
       <li>
         <a href="/" class="menu-logo menu-logo--mobile">
@@ -14,9 +14,9 @@
           <img class="menu-logo__words" src="/assets/img/logo/logo-words.svg">
         </a>
       </li>
-      
+
       {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-      
+
       {% for p in navigation_pages %}
       {% if p.navigation_weight %}
       <li>
@@ -27,7 +27,7 @@
       {% endif %}
       {% endfor %}
       <li>
-        <a class="button button--for-nav" href="http://www.theenterprisectr.org/">The Enterprise Center</a>
+        <a class="button button--for-nav" href="https://chainnovate.com">The Innovation District</a>
       </li>
     </ul>
   </nav>
