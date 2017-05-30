@@ -34,7 +34,9 @@ defaults:
     Blog Author: 
     featured_image: 
     image_description_for_the_visually_impaired: 
-description: Establishing Chattanooga as a hub of innovation, improving people’s lives by leveraging the city’s digital technology to create, demonstrate, test, and apply solutions for the 21st century.
+description: Establishing Chattanooga as a hub of innovation, improving people’s lives
+  by leveraging the city’s digital technology to create, demonstrate, test, and apply
+  solutions for the 21st century.
 baseurl: https://www.theenterprisectr.org/
 facebook: https://www.facebook.com/theenterprisectr/
 twitter: 
