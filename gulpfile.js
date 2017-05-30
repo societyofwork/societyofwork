@@ -103,7 +103,6 @@ gulp.task('build:styles:uncss', function() {
       '.open'
       , '.overlay-open'
       , '.container.overlay-open'
-      , '.testimonials__pagination-button'
       , '.overlay'
       , '.container::after'
       , '.container.overlay-open::after'
@@ -266,8 +265,10 @@ gulp.task('build:prod', function(callback) {
 
 // Removes unused CSS rules with uncss, inlines above the fold CSS,
 // and minifies HTML for production site.
+// Had to remove this from runSequence as it was causing build to fail 
+// 'build:styles:uncss',
 gulp.task('prod', function(callback) {
-  runSequence('build:prod', 'build:styles:uncss', 'build:styles:critical', 'build:html:minify')
+  runSequence('build:prod', 'build:styles:critical', 'build:html:minify')
 })
 
 // Builds site anew using test config.
