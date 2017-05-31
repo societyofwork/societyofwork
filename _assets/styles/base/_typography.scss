@@ -29,6 +29,7 @@ p
 .subsection__content_title
 , .footer__about-us-blurb
 , .copyright__info
+, .sidebar a
 , h3 {
   @include font-stack($prompt-stack, 400);
 }
@@ -38,6 +39,7 @@ p
 .footer__header
 , .copyright__holder
 , .button, button
+, .sidebar .active > a
 , nav a {
   @include font-stack($prompt-stack, 700);
 }
@@ -103,10 +105,12 @@ p
 // -----------------------------------------------
 // Uppercase Fonts
 // -----------------------------------------------
+h1, h2, h3, h4, h5, h6,
 .footer__header,
 .copyright__holder,
 .post__author-name,
 .subsection__content_title,
+.sidebar,
 nav a {
   text-transform: uppercase;
 }

@@ -548,3 +548,34 @@ nav,
     }
   }
 }
+
+.about {
+  @include grid-row;
+
+  .sidebar {
+    font-size: 14px;
+
+    @include grid-col(3);
+    @include grid-col-off(1);
+
+    &__top-level {
+      text-transform: uppercase;
+    }
+
+    .active {
+
+      a {
+        background-color: $white;
+        color: $dark-gray;
+      }
+
+      &:before {
+        color: $dark-yellow;
+      }
+    }
+  }
+
+  .about-main {
+    @include grid-col(9);
+  }
+}

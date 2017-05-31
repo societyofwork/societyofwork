@@ -1,18 +1,83 @@
-{% assign url_parts = page.url | split: '/' %} {% assign url_parts_size = url_parts | size %}
-{% assign rm = url_parts | last %}
-{% if rm.size > 0 %}
-  {% assign base_url = page.url | replace: rm %}
-{% endif %}
+<div class="sidebar">
 
-<ul>
-{% for node in site.pages %}
-  {% if node.url contains base_url %}
-    {% assign node_url_parts = node.url | split: '/' %}
-    {% assign node_url_parts_size = node_url_parts | size %}
-    {% assign filename = node_url_parts | last %}
-    {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
-      <li><a href='{{node.url}}'>{{node.title}}</a></li>
+  {% assign pages = site.html_pages | sort: 'navigation_weight' %}
+
+  <ul class="vertical menu">
+  {% for node in pages %}
+    {% assign node_parts = node.url | split: '/' %}
+    {% assign node_depth = node_parts | size %}
+
+    {% if node.navigation_weight %}
+      {% if node_depth == 2 %}
+        <li{% if page.url contains node.url %} class="active"{% endif %}>
+          <a href="{{ node.url }}">
+            {% if node.link %}
+              {{ node.link }}
+            {% else %}
+              {{ node.title }}
+            {% endif %}
+          </a>
+
+          {% assign node_root = '/' | append: node_parts[1] | append: '/' %}
+          {% assign has_children = false %}
+          {% for subnode in pages %}
+            {% if subnode.url contains node_root and subnode.url != node_root %}
+              {% assign has_children = true %}
+            {% endif %}
+          {% endfor %}
+
+          {% if has_children == true %}
+            <ul class="vertical menu nested">
+              {% for subnode in pages %}
+                {% if subnode.url contains node_root and subnode.url != node_root %}
+                  {% assign node_parts = subnode.url | split: '/' %}
+                  {% assign node_depth = node_parts | size %}
+
+                  {% if node_depth == 3 %}
+                    <li{% if page.url contains subnode.url %} class="active"{% endif %}>
+                      <a href="{{ subnode.url }}">
+                        {% if subnode.link %}
+                          {{ subnode.link }}
+                        {% else %}
+                          {{ subnode.title }}
+                        {% endif %}
+                      </a>
+
+                      {% assign subnode_root = '/' | append: node_parts[1] | append: '/' | append: node_parts[2] | append: '/' %}
+                      {% assign has_children = false %}
+                      {% for subsubnode in pages %}
+                        {% if subsubnode.url contains subnode_root and subsubnode.url != subnode_root %}
+                          {% assign has_children = true %}
+                        {% endif %}
+                      {% endfor %}
+
+                      {% if has_children == true %}
+                        <ul>
+                          {% for subsubnode in pages %}
+                            {% if subsubnode.url contains subnode_root and subsubnode.url != subnode_root %}
+                              <li{% if page.url contains subsubnode.url %} class="active"{% endif %}>
+                                <a href="{{ subsubnode.url }}">
+                                  {% if subsubnode.link %}
+                                    {{ subsubnode.link }}
+                                  {% else %}
+                                    {{ subsubnode.title }}
+                                  {% endif %}
+                                </a>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endif %}
     {% endif %}
-  {% endif %}
-{% endfor %}
-</ul>     
+  {% endfor %}
+  </ul>
+
+</div>

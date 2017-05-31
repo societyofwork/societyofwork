@@ -18,13 +18,13 @@
       {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
 
       {% for p in navigation_pages %}
-      {% if p.navigation_weight %}
-      <li>
-        <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-          {{ p.title }}
-        </a>
-      </li>
-      {% endif %}
+        {% if p.navigation_weight %}
+        <li>
+          <a href="{{ p.url }}" {% if p.url contains page.url %}class="active"{% endif %}>
+            {{ p.title }}
+          </a>
+        </li>
+        {% endif %}
       {% endfor %}
       <li>
         <a class="button button--for-nav" href="https://chainnovate.com">The Innovation District</a>
