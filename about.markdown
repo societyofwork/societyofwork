@@ -6,7 +6,6 @@ header:
 navigation_weight: 2
 layout: about
 gray_box:
-  belief: Information technology and innovation are driving the new global economy.
   belief: In working together collaboratively.
 ---
 
