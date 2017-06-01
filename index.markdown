@@ -10,9 +10,9 @@ navigation_weight: 1
 subsection:
   one:
     title: Innovation District of Chattanooga
-    body: Managed by The Enterprise Center,  Chattanooga Innovation District is part
-      of Chattanooga's dense and walkable urban core that contains a catalytic mix
-      of start-up businesses, incubators, accelerators and other innovation economy
+    body: Managed by The Enterprise Center,  The Innovation District of Chattanooga
+      is part of the city's dense and walkable urban core that contains a catalytic
+      mix of start-up businesses, incubators, accelerators and other innovation economy
       generators and amenities.
     image: "/uploads/innovation-district.jpg"
     link: "/about/innovation-district-of-chattanooga/"
