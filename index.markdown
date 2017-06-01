@@ -4,14 +4,13 @@ header:
   blurb: Establishing Chattanooga as a hub of innovation, improving people’s lives
     by leveraging the city’s digital technology to create, demonstrate, test, and
     apply solutions for the 21st century.
-  image: 
   button_txt: 
   button_link: 
 navigation_weight: 1
 subsection:
   one:
     title: Innovation District of Chattanooga
-    body: The Chattanooga Innovation District, designated in January 2015, is part
+    body: Managed by The Enterprise Center,  Chattanooga Innovation District is part
       of Chattanooga's dense and walkable urban core that contains a catalytic mix
       of start-up businesses, incubators, accelerators and other innovation economy
       generators and amenities.
