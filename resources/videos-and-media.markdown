@@ -3,7 +3,7 @@ title: Videos & Media
 date: 2017-05-30 13:15:00 -04:00
 position: 2
 header:
-  image: "/uploads/video-and-media-header.jpg"
+  image: "/uploads/morehead-79aa0e.jpg"
 layout: about
 ---
 
