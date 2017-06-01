@@ -18,7 +18,7 @@ subsection:
     image: "/uploads/edney.jpg"
     link: "/about/innovation-district-of-chattanooga/"
   two:
-    title: 'RESEARCH & APPLICATION DEVELOPMENT:  THE GIG'
+    title: 'RESEARCH & APPLICATION DEVELOPMENT:       THE GIG'
     body: Our agenda aims to increase Chattanooga’s opportunities as a national test-bed,
       or living laboratory, for the creation, development, education, and business
       generation potential of the city's digital assets, in particular the gigabit

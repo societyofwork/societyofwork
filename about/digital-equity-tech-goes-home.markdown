@@ -1,9 +1,9 @@
 ---
-title: "Digital Equity: Tech Goes Home"
+title: 'Digital Equity: Tech Goes Home'
 date: 2017-05-30 13:15:00 -04:00
+position: 2
 header:
   image: "/uploads/about-sub-tech.jpg"
-position: 2
 layout: about
 ---
 

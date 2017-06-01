@@ -1,12 +1,13 @@
 ---
 title: The Enterprise Center Receives Funding from Mozilla for LOLA In Classrooms
-date: 2017-02-05 09:38:00 -04:00
-Blog Author:
-featured_image: /uploads/one-beat.jpg
+date: 2017-02-05 08:38:00 -05:00
+Blog Author: 
+featured_image: "/uploads/one-beat.jpg"
 bottom_button_link: 
 bottom_button_text: 
 layout: post
 ---
+
 Mozilla has announced nineteen grant award recipients in Austin, Kansas City and Chattanooga that will receive support from the [Gigabit Community Fund][http://learning.mozilla.org/en-US/gigabit/], including The Enterprise Center's initiative to bring LOLA to Chattanooga school classrooms.  LOLA (short for LOw LAtency) allows for unnoticed transmitted delays via the internet, allowing for students to interact with research facilities and art programs in schools throughout the country in real time.
 
 ![One Beat](/uploads/one-beat.jpg)
