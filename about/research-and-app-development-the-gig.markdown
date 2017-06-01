@@ -3,7 +3,7 @@ title: 'Research & App Development: The Gig'
 date: 2017-05-30 14:59:00 -04:00
 position: 1
 header:
-  image: "/uploads/about-sub-research.jpg"
+  image: "/uploads/research-dev.jpg"
 layout: about
 ---
 
