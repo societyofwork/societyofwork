@@ -11,6 +11,7 @@
 // Regular Libre
 
 p
+, .post__title
 , .header__blurb_blurb
 , .header__title
 , .subsection__content_body {
@@ -27,6 +28,10 @@ p
 // Prompt Regular
 
 .subsection__content_title
+, .post__content p
+, .post__content ul 
+, .post__author-name
+, .breadcrumbs
 , .footer__about-us-blurb
 , .copyright__info
 , .sidebar a
@@ -37,10 +42,11 @@ p
 // Prompt Bold
 
 .footer__header
+, .breadcrumbs .active
 , .copyright__holder
 , .button, button
 , .sidebar .active > a
-, nav a {
+, .overlay a {
   @include font-stack($prompt-stack, 700);
 }
 
@@ -62,8 +68,8 @@ address {
 
 .footer__header
 , .header__title
-, nav .active
-, nav a:hover
+// , .overlay .active
+, .overlay a:hover
 , .header__blurb_blurb {
   color: $white;
 }
@@ -71,6 +77,10 @@ address {
 // Dark Gray
 
 .subsection__content_title
+, .entry__title
+, p strong
+, .sidebar a
+, .post__content p
 , h3
 , .post__author-name
 , .date
@@ -80,7 +90,8 @@ address {
 
 // Light Gray
 
-nav a
+.overlay a
+, .sidebar .nested a
 , .footer__contact > a[href^=tel]
 , .copyright__holder
 , .footer__about-us-blurb
@@ -91,7 +102,8 @@ nav a
 
 // Body Gray
 
-p
+.sidebar-layout-main p
+, .sidebar-layout-main li
 , .subsection__content_body {
   color: $body-gray;
 }
@@ -100,6 +112,14 @@ p
 
 .copyright__holder {
   color: $dark-yellow;
+}
+
+.breadcrumbs {
+  color: #9B9B9B;
+
+  .active {
+    color: #4A4A4A;
+  }
 }
 
 // -----------------------------------------------
@@ -111,9 +131,13 @@ h1, h2, h3, h4, h5, h6,
 .post__author-name,
 .subsection__content_title,
 .sidebar,
-nav a {
+.overlay a {
   text-transform: uppercase;
 }
+
+header h1    { text-transform: unset; }
+.post__title, 
+.entry__title { text-transform: none; }
 
 // -----------------------------------------------
 // Font Sizes
@@ -138,15 +162,19 @@ p {
 // Letter Spacing
 // -----------------------------------------------
 // 1px
-p {
+p, ul {
   letter-spacing: 1px;
+  line-height: 28px;
 }
 
 // 2px
-// { letter-spacing: 2px; }
+.post__author-name { 
+  font-size: 11px;
+  letter-spacing: 2px; 
+}
 
 // 3px
-nav a
+.overlay a
 , h3
 , button
 , .button
@@ -160,22 +188,25 @@ nav a
 }
 
 // -----------------------------------------------
-// Header Line Heights
+// Line Heights
 // -----------------------------------------------
+
+.footer__about-us-blurb { line-height: 19px; }
+
 @include breakpoint(medium) {
   h1, h2 {
-    line-height: 40px;
+    line-height: 52px;
   }
 
   h3 {
-    line-height: 36px;
+    line-height: 42px;
   }
 
   h4 {
-    line-height: 32px;
+    line-height: 26px;
   }
 
   h5, h6 {
-    line-height: 34px;
+    line-height: 24px;
   }
 }

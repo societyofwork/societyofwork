@@ -1,33 +1,22 @@
 ---
-layout: default
+layout: about
 ---
 
-<div class="blog">
-
-  {% include header.html header_img="blog-header-background.svg" %}
-
-  <main role="main" class="row" aria-label="Content">
-
-    <div class="entries">
-      <h4 class="row column">Posts</h4>
-      <div class="row small-up-1 medium-up-2" data-equalizer data-equalize-by-row="row">
-
-        {% for post in site.posts offset: 1 %}
-
-        <div class="entry column column-block" data-equalizer-watch>
-          <a href="{{ post.url }}">
-            <img class="entry__img" src="{{ post.featured_image }}">
-            <h5 class="entry__title">{{ post.title }}</h5>
-            <p>{{ post.excerpt }}</p>
-            <a class="entry__read-more" href="{{ post.url }}">Read More</a>
-          </a>
-        </div>
-
-        {% endfor %}
-
-      </div>
+<div class="entries">
+  <div class="row medium-up-1 large-up-2" data-equalizer data-equalize-by-row="row">
+    
+    {% for post in site.posts %}
+    
+    <div class="entry column column-block" data-equalizer-watch>
+      <a href="{{ post.url }}">
+        <img class="entry__img" src="{{ post.featured_image }}">
+        <h4 class="entry__title">{{ post.title }}</h4>
+        <p>{{ post.content | markdownify | strip_html | truncatewords:35 }}</p>
+        <a class="entry__read-more" href="{{ post.url }}">Read More</a>
+      </a>
     </div>
-
-  </main>
-
+    
+    {% endfor %}
+    
+  </div>
 </div>

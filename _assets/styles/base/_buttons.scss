@@ -18,11 +18,15 @@
   }
   
   &--for-nav {
-    background-color: darken($trans-black, 20%);
+    background-color: $dark-blue;
     border-radius: 0px;
-    color: $dark-yellow;
+    color: $dark-yellow !important;
     font-size: 16px;
     padding: 20px 22px;
+    
+    &:hover {
+      background-color: darken($trans-black, 20%);
+    }
   }
 }
 

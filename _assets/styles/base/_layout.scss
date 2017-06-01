@@ -239,6 +239,11 @@ nav,
 
   &__title {
     padding-top: 13%;
+    max-width: 669px;
+
+    @include breakpoint(large) {
+      padding-left: 65px;
+    }
   }
 
   &__blurb {
@@ -435,8 +440,9 @@ nav,
   }
 
   &__title {
-    max-width: 669px;
+    max-width: 769px;
     margin-bottom: 3rem;
+    letter-spacing: 1.4px;
   }
 
   &__author-img {
@@ -549,33 +555,15 @@ nav,
   }
 }
 
-.about {
-  @include grid-row;
-
-  .sidebar {
-    font-size: 14px;
-
-    @include grid-col(3);
-    @include grid-col-off(1);
-
-    &__top-level {
-      text-transform: uppercase;
-    }
-
-    .active {
-
-      a {
-        background-color: $white;
-        color: $dark-gray;
-      }
-
-      &:before {
-        color: $dark-yellow;
-      }
-    }
+.post {
+  
+  &__author {
+    margin-bottom: 6px;
   }
-
-  .about-main {
-    @include grid-col(9);
+  
+  &__author-name {
+    position: relative;
+    bottom: 7px;
+    left: 8px;
   }
 }

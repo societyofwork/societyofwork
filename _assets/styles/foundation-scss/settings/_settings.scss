@@ -123,17 +123,17 @@ $header-styles: (
     'h1': ('font-size': 30),
     'h2': ('font-size': 30),
     'h3': ('font-size': 26),
-    'h4': ('font-size': 24),
-    'h5': ('font-size': 22),
+    'h4': ('font-size': 20),
+    'h5': ('font-size': 20),
     'h6': ('font-size': 20),
   ),
   medium: (
     'h1': ('font-size': 48),
     'h2': ('font-size': 48),
     'h3': ('font-size': 30),
-    'h4': ('font-size': 30),
-    'h5': ('font-size': 30),
-    'h6': ('font-size': 30),
+    'h4': ('font-size': 24),
+    'h5': ('font-size': 24),
+    'h6': ('font-size': 24),
   ),
 );
 $header-text-rendering: optimizeLegibility;
@@ -148,7 +148,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
+$anchor-color: #3BB0C9;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -241,7 +241,7 @@ $breadcrumbs-item-color: $primary-color;
 $breadcrumbs-item-color-current: $black;
 $breadcrumbs-item-color-disabled: $medium-gray;
 $breadcrumbs-item-margin: 0.75rem;
-$breadcrumbs-item-uppercase: true;
+$breadcrumbs-item-uppercase: false;
 $breadcrumbs-item-slash: true;
 
 // 11. Button

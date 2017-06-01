@@ -1,32 +1,24 @@
-.entries {
-  @include grid-col(14);
+@include breakpoint(800px) {
   
-  @include breakpoint(1050px) {
-    @include grid-col(10);
-  }
+  .entries { @include grid-col(14); }
 }
 
-.blog-tweets {
-  
-  @include breakpoint(1051px down) {
-    display: none;
-  }
-  
-  @include grid-col(4);
-  
-  .tweet {
-    @include grid-row;
-    @include grid-col(14);
+.large-up-2 {
+  .entry {
+    padding: 24px 0;
+    margin-top: 2.5%;
+    margin-bottom: 30px;
   }
 }
 
 @include breakpoint(large) {
   
-  .medium-up-2 {
+  .large-up-2 {
     .entry {
       margin-left: 2.5%;
       margin-right: 2.5%;
-      margin-bottom: 30px;
+      padding-right: 24px !important;
+      padding-left: 24px !important;
       width: 45%;
     }
   }
@@ -36,62 +28,15 @@
   background-color: $white;
   list-style: none;
   margin-bottom: 1rem;
-  
-  @include breakpoint(medium) {
-    padding: 33px;
-  }
-  
   position: relative;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   
-  @include breakpoint(large) {
-    @include grid-col(6);
-  }
+  &:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.28); }
+  &__img { margin-bottom: 11px; }
   
-  &__ {
-    
-    &img {
-      margin-bottom: 11px;
-    }
-  }
+  @include breakpoint(medium) { padding: 33px; }
+  @include breakpoint(large) { @include grid-col(6); }
   
-  &:before {
-    content: " ";
-    position: absolute;
-    height: 85%;
-    width: 50px;
-    right: 12px;
-    transition: $hover-transition;
-    z-index: -10;
-  }
-  
-  &:after {
-    content: " ";
-    position: absolute;
-    height: 50px;
-    width: 85%;
-    bottom: 12px;
-    left: 8%;
-    transition: $hover-transition;
-    z-index: -10;
-  }
-  
-  &:hover {
-    
-    &:before,
-    &:after {
-      box-shadow: 0 9px 80px rgba(0,0,0, 25%);
-    }
-  }
-  
-  a {
-    background-color: $white;
-    
-    &:hover {
-      &:before {
-        
-        width: 100%;
-      }
-    }
-  }
+  a { background-color: $white; }
 }
 

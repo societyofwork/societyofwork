@@ -4,11 +4,13 @@ layout: default
 
 {% include header.html %}
 
-<div class="about">
+<div class="sidebar-layout">
+
+  {% include nav-breadcrumbs.html %}
 
   {% include sidebar.html %}
 
-  <main role="main" class="main about-main" aria-label="Content">
+  <main role="main" class="main sidebar-layout-main" aria-label="Content">
     {{ content }}
   </main>
 
