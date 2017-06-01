@@ -3,7 +3,7 @@ title: Studies & Reports
 date: 2017-05-30 13:15:00 -04:00
 position: 3
 header:
-  image: "/uploads/studies.jpg"
+  image: "/uploads/studies2.jpg"
 layout: about
 ---
 
