@@ -3,7 +3,7 @@ title: Innovation District of Chattanooga
 date: 2017-05-30 13:15:00 -04:00
 position: 0
 header:
-  image: "/uploads/morehead-3c4796.jpg"
+  image: "/uploads/id.jpg"
 layout: about
 ---
 
