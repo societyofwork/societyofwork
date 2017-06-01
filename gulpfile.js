@@ -239,7 +239,7 @@ gulp.task('clean:jekyll', function(callback) {
 });
 
 gulp.task('clean', ['clean:jekyll',
-'clean:fonts',
+  // 'clean:fonts',
 'clean:images',
 'clean:scripts',
 'clean:styles']);
@@ -247,7 +247,7 @@ gulp.task('clean', ['clean:jekyll',
 // Builds site anew.
 gulp.task('build', function(callback) {
   runSequence('clean',
-  ['build:scripts', 'build:images', 'build:styles', 'build:fonts'],
+  ['build:scripts', 'build:images', 'build:styles'],
   'build:jekyll',
   callback);
 });
@@ -258,7 +258,7 @@ gulp.task('build', function(callback) {
 // and minification of HTML can be completed on prod files.
 gulp.task('build:prod', function(callback) {
   runSequence('clean',
-  ['build:scripts', 'build:images', 'build:styles:prod', 'build:fonts'],
+  ['build:scripts', 'build:images', 'build:styles:prod'],
   'build:jekyll',
   callback);
 });
@@ -282,7 +282,7 @@ gulp.task('build:test', function(callback) {
 // Builds site anew using local config.
 gulp.task('build:local', function(callback) {
   runSequence('clean',
-  ['build:scripts', 'build:images', 'build:styles', 'build:fonts'],
+  ['build:scripts', 'build:images', 'build:styles'],
   'build:jekyll:local',
   callback);
 });
