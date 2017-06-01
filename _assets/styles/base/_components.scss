@@ -70,32 +70,40 @@ footer {
     }
   }
 
-  
+
 }
 
 $smaller: 800px;
 $medium: 1060px;
 $big: 1124px;
 
-.sidebar,
-.sidebar-layout-main {
-  padding-top: 35px;
+.breadcrumbs { @include grid-col-row; }
+.sidebar-layout-main { padding-top: 35px; }
+
+.sidebar-layout-main,
+.sidebar {
+  @include grid-col(14);
   padding-bottom: 35px;
 }
 
-@include breakpoint($smaller down) {
-  
-  .sidebar {
-    display: none;
-  }
-}
-
-.sidebar-layout-main, .breadcrumbs { @include grid-col-row; }
-.sidebar                           { @include grid-col(4); }
-
 @include breakpoint($smaller) {
-  .sidebar-layout-main   { @include grid-col(10); @include grid-col-off(4); }
-  .breadcrumbs { @include grid-col-row; }
+  .sidebar,
+  .sidebar-layout-main {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .sidebar-layout-main   {
+    @include grid-col(10);
+    @include grid-col-pos(4);
+  }
+  .sidebar {
+    @include grid-col(4);
+    @include grid-col-pos(-10);
+  }
+  .breadcrumbs {
+     @include grid-col-row;
+   }
 }
 
 @include breakpoint($medium) {
