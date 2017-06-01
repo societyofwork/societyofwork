@@ -3,7 +3,7 @@ title: Newsletters
 date: 2017-05-30 13:15:00 -04:00
 position: 1
 header:
-  image: "/uploads/newsletters-header.jpg"
+  image: "/uploads/study.jpg"
 layout: about
 ---
 
