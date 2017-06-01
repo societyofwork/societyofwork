@@ -7,7 +7,7 @@ header:
 layout: about
 ---
 
-### What is the Enterprise Center?
+### What is the Innovation District of Chattanooga?
 
 In 2013, newly elected Chattanooga Mayor Andy Berke tasked a group of 25 Chattanoogans with determining how to build on the success already realized through ad-hoc, volunteer-based, loosely-organized efforts to maximize the "gig" opportunity.
 
