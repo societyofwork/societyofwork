@@ -47,7 +47,7 @@ p
 , .button, button
 , .sidebar .active > a
 , .overlay a {
-  @include font-stack($prompt-stack, 700);
+  @include font-stack($prompt-stack, 600);
 }
 
 address {
