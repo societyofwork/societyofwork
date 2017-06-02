@@ -15,7 +15,7 @@ subsection:
       mix of start-up businesses, incubators, accelerators and other innovation economy
       generators and amenities.
     image: "/uploads/innovation-district.jpg"
-    link: "/about/innovation-district-of-chattanooga/"
+    link: "/our-vision/innovation-district-of-chattanooga/"
   two:
     title: 'RESEARCH & APPLICATION DEVELOPMENT:       THE GIG'
     body: Our agenda aims to increase Chattanooga’s opportunities as a national test-bed,
@@ -23,7 +23,7 @@ subsection:
       generation potential of the city's digital assets, in particular the gigabit
       network and smart grid.
     image: "/uploads/research.jpg"
-    link: "/about/research-and-app-development-the-gig/"
+    link: "/our-vision/research-and-app-development-the-gig/"
   three:
     title: DIGITAL EQUITY & INCLUSION
     body: To promote digital asset availability to everyone in Chattanooga, Tech Goes
@@ -31,7 +31,7 @@ subsection:
       residents across Hamilton County gain access to the skills, hardware, and Internet
       connectivity required for 21st century success.
     image: "/uploads/around-comp.jpg"
-    link: "/about/digital-equity-tech-goes-home/"
+    link: "/our-vision/digital-equity-tech-goes-home/"
 layout: index
 ---
 

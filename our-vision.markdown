@@ -1,5 +1,5 @@
 ---
-title: About
+title: Our Vision
 date: 2017-04-19 10:45:00 -04:00
 header:
   image: "/uploads/about-tec.jpg"

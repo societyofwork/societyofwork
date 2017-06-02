@@ -19,7 +19,7 @@ Tech Goes Home is TEC’s first effort to begin addressing community issues of d
 
 ![tech-goes-home.svg](/uploads/tech-goes-home.svg)
 
-[Learn More](){: .button}
+[Learn More](https://techgoeshomecha.org/){:target="_blank" .button}
 
 **Growing Our Workforce with a New Coding School**
 
@@ -27,4 +27,4 @@ Through a partnership between The Enterprise Center and Birmingham-based company
 
 Covalence will occupy the first floor of the former Municipal Water building located at 1001 Lindsay St. in the heart of Chattanooga’s Innovation District. 
 
-[Learn More](){: .button}
+[Learn More](https://covalence.io/){:target="_blank" .button}
