@@ -567,3 +567,44 @@ nav,
     left: 8px;
   }
 }
+
+.blue-text {
+  margin-bottom: 33px;
+}
+
+.team-page {
+  
+  hr {
+    padding-top: 53px;
+  }
+  
+  ul {
+    padding-left: 0 !important;
+    list-style: none;
+    margin-left: 0;
+  }
+}
+
+.name-title {
+  
+  ul {
+    @include breakpoint(600px) { @include grid-col(7); }
+    @include breakpoint(755px) { @include grid-col(4); }
+  }
+  
+  &__name {
+    text-transform: uppercase;
+  }
+}
+
+.board-ex-officio {
+  margin-top: 84px;
+}
+
+.board-ex-officio__item {
+  padding-bottom: 7px;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0 !important;
+}

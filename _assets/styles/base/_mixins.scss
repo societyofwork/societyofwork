@@ -5,3 +5,13 @@
     weight: $weight;
   }
 }
+
+@mixin italic-font-stack($family, $weight) {
+  font: {
+    family: $family;
+    style: italic;
+    weight: $weight;
+  }
+}
+
+
