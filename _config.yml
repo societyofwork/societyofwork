@@ -43,10 +43,9 @@ address: The Enterprise Center <br>1100 Market Street, Suite 500 <br>Chattanooga
   TN 37402
 phone_number: "(423) 661-3300"
 email: enterprisecenter@theenterprisectr.org
-footer_about_blurb: Chattanooga is the first mid-sized city with an established innovation
-  district. Larger cities such as Boston, Washington DC, and Barcelona already enjoy
-  the community benefits that come from designing spaces specifically for workers
-  and companies in the new knowledge economy.
+footer_about_blurb: A better city and a better world because of Chattanooga’s unique
+  integration of world class connected technology with a dynamic culture of innovation
+  and entrepreneurship.
 url: https://www.chainnovate.com/
 permalink: "/:title/"
 markdown: kramdown
