@@ -35,7 +35,7 @@ defaults:
 description: Establishing Chattanooga as a hub of innovation, improving people’s lives
   by leveraging the city’s digital technology to create, demonstrate, test, and apply
   solutions for the 21st century.
-baseurl:
+baseurl: 
 facebook: https://www.facebook.com/theenterprisectr/
 twitter: https://twitter.com/thenterprisectr
 logo: "/assets/img/logo/full-logo.svg"
