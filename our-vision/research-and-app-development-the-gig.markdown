@@ -28,7 +28,7 @@ Few if any cities are in a position to have the kind of research and computation
 
 In summer 2016, Chattanooga was featured nationally at an 1800-person U.S Ignite Summit Smart Community Week event in Austin TX. In addition to demonstrating the 4K education pilot between the Chattanooga STEM School and USC, two other demonstrations grabbed national attention. One was live streaming of 4K video from the Tennessee Aquarium to a large screen at the conference facilitated by the work of Nokia and ng Connect. The other was use of LOLA technology to enable musicians at the Chattanooga Public Library and in Austin TX 1,000 miles apart to play music in real time together over the Internet. At this conference Chattanooga received one of only 15 Smart Cities Communities Award, given this year for the first time by US Ignite.
 
-**A Test Bed for City Research**
+**A TEST BED FOR CITY RESEARCH**
 
 TEC, as a public-private partnership, assists with grant and funding procurement for research to use our city's smart grid and gigabit network as a test bed.[1]  The National Science Foundation (NSF) announced two new grants for researchers at the University of Tennessee Chattanooga in the areas of autonomous fleet vehicles and mapping and analysis of underground infrastructure. Three grants have been received from Mozilla to support and expand projects using 4K video streaming, 4K microscopes and virtual reality. 
 
