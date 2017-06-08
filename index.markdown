@@ -1,7 +1,7 @@
 ---
 title: Home
 header:
-  blurb: Establishing Chattanooga as a hub of innovation, improving people’s lives
+  blurb: Establishing Chattanooga as a hub of innovation and improving people’s lives
     by leveraging the city’s digital technology to create, demonstrate, test, and
     apply solutions for the 21st century.
   button_txt: 
