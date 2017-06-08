@@ -19,4 +19,4 @@ Anchoring the Innovation District is The Edney Innovation Center, a 10-story col
 
 ![edney-up.jpg](/uploads/edney-up.jpg)
 
-[Learn More](/resources/studies-and-reports){: .button}
+[Learn More](http://theedney.com/){: .button}
