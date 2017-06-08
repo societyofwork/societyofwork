@@ -9,11 +9,9 @@ layout: about
 
 ### What is the Innovation District of Chattanooga?
 
-In 2013, newly elected Chattanooga Mayor Andy Berke tasked a group of 25 Chattanoogans with determining how to build on the success already realized through ad-hoc, volunteer-based, loosely-organized efforts to maximize the "gig" opportunity.
+In the heart of downtown, Chattanooga's innovation district is approximately a quarter mile walk radius from the intersection of M.L. King Blvd and Georgia Avenue. This vibrant and walkable area contains Chattanooga’s main downtown public spaces and a host of coffee shops and eateries, linked by attractive streets, a bike share program and free downtown electric shuttle.
 
-A few months later, Mayor Berke, Hamilton County Mayor Jim Coppinger, and Congressman Chuck Fleischmann responded to the task force's recommendations by forming a new entity focused solely on guiding community efforts related to the "gig": The Enterprise Center.
-
-> Chattanooga’s Innovation District has quickly become a place where people from all walks of life and backgrounds come together to explore and collaborate, whether it’s within the realm of technology, art, recreation, commerce or civic engagement. --Mayor Andy Berke  
+> Chattanooga’s Innovation District has quickly become a place where people from all walks of life and backgrounds come together to explore and collaborate, whether it’s within the realm of technology, art, recreation, commerce or civic engagement. Thinkers, starters, and doers -- a bold place full of people working together to discover the next big thing. --Mayor Andy Berke  
 
 <br><br><br>
 ### The Edney Innovation Center
