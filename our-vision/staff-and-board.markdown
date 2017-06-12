@@ -4,7 +4,6 @@ date: 2017-05-30 13:15:00 -04:00
 position: 2
 header:
   image: "/uploads/digital-equity.jpg"
-layout: team
 enterprise_center:
 - name: Ken Hays
   position: President and CEO
@@ -24,7 +23,7 @@ tech_goes_home:
   position: Program Assistant
 - name: Afu Okosun
   position: Program Assistant
-consultants:
+research_and_application_development:
 - name: ANN COULTER
   position: Strategic Planning
 - name: ANDREW RODGERS
@@ -83,5 +82,6 @@ ex_officio:
   org: Hamilton County Commission
 - name: Steve Highlander
   org: Hamilton County School Board of Education, Chair
+layout: team
 ---
 
