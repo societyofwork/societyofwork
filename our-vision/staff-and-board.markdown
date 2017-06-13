@@ -21,9 +21,7 @@ tech_goes_home:
   position: Program Manager
 - name: Sammy Loudermilk
   position: Program Assistant
-- name: Afu Okosun
-  position: Program Assistant
-research:
+consultants:
 - name: ANN COULTER
   position: Strategic Planning
 - name: ANDREW RODGERS
