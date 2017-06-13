@@ -23,7 +23,7 @@ subsection:
       or living laboratory, for the creation, development, education, and business
       generation potential of the city's digital assets, in particular the gigabit
       network and smart grid.
-    image: "/uploads/research.jpg"
+    image: "/uploads/research-dev-96012c.jpg"
     link: "/our-vision/research-and-app-development-the-gig/"
   three:
     title: DIGITAL EQUITY & INCLUSION
