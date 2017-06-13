@@ -1,5 +1,6 @@
 ---
 title: Home
+position: 0
 header:
   blurb: Establishing Chattanooga as a hub of innovation and improving people’s lives
     by leveraging the city’s digital technology to create, demonstrate, test, and
