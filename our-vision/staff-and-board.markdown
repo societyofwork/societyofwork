@@ -23,7 +23,7 @@ tech_goes_home:
   position: Program Assistant
 - name: Afu Okosun
   position: Program Assistant
-consultants:
+research_and_development:
 - name: ANN COULTER
   position: Strategic Planning
 - name: ANDREW RODGERS
