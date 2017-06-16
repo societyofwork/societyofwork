@@ -2,8 +2,7 @@
 title: Harvard's Berkman Klein Center for Internet & Society Publishes Case Study
   on Chattanooga's Smart Grid Payback
 date: 2017-02-06 08:38:00 -05:00
-Blog Author: 
-featured_image: 
+featured_image: "/uploads/Webp.net-compress-image-62fdfa.jpg"
 bottom_button_link: https://dash.harvard.edu/bitstream/handle/1/30201056/2017-02-06_chatanooga.pdf?sequence=1
 bottom_button_text: View the Case Study
 layout: post
