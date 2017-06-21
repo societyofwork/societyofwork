@@ -25,3 +25,5 @@ The Enterprise Center is a public-private partnership dedicated to achieving thr
 * In working together collaboratively.
 * Equity and inclusion must be hallmarks of our work.
 * Chattanooga’s unique character and spirit are key advantages for a leap into the new economy.
+
+The Enterprise Center is located in the Edney Innovation Center in the heart of Chattanooga’s downtown Innovation District.
