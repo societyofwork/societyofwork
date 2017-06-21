@@ -11,7 +11,7 @@ layout: about
 
 In the heart of downtown, Chattanooga's innovation district is approximately a quarter mile walk radius from the intersection of M.L. King Blvd and Georgia Avenue. This vibrant and walkable area contains Chattanooga’s main downtown public spaces and a host of coffee shops and eateries, linked by attractive streets, a bike share program and free downtown electric shuttle.
 
-> Chattanooga’s Innovation District has quickly become a place where people from all walks of life and backgrounds come together to explore and collaborate, whether it’s within the realm of technology, art, recreation, commerce or civic engagement. Thinkers, starters, and doers -- a bold place full of people working together to discover the next big thing. --Mayor Andy Berke  
+Chattanooga’s Innovation District is a designated section of the city where creative thinkers, entrepreneurs, students, and tech-savvy innovators can collide and collaborate to conceive and implement new ideas. 
 
 <br><br><br>
 ### The Edney Innovation Center
