@@ -31,7 +31,7 @@ subsection:
       Home is a digital inclusion program that works with community partners to help
       residents across Hamilton County gain access to the skills, hardware, and Internet
       connectivity required for 21st century success.
-    image: "/uploads/research-f7895d.jpg"
+    image: "/uploads/DigitalEquity.jpg"
     link: "/our-vision/digital-equity-tech-goes-home/"
 layout: index
 ---
