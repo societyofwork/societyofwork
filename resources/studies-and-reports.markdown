@@ -7,7 +7,7 @@ header:
 layout: about
 ---
 
-[Report.pdf](/uploads/Report.pdf)
+
 
 ### Chattanooga Forward
 Technology, Gig, and Entrepreneurship Task Force
