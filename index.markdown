@@ -15,7 +15,7 @@ subsection:
       is part of the city's dense and walkable urban core that contains a catalytic
       mix of start-up businesses, incubators, accelerators and other innovation economy
       generators and amenities.
-    image: "/uploads/innovation-district.jpg"
+    image: "/uploads/EdneyRooftop.jpg"
     link: "/our-vision/innovation-district-of-chattanooga/"
   two:
     title: 'RESEARCH & APPLICATION DEVELOPMENT:       THE GIG'
