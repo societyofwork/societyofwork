@@ -27,4 +27,6 @@ Through a partnership between The Enterprise Center and Birmingham-based company
 
 Covalence occupies the first floor of the former Municipal Water building located at 1001 Lindsay St. in the heart of Chattanooga’s Innovation District. 
 
+![Covalence3.jpg](/uploads/Covalence3.jpg)
+
 [Learn More](https://covalence.io/){:target="_blank" .button}
