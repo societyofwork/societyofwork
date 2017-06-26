@@ -17,6 +17,6 @@ Chattanooga’s Innovation District is a designated section of the city where cr
 ### The Edney Innovation Center
 Anchoring the Innovation District is The Edney Innovation Center, a 10-story collaborative center of startups in innovative office paces, community events, and shared accelerator spaces.
 
-![edney-up.jpg](/uploads/edney-up.jpg)
+![EdneyRooftop-3d208d.jpg](/uploads/EdneyRooftop-3d208d.jpg)
 
 [Learn More](http://theedney.com/){: .button}
