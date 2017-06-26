@@ -3,7 +3,7 @@ title: Our Vision
 date: 2017-04-19 10:45:00 -04:00
 position: 2
 header:
-  image: "/uploads/Ann.jpg"
+  image: "/uploads/Ann%20and%20Edney.JPG"
 navigation_weight: 2
 gray_box:
   belief: In working together collaboratively.
