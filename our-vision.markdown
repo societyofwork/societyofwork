@@ -3,7 +3,7 @@ title: Our Vision
 date: 2017-04-19 10:45:00 -04:00
 position: 2
 header:
-  image: "/uploads/Ann%20Coulter%206.jpg"
+  image: "/uploads/Ann.jpg"
 navigation_weight: 2
 gray_box:
   belief: In working together collaboratively.
