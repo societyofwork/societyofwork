@@ -6,16 +6,20 @@ header:
   image: "/uploads/Team.jpg"
 enterprise_center:
 - name: Ken Hays
-  position: President and CEO
+  position: President
+- name: Ann Coulter
+  position: Strategic Planning
 - name: Nancy Tucker
-  position: Executive Assistant
-- name: Eugenia Payne
-  position: Program Manager
+  position: Exec Assistant
+- name: Nikki Sneed
+  position: Media Coordinator
 the_edney:
 - name: Mary Stargel
   position: Edney Program Manager
 - name: Tim Jones
   position: Edney Events Coordinator
+- name: Charlotte Caldwell
+  position: Floor One Consulting
 tech_goes_home:
 - name: Kelly McCarthy
   position: Program Manager
@@ -24,13 +28,10 @@ tech_goes_home:
 - name: 
   position: 
 consultants:
-- name: ANN COULTER
-  position: Strategic Planning
+- name: EUGENIA PAYNE
+  position: Director of Research and Applications Operations
 - name: ANDREW RODGERS
-  position: Technologist in Residence
-- name: NIKKI SNEED
-  position: Media Coordinator
-- name: CHARLOTTE CALDWELL
+  position: Director of Research and Applications
 board_chairman:
   name: David Belitz
   org: Lupton Company
