@@ -24,7 +24,7 @@ p
 , .header__bottom_txt
 , em
 , .pull-box__title {
-  @include italic-font-stack($libre-stack, 400i);
+  @include italic-font-stack($libre-stack, 600);
 }
 
 .board-ex-officio__name {
