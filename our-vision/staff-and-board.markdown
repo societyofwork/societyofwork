@@ -21,6 +21,8 @@ tech_goes_home:
   position: Program Manager
 - name: Sammy Loudermilk
   position: Program Assistant
+- name: 
+  position: 
 consultants:
 - name: ANN COULTER
   position: Strategic Planning
@@ -69,6 +71,8 @@ board:
   org: Very
 - name: Dr. Mina Sartipi
   org: UTC
+- name: 'Seun Erinle '
+  org: Grid Principles
 ex_officio:
 - name: Andy Berke
   org: Mayor of Chattanooga
