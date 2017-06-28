@@ -30,15 +30,6 @@ mobileMenuButton.addEventListener('click', (e) => toggleMenu(e));
 // Listens for clicks on the mobile menu's close button and closes it.
 closeButton.addEventListener('click', (e) => toggleMenu(e));
 
-// This hooks into Barba lifecycle. So when data-namespace='homepage' element
-// is loaded the contained functions are fired.
-const Homepage = Barba.BaseView.extend({
-  namespace: 'homepage'
-  , onEnter: function() {
-  },
-});
-Homepage.init();
-
 Barba.Dispatcher.on('newPageReady', function() {
    window.scrollTo(0, 0);
 });
