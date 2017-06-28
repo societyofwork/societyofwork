@@ -20,6 +20,18 @@ nav,
     margin-left: 8px;
     width: 200px;
   }
+  
+  &--desktop {
+    
+    .logo-words {
+      margin-left: 0;
+      width: 124px;
+      
+      @include breakpoint(1220px down) {
+        display: none;
+      }
+    }
+  }
 }
 
 // Menu styles for mobile / tablet sized screens. Desktop below this.
@@ -380,6 +392,10 @@ nav,
     background-color: $dark-blue;
     height: 46px;
     width: 100%;
+    
+    .menu-logo__words {
+      width: 124px;
+    }
 
     @include breakpoint(1115px) {
       display: none;
