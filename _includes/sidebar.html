@@ -2,7 +2,7 @@
 
   <!-- Thing that explains the insanity below: http://sebnitu.com/articles/2016/10/13/dynamic-menus-in-jekyll.html -->
 
-  {% assign pages = site.html_pages | sort: 'navigation_weight' %}
+  {% assign pages = site.html_pages | sort: 'position' %}
 
   <ul class="vertical menu">
   {% for node in pages %}
