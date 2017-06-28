@@ -21,6 +21,7 @@ p
 // Italic Libre
 
 .pull-quote
+, .header__bottom_txt
 , em
 , .pull-box__title {
   @include italic-font-stack($libre-stack, 400i);
@@ -83,8 +84,8 @@ address {
 // White
 
 .footer__header
+, .header__bottom_txt
 , .header__title
-// , .overlay .active
 , .overlay a:hover
 , .header__blurb_blurb {
   color: $white;

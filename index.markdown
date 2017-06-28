@@ -7,6 +7,7 @@ header:
     apply solutions for the 21st century.
   button_txt: 
   button_link: 
+  bottom_txt: Our Strategic Initiatives
 navigation_weight: 1
 subsection:
   one:

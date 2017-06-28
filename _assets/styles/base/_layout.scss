@@ -266,6 +266,35 @@ nav,
 
   }
 
+  &__bottom {
+    @include grid-col-row;
+    text-align: center;
+    
+    &_txt {
+      background-color: $dark-blue;
+      display: inline-block;
+      margin-top: 1.5rem;
+      width: 214px;
+      
+      @include breakpoint(medium) {
+        padding: 0 20px;
+        width: auto;
+      }
+      
+      @include breakpoint(large) {
+        margin-top: 0;
+      }
+      
+      &-divider {
+        margin-top: -48px;
+        
+        @include breakpoint(medium) {
+          margin-top: -33px;
+        }
+      }
+    }
+  }
+  
 }
 
 .footer {

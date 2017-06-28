@@ -7,16 +7,27 @@
   <header class="header extra-padding-small">
 
       {% if page.url == "/" %}
+      
         <div class="header__logo">
           <img src="{{ site.url}}/assets/img/logo/full-logo.svg"
             class="header__logo-full"
             alt="The full Enterprise Center logo with mark and words.">
         </div>
+        
         <div class="header__blurb push-5-cols">
           <h1 class="push-5-cols header__blurb_blurb">{{page.header.blurb}}</h1>
         </div>
+        
+        <div class="header__bottom">
+          <h1 class="header__bottom_txt">{{ page.header.bottom_txt }}</h1>
+        </div>
+        
+        <hr class="header__bottom_txt-divider">
+        
       {% else %}
+      
         <h1 class="header__title">{{ page.title }}</h1>
+        
       {% endif %}
 
   </header>
