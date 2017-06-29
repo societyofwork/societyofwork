@@ -28,10 +28,10 @@ tech_goes_home:
 - name: 
   position: 
 consultants:
+- name: ANDREW RODGERS
+  position: Director of Research and Applications Strategy
 - name: EUGENIA PAYNE
   position: Director of Research and Applications Operations
-- name: ANDREW RODGERS
-  position: Director of Research and Applications
 board_chairman:
   name: David Belitz
   org: Lupton Company
