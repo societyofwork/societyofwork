@@ -10,7 +10,7 @@ enterprise_center:
 - name: Ann Coulter
   position: Strategic Planning
 - name: Nancy Tucker
-  position: Exec Assistant
+  position: Executive Assistant
 - name: Nikki Sneed
   position: Media Coordinator
 the_edney:
@@ -72,7 +72,7 @@ board:
   org: Very
 - name: Dr. Mina Sartipi
   org: UTC
-- name: 'Seun Erinle '
+- name: Seun Erinle
   org: Grid Principles
 ex_officio:
 - name: Andy Berke
