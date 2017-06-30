@@ -499,10 +499,6 @@ nav,
 
     img {
 
-      @include breakpoint(1100px) {
-        max-width: 957px;
-        margin-left: -110px;
-      }
       margin-top: 2rem;
       margin-bottom: 2rem;
     }
