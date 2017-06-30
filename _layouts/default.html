@@ -12,7 +12,9 @@
       
       <a href="/" class="menu-logo menu-logo--mobile">
         <img class="menu-logo__mark" src="/assets/img/logo/logo-mark.svg">
+      {% if page.url != "/" %} 
         <img class="menu-logo__words" src="/assets/img/logo/logo-words.svg">
+      {% endif %}
       </a>
       
     </div>
@@ -41,7 +43,7 @@
     </div>
   </div> 
   
-  {% include overlay-menu.html %}  
+  {% include mobile-and-desktop-menu.html %}  
   
   <script src="/assets/js/main.js" type="text/javascript"></script>
 </body>
