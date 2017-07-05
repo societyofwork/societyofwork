@@ -10,7 +10,7 @@ gray_box:
 layout: about
 ---
 
-### OUR VISION IS TO SEE..
+### OUR VISION IS TO SEE...
 
 A better city and a better world because of Chattanooga’s unique integration of world class connected technology with a dynamic culture of innovation and entrepreneurship.
 
