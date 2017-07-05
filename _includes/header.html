@@ -1,6 +1,15 @@
 <div
   {% if page.header.image %}
-    style="max-width: 1300px; margin-right: auto; margin-left: auto; background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url('{{ site.url }}{{ page.header.image }}') no-repeat center;"
+    style="
+      max-width: 1300px; 
+      margin-right: auto; 
+      margin-left: auto; 
+      background: linear-gradient(rgba(20,20,20, .5), 
+                  rgba(20,20,20, .5)), 
+                  url('{{ site.url }}{{ page.header.image }}') no-repeat center;
+                  {% if page.url == "/our-vision/" %}
+                    background-position-y: -91px;
+                  {% endif %}"
   {% endif %}
   class="header__background">
 
