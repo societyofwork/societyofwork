@@ -10,6 +10,10 @@ gray_box:
 layout: about
 ---
 
+### OUR VISION IS TO SEE..
+
+A better city and a better world because of Chattanooga’s unique integration of world class connected technology with a dynamic culture of innovation and entrepreneurship.
+
 ### WHAT IS THE ENTERPRISE CENTER?
 
 The Enterprise Center is a non-profit organization with a local board of directors whose public-serving mission is to establish Chattanooga as a hub of innovation and improve people's lives by leveraging the city’s digital technology to create, demonstrate, test and apply solutions for the 21st century.  
