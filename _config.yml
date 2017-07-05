@@ -47,7 +47,7 @@ footer_about_header: Our Vision
 footer_about_blurb: A better city and a better world because of Chattanooga’s unique
   integration of world class connected technology with a dynamic culture of innovation
   and entrepreneurship.
-url: http://www.theenterprisectr.org
+url: https://www.theenterprisectr.org
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
