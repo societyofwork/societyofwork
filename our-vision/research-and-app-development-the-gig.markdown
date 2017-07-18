@@ -17,8 +17,7 @@ This work builds on the success of several initiatives, in particular two applic
 
 One of these connects a 4K camera and microscope at the University of Southern California to the Chattanooga STEM school, providing students with a unique resource for classroom applications. Another is the live streaming of the Alligator Bayou habitat at the Tennessee Aquarium to the Chattanooga Airport, made possible thanks to Nokia. More applications of these technologies are being readied.
 
-<iframe src="https://player.vimeo.com/video/123622637" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/123622637">USC/STEM School Chattanooga: 4K Microscope</a> from <a href="https://vimeo.com/theenterprisecenter">The Enterprise Center</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/226026686" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 To encourage use of Chattanooga as a test bed for research, The Enterprise Center, EPB and UTC and partners (ORNL, U.S. Ignite, University of Southern California and others) helps facilitate the submission of grant applications to National Science Foundation (NSF). Recently NSF announced two new grants for UTC researchers in the areas of autonomous fleet vehicles and mapping and analysis of underground infrastructure. Three grants have been received from Mozilla to support and expand projects using 4K video streaming, 4K microscopes and virtual reality. 
 
