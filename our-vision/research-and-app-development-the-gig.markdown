@@ -20,6 +20,8 @@ One of these connects a 4K camera and microscope at the University of Southern C
 <iframe src="https://player.vimeo.com/video/123622637" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/123622637">USC/STEM School Chattanooga: 4K Microscope</a> from <a href="https://vimeo.com/theenterprisecenter">The Enterprise Center</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+https://resources.ext.nokia.com/asset/201065
+
 To encourage use of Chattanooga as a test bed for research, The Enterprise Center, EPB and UTC and partners (ORNL, U.S. Ignite, University of Southern California and others) helps facilitate the submission of grant applications to National Science Foundation (NSF). Recently NSF announced two new grants for UTC researchers in the areas of autonomous fleet vehicles and mapping and analysis of underground infrastructure. Three grants have been received from Mozilla to support and expand projects using 4K video streaming, 4K microscopes and virtual reality. 
 
 US Ignite has funded The Enterprise Center with $90,000 over a three-year period to support the development of new applications for high speed bandwidth, and has provided an additional $25,000 to partially fund a microscope and camera to establish Chattanooga as a hub for advanced classroom learning experiences. Another NSF funded project using the city as a test bed is in the process of deploying sensors to monitor and communicate health related components of air quality.
