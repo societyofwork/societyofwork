@@ -21,10 +21,8 @@ the_edney:
 - name: Charlotte Caldwell
   position: Floor One Consulting
 tech_goes_home:
-- name: Kelly McCarthy
-  position: Program Manager
 - name: Sammy Loudermilk
-  position: Program Assistant
+  position: Program Manager
 - name: 
   position: 
 consultants:
