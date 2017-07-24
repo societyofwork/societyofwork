@@ -21,7 +21,7 @@ the_edney:
 - name: Charlotte Caldwell
   position: Floor One Consulting
 tech_goes_home:
-- name: Sammy Loudermilk
+- name: Sammy Lowdermilk
   position: Program Manager
 - name: 
   position: 
