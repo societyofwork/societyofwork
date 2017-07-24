@@ -18,8 +18,6 @@ the_edney:
   position: Edney Program Manager
 - name: Tim Jones
   position: Edney Events Coordinator
-- name: Charlotte Caldwell
-  position: Floor One Consulting
 tech_goes_home:
 - name: Sammy Lowdermilk
   position: Program Manager
