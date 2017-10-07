@@ -1,43 +1,27 @@
-<div
-  {% if page.header.image %}
-    style="
-      max-width: 1300px; 
-      margin-right: auto; 
-      margin-left: auto; 
-      background: linear-gradient(rgba(20,20,20, .5), 
-                  rgba(20,20,20, .5)), 
-                  url('{{ site.url }}{{ page.header.image }}') no-repeat center;
-                  {% if page.url == "/our-vision/" %}
-                    background-position-y: -91px;
-                  {% endif %}"
+<header class="header extra-padding-small">
+  
+  {% if page.url == "/" %}
+  
+  <div class="header__logo">
+    <img src="{{ site.url}}/assets/img/logo/red-sow-logo.svg"
+    class="header__logo-full"
+    alt="The Society of Work logo mar. Read background. White text with letters 'SW'.">
+  </div>
+  
+  <div class="header__blurb push-5-cols">
+    <h1 class="push-5-cols header__blurb_blurb">{{page.header.blurb}}</h1>
+  </div>
+  
+  <div class="header__bottom">
+    <h1 class="header__bottom_txt">{{ page.header.bottom_txt }}</h1>
+  </div>
+  
+  <hr class="header__bottom_txt-divider">
+  
+  {% else %}
+  
+  <h1 class="header__title">{{ page.title }}</h1>
+  
   {% endif %}
-  class="header__background">
-
-  <header class="header extra-padding-small">
-
-      {% if page.url == "/" %}
-      
-        <div class="header__logo">
-          <img src="{{ site.url}}/assets/img/logo/full-logo.svg"
-            class="header__logo-full"
-            alt="The full Enterprise Center logo with mark and words.">
-        </div>
-        
-        <div class="header__blurb push-5-cols">
-          <h1 class="push-5-cols header__blurb_blurb">{{page.header.blurb}}</h1>
-        </div>
-        
-        <div class="header__bottom">
-          <h1 class="header__bottom_txt">{{ page.header.bottom_txt }}</h1>
-        </div>
-        
-        <hr class="header__bottom_txt-divider">
-        
-      {% else %}
-      
-        <h1 class="header__title">{{ page.title }}</h1>
-        
-      {% endif %}
-
-  </header>
-</div>
+  
+</header>

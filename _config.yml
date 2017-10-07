@@ -1,10 +1,7 @@
 ---
-title: The Enterprise Center
+title: Society of Work
 timezone: America/New_York
 collections:
-  blog_authors:
-    title: Blog Authors
-    output: false
   posts:
     title: Posts
     output: true
@@ -13,46 +10,32 @@ collections:
     output: true
 defaults:
 - scope:
-    path: ''
-    type: blog_authors
-  values:
-    image: 
-- scope:
-    path: ''
+    path: '' 
     type: pages
   values:
-    header:
-      image: 
+      image:
 - scope:
     path: ''
     type: posts
   values:
-    Blog Author: 
-    featured_image: 
-    image_description_for_the_visually_impaired: 
-    bottom_button_link: 
-    bottom_button_text: 
-    layout: post
-description: Establishing Chattanooga as a hub of innovation, improving people’s lives
-  by leveraging the city’s digital technology to create, demonstrate, test, and apply
-  solutions for the 21st century.
-baseurl: 
-facebook: https://www.facebook.com/theenterprisectr/
-twitter: https://twitter.com/thenterprisectr
-logo: "/assets/img/logo/full-logo.svg"
-address: The Enterprise Center <br>1100 Market Street, Suite 500 <br>Chattanooga,
-  TN 37402
-phone_number: "(423) 661-3300"
-email: enterprisecenter@theenterprisectr.org
-footer_about_header: Our Vision
-footer_about_blurb: A better city and a better world because of Chattanooga’s unique
-  integration of world class connected technology with a dynamic culture of innovation
-  and entrepreneurship.
-url: https://www.theenterprisectr.org
+    ayout: post
+description: Society of Work is a shared coworking space in Chattanooga, TN with business flexibility in mind and resources to help like-minded people connect and create amazing things together.
+baseurl:
+facebook: https://www.facebook.com/SocietyOfWork
+twitter: https://twitter.com/SocietyofWork
+instagram: http://instagram.com/societyofwork
+linkedin: https://www.linkedin.com/company/society-of-work
+tagline: Connect. Create. Cowork.
+footer_news_letter_cta: Subscribe to our newsletter
+footer_news_letter_description: Get the latest events and SoW news in your inbox.
+logo: "/assets/img/logo/red-sow-logo.svg"
+address: 1100 Market Street, Floor 6, Chattanooga, TN 37402
+phone_number: "423-449-9112"
+url: https://www.societyofwork.com
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
-  cloud_name: the-enterprise-center
+  cloud_name:
   verbose: true
   presets:
     default:

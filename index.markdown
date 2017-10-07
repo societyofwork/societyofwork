@@ -1,39 +1,46 @@
 ---
 title: Home
 position: 0
-header:
-  blurb: Establishing Chattanooga as a hub of innovation and improving people’s lives
-    by leveraging the city’s digital technology to create, demonstrate, test, and
-    apply solutions for the 21st century.
-  button_txt: 
-  button_link: 
-  bottom_txt: Our Strategic Initiatives
-navigation_weight: 1
-subsection:
-  one:
-    title: Innovation District of Chattanooga
-    body: Managed by The Enterprise Center,  The Innovation District of Chattanooga
-      is part of the city's dense and walkable urban core that contains a catalytic
-      mix of start-up businesses, incubators, accelerators and other innovation economy
-      generators and amenities.
-    image: "/uploads/Basecamp.jpg"
-    link: "/our-vision/innovation-district-of-chattanooga/"
-  two:
-    title: 'RESEARCH & APPLICATION DEVELOPMENT:       THE GIG'
-    body: Our agenda aims to increase Chattanooga’s opportunities as a national test-bed,
-      or living laboratory, for the creation, development, education, and business
-      generation potential of the city's digital assets, in particular the gigabit
-      network and smart grid.
-    image: "/uploads/research-dev-96012c.jpg"
-    link: "/our-vision/research-and-app-development-the-gig/"
-  three:
-    title: DIGITAL EQUITY & INCLUSION
-    body: To promote digital asset availability to everyone in Chattanooga, Tech Goes
-      Home is a digital inclusion program that works with community partners to help
-      residents across Hamilton County gain access to the skills, hardware, and Internet
-      connectivity required for 21st century success.
-    image: "/uploads/21094127_DigitalEquity.jpg"
-    link: "/our-vision/digital-equity-tech-goes-home/"
 layout: index
+pricing_section:
+  header: Pricing Plans
+  blurb: For individuals, startups, and small teams with month-to-month flexibility.
+  plans:
+    - plan:
+      name: Day Pass
+      price: 25
+      additional_info: Includes Everything
+    - plan:
+      name: Community Desks
+      price: 150
+      additional_info: No long term contract
+    - plan:
+      name: Reserved Desk
+      price: 325
+      additional_info: No long term contract
+    - plan:
+      name: Private Office
+      price: 525
+      additional_info: 6mo lease / month to month after
+cta_section:
+  header: Ready to visit Society of Work?
+  blue_button_txt: Find Tour Availability
+  blue_button_link: https://calendly.com/societyofwork/tour?back=1
+  white_button_txt: Book Conference Room
+  white_button_link: #
+  blue_aside_below_buttons: "Special offer:"
+  aside_below_buttons: free trial day pass with tour!
+review_section:
+  facebook_link_txt: Find more reviews on facebook
+  facebook_link: https://www.facebook.com/pg/SocietyOfWork/reviews/
+  reviews:
+    - review:
+      testimonial: All of my best writing was done here at this space. Can't recommend it enough.
+      name: Ray Bradbury
+    - review:
+      testimonial: After our first trial day it was obvious that the membership fees are well worth the cost.
+      name: Lisa Simpson
+    - review:
+      testimonial: I knew from the first minute walking in that this was going to be special. Was not disappointed.
+      name: Sara Smith
 ---
-

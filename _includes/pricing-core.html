@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="columns">
+    <h6 class="br-b fs-15 ls-2">{{ page.pricing_section.header }}</h6>
+    <p class="gray">{{ page.pricing_section.blurb }}</p>
+  </div>
+
+  {% for plan in page.pricing_section.plans %}
+
+    <div class="medium-6 large-3 columns">
+      <img src="{{site.url}}/">
+      <p class="br-b fs-18 white">{{ plan.name }}</p>
+      <p class="white">Starts from</p>
+      <p class="br-b fs-26 white">${{ plan.price }} / mo</p>
+      <p class="white">{{ plan.additional_info }}</p>
+    </div>
+
+  {% endfor %}
+
+  <div class="text-center">
+    <a href="#" class="button secondary mt-2">View Pricing Details</a>
+  </div>
+
+</div>

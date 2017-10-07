@@ -1,44 +1,33 @@
 <footer>
-  
-  <div class="footer">
-    
-    <div class="footer__section footer__logo">
-      <img src="{{ site.url}}/assets/img/logo/logo-mark.svg" 
-      alt="fun looking multi-colored logo mark combining the letters 'I' and 'D' 
-      for standing for Innovation District.">
-      
-      <img src="{{ site.url}}/assets/img/logo/logo-words.svg"
-      class="logo-words"
-      alt="Words in logo that read 'Innovation District of Chattanooga'">
-      
-    </div>
-    
-    <div class="footer__section footer__contact">
-      <p class="footer__header">Contact</p>
+  <div class="row">
+
+    <div class="large-5 columns">
+      <p class="pts-b tt-u fs-18 mb-0 ls-05"><span class="pr-1">{{ site.title }}</span> {{ site.tagline }}</p>
       <address>
         {{site.address}}
       </address>
       <a href="tel:{{site.phone_number}}">{{site.phone_number}}</a>
-      <a class="footer__email" href="mailto:{{site.email}}">{{site.email}}</a>
+      <br>
+
+      <span>Find @societyofwork on </span>
+      <a class="social-icon" href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a class="social-icon" href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a class="social-icon" href="{{ site.instagram }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
     </div>
-    
-    <div class="footer__section footer__social">
-      <p class="footer__header">Follow Us</p>
-      <a class="footer__social_icon" href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
-      <a class="footer__social_icon" href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+
+    <div class="large-5 columns large-offset-2">
+      <p class="br-b fs-13 tt-u mb-0">Subscribe to Mailing List</p>
+      <p>Get latest events and SOW news in your inbox.</p>
+
+      <div class="input-group">
+        <input type="email" class="input-group-field">
+        <div class="input-group-button">
+          <input type="submit" class="button" value="Subscribe">
+        </div>
+      </div>
+
     </div>
-    
-    <div class="footer__section footer__blurb">
-      <p class="footer__header">{{ site.footer_about_header }}</p>
-      <p class="footer__about-us-blurb">{{site.footer_about_blurb}}</p>
-    </div>
-    
-  </div>
-  
-  <hr>
-  
-  <div class="copyright">
-    <p class="copyright__info">Copyright© {{ 'now' | date: "%Y" }}</p>
-    <a class="copyright__holder" href="https://www.chainnovate.com">The Innovation District</a>
+
   </div>
 </footer>

@@ -5,37 +5,7 @@ layout: default
 {% include header.html %}
 
 <main role="main" aria-label="Content" class="homepage-main">
-  <div class="subsections">
-    
-    {% 
-    include subsection.html 
-    title=page.subsection.one.title 
-    body=page.subsection.one.body 
-    link=page.subsection.one.link 
-    img=page.subsection.one.image 
-    height="height-one"
-    position="subsection__content--two-thirds-over"
-    %}
-
-    {% 
-    include subsection.html 
-    title=page.subsection.two.title 
-    body=page.subsection.two.body 
-    link=page.subsection.two.link 
-    img=page.subsection.two.image 
-    height="height-two"
-    position="subsection__content--one-third-over"
-    %}
-
-    {% 
-    include subsection.html 
-    title=page.subsection.three.title 
-    body=page.subsection.three.body 
-    link=page.subsection.three.link 
-    img=page.subsection.three.image 
-    height="height-two"
-    position="subsection__content--far-right"
-    %}
-
-  </div>
+  {% include pricing.html %}
+  {% include cta.html %}
+  {% include reviews.html %}
 </main>

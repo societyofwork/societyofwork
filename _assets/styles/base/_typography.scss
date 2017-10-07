@@ -1,65 +1,50 @@
 // -----------------------------------------------
 // Font Stacks // located in _variables.scss
 // -----------------------------------------------
-// $prompt-stack: 'Prompt', sans-serif;
-// $libre-stack: 'Libre Baskerville', serif;
+// $brandon-stack: 'Brandon', sans-serif;
+// $pt-stack: 'PT Sans Baskerville', serif;
 
 // -----------------------------------------------
 // Font Families
 // -----------------------------------------------
 
-// Regular Libre
-
-p
-, .post__title
-, .header__blurb_blurb
-, .header__title
-, .subsection__content_body {
-  @include font-stack($libre-stack, 400);
-}
-
-// Italic Libre
-
-.pull-quote
-, .header__bottom_txt
-, em
-, .pull-box__title {
-  @include italic-font-stack($libre-stack, 600);
-}
-
-.board-ex-officio__name {
-  @include font-stack($libre-stack, 700);
-}
-
-// Prompt Regular
-
-.subsection__content_title
-, .post__content p
-, .post__content ul 
-, .post__author-name
-, .breadcrumbs
-, .footer__about-us-blurb
-, .copyright__info
-, .sidebar a
-, h3 {
-  @include font-stack($prompt-stack, 400);
-}
-
-// Prompt Regular
-.blue-text {
-  @include font-stack($prompt-stack, 500);
-}
-
-// Prompt Bold
-
-.footer__header
-, .breadcrumbs .active
-, .copyright__holder
+// Brandon
+//
+// Regular
+.br-r
+{ @include font-stack($brandon-stack, 400); }
+// Italic
+.br-i
+{ @include italic-font-stack($brandon-stack, 400); }
+// Medium
+.br-m
+{ @include font-stack($brandon-stack, 500); }
+// Bold
+.br-b
+, h2
 , .button, button
-, .sidebar .active > a
-, .overlay a {
-  @include font-stack($prompt-stack, 600);
-}
+, .overlay a
+{ @include font-stack($brandon-stack, 700); }
+// Bold Italic
+.br-b-i
+{ @include italic-font-stack($brandon-stack, 700); }
+// Black
+.br-bl
+{ @include font-stack($brandon-stack, 900); }
+
+//
+// PT Sans
+//
+// Regular
+.pts-r,
+p
+{ @include font-stack($pt-stack, 400); }
+// Italic
+.pts-i
+{ @include italic-font-stack($pt-stack, 400i); }
+// Bold
+.pts-b
+{ @include font-stack($pt-stack, 700); }
 
 address {
   font-style: normal;
@@ -75,12 +60,6 @@ address {
   color: $blue;
 }
 
-// Light Blue
-#homepage .header__blurb_blurb
-, .footer__email {
-  color: $light-blue;
-}
-
 // White
 
 .footer__header
@@ -94,36 +73,10 @@ address {
 
 // Dark Gray
 
-.subsection__content_title
-, .entry__title
-, p strong
-, .sidebar a
-, .post__content p
-, h3
-, .post__author-name
-, .date
-, .share {
+.co-dg
+, p
+{
   color: $dark-gray;
-}
-
-// Light Gray
-
-.overlay a
-, .sidebar .nested a
-, .footer__contact > a[href^=tel]
-, .copyright__holder
-, .footer__about-us-blurb
-, footer address
-, footer p {
-  color: $light-gray;
-}
-
-// Body Gray
-
-.sidebar-layout-main p
-, .sidebar-layout-main li
-, .subsection__content_body {
-  color: $body-gray;
 }
 
 // Yellow
@@ -154,19 +107,14 @@ h1, h2, h3, h4, h5, h6,
 }
 
 header h1    { text-transform: unset; }
-.post__title, 
+.post__title,
 .entry__title { text-transform: none; }
 
 // -----------------------------------------------
 // Font Sizes
 // -----------------------------------------------
-p {
-  font-size: 16px;
-}
-
-.footer__about-us-blurb {
-  font-size: 12px;
-}
+button, .button { font-size: 12px; }
+p { font-size: 13px; }
 
 .header__blurb_blurb {
   font-size: 20px;
@@ -180,22 +128,21 @@ p {
 // Letter Spacing
 // -----------------------------------------------
 // 1px
-.blue-text, p, ul {
+button
+, .button
+{
   letter-spacing: 1px;
-  line-height: 28px;
 }
 
 // 2px
-.post__author-name { 
+.post__author-name {
   font-size: 11px;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
 
 // 3px
 .overlay a
 , h3
-, button
-, .button
 , .subsection__blurb_title {
   letter-spacing: 3px;
 }
@@ -213,7 +160,7 @@ p {
 
 @include breakpoint(medium) {
   h1, h2 {
-    line-height: 52px;
+    line-height: 57px;
   }
 
   h3 {

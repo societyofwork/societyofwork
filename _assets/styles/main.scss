@@ -4,11 +4,10 @@
 @import "base/variables";
 @import "base/mixins";
 @import "foundation-scss/import-me";
+@import "./base/common";
 @import "base/typography";
 @import "base/layout";
 @import "base/components";
 @import "base/buttons";
 
 @import "components/subsection";
-
-@import "pages/blog";

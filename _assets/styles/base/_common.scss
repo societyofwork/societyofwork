@@ -1,0 +1,70 @@
+// Common classes
+
+// margin
+.mt- {
+  &1 { margin-top: 1rem;}
+  &2 { margin-top: 2rem;}
+}
+.mb- {
+  &0 { margin-bottom: 0; }
+  &1 { margin-bottom: 1rem; }
+  &2 { margin-bottom: 2rem; }
+
+  &75 { margin-bottom: 75px; }
+  &200 { margin-bottom: 200px; }
+
+}
+
+// padding
+.pa-2 { padding: 2rem 0; }
+
+.pr-1 { padding-right: 1rem; }
+
+.pb- {
+
+  &05   { padding-bottom: 0.5rem}
+  &1   { padding-bottom: 1rem}
+
+  &4px { padding-bottom: 4px; }
+}
+
+// font size
+.fs- {
+  &13 { font-size: 13px; }
+  &18 { font-size: 18px; }
+  &23 { font-size: 23px; }
+  &26 { font-size: 26px; }
+}
+
+// font transforms & misc
+.tt-u { text-transform: uppercase; }
+
+.ls-05 { letter-spacing: 0.5px; }
+.ls-1 { letter-spacing: 1px; }
+.ls-2 { letter-spacing: 2px; }
+.ls-4 { letter-spacing: 4px; }
+
+.red-bg {
+  background: $red;
+  z-index: 1;
+
+  .row {
+    visibility: hidden;
+  }
+}
+
+// you are here trying to figure out the best way to get these two elements to overlap.
+.black-bg {
+  background: $black;
+  // $distance: 416px;
+  // bottom: $distance;
+  // margin-bottom: 170px - $distance;
+}
+
+.up-angle-bg {
+  @include angle(both);
+}
+
+.down-angle-bg {
+  @include angle(both, true);
+}

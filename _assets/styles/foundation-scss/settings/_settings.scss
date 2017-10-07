@@ -50,27 +50,22 @@ $global-font-size: 100%;
 // There additionally is set a global padding set in _layout.scss for large screens.
 $global-width: rem-calc(1300);
 $global-lineheight: 1.5;
-// 
+//
 // Colors below were imported from _variables.scss
 $foundation-palette: (
-  primary: $dark-blue,
-  secondary: $light-blue,
+  primary: $blue,
+  secondary: $white,
   success: #3adb76,
-  warning: $dark-yellow,
-  alert: $dark-yellow,
+  warning: red,
+  alert: yellow,
 );
 
-// 
+//
 // Colors below were imported from _variables.scss
-// 
-$light-gray: $light-gray;
-$medium-gray: #cacaca;
-$dark-gray: $dark-gray;
-$black: $dark-gray;
-$white: $white;
+//
 $body-background: $white;
-$body-font-color: $black;
-$body-font-family: $libre-stack;
+$body-font-color: $dark-gray;
+$body-font-family: helvetica;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -89,7 +84,7 @@ $print-transparent-backgrounds: true;
 $breakpoints: (
   small: 0,
   medium: 667px,
-  large: 1024px,
+  large: 960px,
   xlarge: 1200px,
   xxlarge: 1440px,
 );
@@ -100,10 +95,9 @@ $breakpoint-classes: (small medium large);
 // -----------
 
 $grid-row-width: $global-width;
-$grid-column-count: 14;
+$grid-column-count: 12;
 $grid-column-gutter: (
-  small: 48px,
-  medium: 30px,
+  small: 20px
 );
 $grid-column-align-edge: false;
 $block-grid-max: 8;
@@ -111,7 +105,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $prompt-stack;
+$header-font-family: $brandon-stack;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -247,14 +241,14 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 22px 27px 18px 22px;
+$button-padding: 12px 24px;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $dark-yellow;
+$button-background: $blue;
 $button-background-hover: scale-color($button-background, $lightness: 15%);
-$button-color: $dark-blue;
-$button-color-alt: $black;
-$button-radius: $global-radius;
+$button-color: $white;
+$button-color-alt: $dark-gray;
+$button-radius: 25px;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
@@ -263,7 +257,7 @@ $button-sizes: (
 );
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
-$button-background-hover-lightness: -20%;
+$button-background-hover-lightness: -5%;
 $button-hollow-hover-lightness: -50%;
 $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 

@@ -1,10 +1,6 @@
 header,
-nav,
-main,
-.footer,
-.copyright,
+nav
 {
-
   @include grid-row();
 }
 
@@ -20,13 +16,13 @@ nav,
     margin-left: 8px;
     width: 200px;
   }
-  
+
   &--desktop {
-    
+
     .logo-words {
       margin-left: 0;
       width: 124px;
-      
+
       @include breakpoint(1220px down) {
         display: none;
       }
@@ -161,7 +157,7 @@ nav,
 
   .overlay-contentpush {
     backface-visibility: hidden;
-    background: $dark-blue;
+    background: $white;
     visibility: hidden;
     transform: translateX(-100%);
     transition: transform 0.5s, visibility 0s 0.5s;
@@ -197,7 +193,7 @@ nav,
   }
 
   .main-nav {
-    background-color: $dark-blue;
+    background-color: $white;
     padding-left: 0;
     position: fixed;
     top: 0;
@@ -280,32 +276,32 @@ nav,
   &__bottom {
     @include grid-col-row;
     text-align: center;
-    
+
     &_txt {
-      background-color: $dark-blue;
+      background-color: $white;
       display: inline-block;
       margin-top: 1.5rem;
       width: 214px;
-      
+
       @include breakpoint(medium) {
         padding: 0 20px;
         width: auto;
       }
-      
+
       @include breakpoint(large) {
         margin-top: 0;
       }
-      
+
       &-divider {
         margin-top: -48px;
-        
+
         @include breakpoint(medium) {
           margin-top: -33px;
         }
       }
     }
   }
-  
+
 }
 
 .footer {
@@ -388,10 +384,10 @@ nav,
 .hamburger-menu {
 
   &-wrapper {
-    background-color: $dark-blue;
+    background-color: $white;
     height: 46px;
     width: 100%;
-    
+
     .menu-logo__words {
       width: 124px;
     }
@@ -613,11 +609,11 @@ nav,
 }
 
 .team-page {
-  
+
   hr {
     padding-top: 53px;
   }
-  
+
   ul {
     padding-left: 0 !important;
     list-style: none;
@@ -626,12 +622,12 @@ nav,
 }
 
 .name-title {
-  
+
   ul {
     @include breakpoint(600px) { @include grid-col(7); }
     @include breakpoint(755px) { @include grid-col(4); }
   }
-  
+
   &__name {
     text-transform: uppercase;
   }
