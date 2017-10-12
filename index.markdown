@@ -2,6 +2,25 @@
 title: Home
 position: 0
 layout: index
+feature_section:
+  header: A Better Way to Work
+  blurb: Society of Work features two floors of coworking space in the heart of Chattanooga's Innovation District from common areas to phone booths to private offices for small teams. Whether your idea of a much needed break leads you to a bean bag chair in the arcade or out on our rooftop for a breath of fresh air, we've got you covered.
+  features:
+    - feature:
+      title: Gigabit Internet
+      description: Reliable gigabit (very fast) wi-fi on all floors including rooftop.
+    - feature:
+      title: Conference Rooms
+      description: Various sized conference rooms are available for members with audio/video hookups and whiteboards.
+    - feature:
+      title: Business Address
+      description: Receive and have mail/packages with an official business address.
+    - feature:
+      title: Printing
+      description: Multi-functioning copier/scanner/printer
+    - feature:
+      title: Phone Booths
+      description: Private booths for taking phone calls.
 pricing_section:
   header: Pricing Plans
   blurb: For individuals, startups, and small teams with month-to-month flexibility.

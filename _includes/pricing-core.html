@@ -1,17 +1,18 @@
-<div class="row">
+<div class="row text-center large-text-left">
   <div class="columns">
     <h6 class="br-b fs-15 ls-2">{{ page.pricing_section.header }}</h6>
     <p class="gray">{{ page.pricing_section.blurb }}</p>
   </div>
 
+  {% assign i = 0 %}
   {% for plan in page.pricing_section.plans %}
-
+  {% assign i = i | plus: 1 %}
     <div class="medium-6 large-3 columns">
-      <img src="{{site.url}}/">
-      <p class="br-b fs-18 white">{{ plan.name }}</p>
-      <p class="white">Starts from</p>
-      <p class="br-b fs-26 white">${{ plan.price }} / mo</p>
-      <p class="white">{{ plan.additional_info }}</p>
+      <img class="pricing__pic" src="{{site.url}}/assets/img/icons/pic-{{i}}.svg">
+        <p class="br-b fs-18 white mt-1">{{ plan.name }}</p>
+        <p class="white mb-0 mb--6">Starts from</p>
+        <p class="br-b fs-26 white">${{ plan.price }} / mo</p>
+        <p class="white">{{ plan.additional_info }}</p>
     </div>
 
   {% endfor %}
