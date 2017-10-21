@@ -35,11 +35,11 @@ pricing_section:
       additional_info: No long term contract
     - plan:
       name: Reserved Desk
-      price: 325
+      price: 350
       additional_info: No long term contract
     - plan:
       name: Private Office
-      price: 525
+      price: 550
       additional_info: 6mo lease / month to month after
 cta_section:
   header: Ready to visit Society of Work?
