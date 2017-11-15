@@ -10,17 +10,19 @@ collections:
     output: true
 defaults:
 - scope:
-    path: '' 
+    path: ''
     type: pages
   values:
-      image:
+    image: 
 - scope:
     path: ''
     type: posts
   values:
     ayout: post
-description: Society of Work is a shared coworking space in Chattanooga, TN with business flexibility in mind and resources to help like-minded people connect and create amazing things together.
-baseurl:
+description: Society of Work is a shared coworking space in Chattanooga, TN with business
+  flexibility in mind and resources to help like-minded people connect and create
+  amazing things together.
+baseurl: 
 facebook: https://www.facebook.com/SocietyOfWork
 twitter: https://twitter.com/SocietyofWork
 instagram: http://instagram.com/societyofwork
@@ -30,12 +32,12 @@ footer_news_letter_cta: Subscribe to our newsletter
 footer_news_letter_description: Get the latest events and SoW news in your inbox.
 logo: "/assets/img/logo/red-sow-logo.svg"
 address: 1100 Market Street, Floor 6, Chattanooga, TN 37402
-phone_number: "423-449-9112"
+phone_number: 423-449-9112
 url: https://www.societyofwork.com
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
-  cloud_name:
+  cloud_name: 
   verbose: true
   presets:
     default:
