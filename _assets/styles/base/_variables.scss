@@ -15,12 +15,12 @@ $turquoise:   #4FC1E9;
 $blue:        #0065B0;
 $dark-blue:   #1F2D42;
 $red:         #E21F26;
-$dark-yellow: #FFC338;
 
 $white:       #FFF;
 
 $light-gray:  #BABABA;
 $gray:        #929292;
+$gray2:       #818181;
 $dark-gray:   #494949;
 $medium-gray: lighten($dark-gray, 10%);
 $trans-black: rgba(59, 61, 64, 0.5);
@@ -39,3 +39,5 @@ $black:       #2A2A2A;
 }
 
 $hover-transition: 0.3s cubic-bezier(0.82, 0.03, 0.77, 0.7);
+
+$desktop-breakpoint: 850px;

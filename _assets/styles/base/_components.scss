@@ -1,17 +1,98 @@
-.header {
-
-  &__background {
-    background-size: cover;
+.hero {
+  @include turquoise-bottom-border;
+  color: $white;
+  height: 800px;
+  margin-top: 0;
+  
+  @include breakpoint($desktop-breakpoint) {
+    margin-top: 86px;
   }
-
-  &__logo-words {
-    display: none;
-
-    @include breakpoint(1287px) {
-      display: inline-block;
+  
+  p {
+    color: $white;
+  }
+  
+  // TODO: probably remove this. removed from hero
+  &__right-padding {
+    padding-left: 29px;
+    
+    @include breakpoint(medium) {
+      padding-left: 43px;
     }
   }
+  
+  &__header {
+    font-size: 56px;
+    line-height: 50px;
+    padding-top: 78px;
+    letter-spacing: 12px;
+    
+    @include breakpoint(large) {
+      font-size: 76px;
+      line-height: 68px;
+      padding-top: 98px;
+    }
+  }
+  
+  &__header-blurb {
+    color: $white;
+  }
+}
 
+.logo-words {
+  position: relative;
+  top: 9px;
+}
+
+.red-rectangle {
+  background: $red;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  
+  right: 111px;
+  bottom: 15px;
+  
+  height: 9px;
+  width: 94px;
+  
+  @include breakpoint(large) {
+    height: 13px;
+    width: 119px;
+    right: 138px;
+    bottom: 20px;
+  }
+}
+
+.map {
+  padding-top: 65px;
+  padding-bottom: 78px;
+}
+
+.pricing {
+  
+  margin-top: 9rem;
+  
+  @include breakpoint(small) {
+    height: 144rem;
+  }
+  
+  @include breakpoint(medium) {
+    height: 82rem;
+  }
+  
+  @include breakpoint(large) {
+    height: 54rem;
+  }
+  
+  &__pic {
+    width: 305px;
+    max-width: 305px;
+    
+    @include breakpoint(large) {
+      width: 100%;
+    }
+  }
 }
 
 .button.secondary {

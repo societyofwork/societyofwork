@@ -1,0 +1,6 @@
+<div class="row columns mb-4">
+  <p class="pts-i fs-15">{{ page.social_proof_section.blurb }}</p>
+  {% for logo in page.social_proof_section.logos %}
+    <img src="{{ logo.img }}" alt="">
+  {% endfor %}
+</div>

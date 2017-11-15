@@ -1,3 +1,7 @@
+@mixin turquoise-bottom-border {
+  border-bottom: solid 4px $turquoise;
+}
+
 @mixin font-stack($family, $weight) {
   font: {
     family: $family;

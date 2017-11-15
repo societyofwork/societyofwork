@@ -1,33 +1,25 @@
 <div class="overlay overlay-contentpush main-nav" id="overlay-contentpush">
   <button type="button" class="overlay-close" id="overlay-close">Close</button>
-  <nav>
-
-    <a href="/" class="menu-logo--desktop">
-      <img src="{{ site.url }}/assets/img/logo/red-sow-logo.svg" class="logo-mark">
-    </a>
-
-    <ul id="menu-items">
+  <nav class="row pl-28">
+    
+    <div class="d-ib hide-on-mobile">
+      {% include menu-logo.html %}
+    </div>
+    
+    <ul id="menu-items" class="d-ib">
+      
       <li>
-        <a href="/" class="menu-logo menu-logo--mobile">
-          <img class="menu-logo__mark" src="/assets/img/logo/logo-mark.svg">
-          <img class="menu-logo__words" src="/assets/img/logo/logo-words.svg">
+        <a href="/#plans" {% if p.url == page.url %}class="active"{% endif %}>
+          Plans
         </a>
       </li>
-
-      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-
-      {% for p in navigation_pages %}
-        {% if p.navigation_weight %}
-        <li>
-          <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-            {{ p.title }}
-          </a>
-        </li>
-        {% endif %}
-      {% endfor %}
+      
       <li>
-        <a class="button button--for-nav" href="{{ site.url }}">{{ site.title }}</a>
+        <a target="_blank" href="https://medium.com/@SocietyofWork" {% if p.url == page.url %}class="active"{% endif %}>
+          Blog
+        </a>
       </li>
+      
     </ul>
   </nav>
 </div>

@@ -1,0 +1,222 @@
+
+nav {
+  float: none !important;
+}
+
+// Menu styles for mobile / tablet sized screens. Desktop below this.
+@include breakpoint($desktop-breakpoint - 1 down) {
+
+  #menu-items {
+    margin-top: 1rem;
+  }
+
+  /* Overlay style */
+  .overlay {
+    background: $trans-black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Overlay closing cross */
+  .overlay .overlay-close {
+    border: none;
+    background: url(../img/cross.png) no-repeat center center;
+    color: transparent;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    outline: none;
+    text-indent: 200%;
+    z-index: 100;
+  }
+
+  /* Menu style */
+  .overlay nav {
+    position: relative;
+    top: 50%;
+    height: 60%;
+    transform: translateY(-50%);
+  }
+
+  .overlay ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .overlay ul li {
+    backface-visibility: hidden;
+    display: block;
+    height: 20%;
+    height: calc(100% / 6);
+    min-height: 54px;
+  }
+
+  .overlay ul li a {
+    color: $white;
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 56px;
+    transition: color 0.2s;
+  }
+
+  .overlay ul li a:hover,
+  .overlay ul li a:focus {
+    color: #f0f0f0;
+  }
+
+  /* Effects */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .container { overflow-x: hidden;
+    transition: transform 0.5s;
+  }
+
+  .container.overlay-open {
+    transform: translateX(50%);
+  }
+
+  .container::after {
+    background: rgba(0,0,0,0.6);
+    content: '';
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+
+  .container.overlay-open::after {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
+  .overlay-contentpush {
+    backface-visibility: hidden;
+    background: $black;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: transform 0.5s, visibility 0s 0.5s;
+  }
+
+  .overlay-contentpush.open {
+    transform: translateX(0%);
+    transition: transform 0.5s;
+    visibility: visible;
+  }
+
+  @media screen and (max-height: 30.5em) {
+    .overlay nav {
+      height: 70%;
+      font-size: 34px;
+    }
+    .overlay ul li {
+      min-height: 34px;
+    }
+  }
+
+}
+
+// Desktop menu styles
+@include breakpoint($desktop-breakpoint) {
+
+  .main-nav {
+    background-color: $white;
+    @include turquoise-bottom-border;
+    font-size: 18px;
+    padding: 0 0 9px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-bottom: 1.5rem;
+    width: 100%;
+
+    .overlay-close { display: none; }
+
+    ul {
+
+      // Imports foundation menu styles right into element.
+      @include menu-base;
+      position: relative;
+      top: 16px;
+
+      li {
+
+        vertical-align: baseline;
+
+        a {
+          
+          @include font-stack($brandon-stack, 400);
+          color: $gray2;
+          
+          &:hover {
+            color: $black;
+          }
+
+          @include breakpoint(medium) {
+            padding-right: 21px;
+            padding-left: 21px;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+.hamburger-menu {
+
+  &-wrapper {
+    @include turquoise-bottom-border;
+    background-color: $white;
+    height: 81px;
+    width: 100%;
+
+    .menu-logo__words {
+      width: 124px;
+    }
+
+    @include breakpoint($desktop-breakpoint) {
+      display: none;
+    }
+  }
+
+  &-button {
+
+    float: right;
+    padding: 10px 17px;
+
+    border: 1px solid #DCDCDC;
+    border-radius: 25px;
+    color: $black;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px 11px 0 0;
+
+    @include breakpoint($desktop-breakpoint) {
+      display: none;
+    }
+  }
+}
+

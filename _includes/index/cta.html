@@ -2,9 +2,5 @@
   <h4 class="ls-4 br-b mb-2">{{ page.cta_section.header }}</h2>
   <a href="{{ page.cta_section.blue_button_link }}" class="button" target="_blank">{{ page.cta_section.blue_button_txt }}</a>
   <a href="{{ page.cta_section.white_button_link }}" class="button secondary" target="_blank">{{ page.cta_section.white_button_txt }}</a>
-  <p>
-    <img src="{{site.url}}/assets/img/icons/diamond.svg">
-    <span class="turquoise br-b-i">{{ page.cta_section.blue_aside_below_buttons }}</span>
-    {{ page.cta_section.aside_below_buttons }}
-  </p>
+  {% include index/special-offer.html %}
 </div>
