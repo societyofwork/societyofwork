@@ -9,8 +9,20 @@
     <ul id="menu-items" class="d-ib">
       
       <li>
+        <a href="/" {% if p.url == page.url %}class="active"{% endif %}>
+          Home
+        </a>
+      </li>
+      
+      <li>
         <a href="/#plans" {% if p.url == page.url %}class="active"{% endif %}>
-          Plans
+          Plan Pricing
+        </a>
+      </li>
+      
+      <li>
+        <a href="/members/" {% if p.url == page.url %}class="active"{% endif %}>
+          Members
         </a>
       </li>
       

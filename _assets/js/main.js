@@ -1,8 +1,3 @@
-// Starts and initializes the pjax library, barba in order to create faster experience
-// Yes it gracefully degrades!
-Barba.Pjax.start();
-Barba.Prefetch.init();
-
 // iife to keep variables from poluting the global namespace
 
 // Grabbing mobile menu elements
@@ -21,6 +16,13 @@ function toggleMenu(e) {
   e.stopProgation;
 };
 
+const Homepage = Barba.BaseView.extend({
+  namespace: 'homepage'
+  , onEnterCompleted: function() {
+  }
+});
+Homepage.init();
+
 // Adds event listener to mobile menu items so that when clicked the mobile menu closes.
 menuItems.addEventListener('click', (e) => toggleMenu(e));
 
@@ -29,6 +31,11 @@ mobileMenuButton.addEventListener('click', (e) => toggleMenu(e));
 
 // Listens for clicks on the mobile menu's close button and closes it.
 closeButton.addEventListener('click', (e) => toggleMenu(e));
+
+// Starts and initializes the pjax library, barba in order to create faster experience
+// Yes it gracefully degrades!
+Barba.Pjax.start();
+Barba.Prefetch.init();
 
 // Add the active class when click on the menu item.
 Barba.Dispatcher.on('linkClicked', function(HTMLElement) {

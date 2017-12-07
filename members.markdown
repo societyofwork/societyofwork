@@ -1,7 +1,7 @@
 ---
 title: Members
-position: 1
-layout: index
+position: 2
+layout: members
 hero_section:
   img: "uploads/members-hero.jpg"
   blurb: "Our Members"
