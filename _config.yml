@@ -2,15 +2,15 @@
 title: Society of Work
 timezone: America/New_York
 collections:
+  members:
+    title: Members
+    output: false
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-  members:
-    title: Members
-    output: false
 defaults:
 - scope:
     path: ''
@@ -26,12 +26,14 @@ defaults:
     path: ''
     type: memebers
   values:
-    first_name:
-    img:
-    title:
-    company:
-description: Society of Work is a shared coworking space in Chattanooga, TN with business flexibility in mind and resources to help like-minded people connect and create amazing things together.
-baseurl:
+    first_name: 
+    img: 
+    title: 
+    company: 
+description: Society of Work is a shared coworking space in Chattanooga, TN with business
+  flexibility in mind and resources to help like-minded people connect and create
+  amazing things together.
+baseurl: 
 facebook: https://www.facebook.com/SocietyOfWork
 twitter: https://twitter.com/SocietyofWork
 instagram: http://instagram.com/societyofwork
