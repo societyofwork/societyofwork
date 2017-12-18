@@ -1,7 +1,18 @@
 // Common classes
+.minh-50 { min-height: 50px; }
+.mh450 { max-height: 450px; }
+
+.ta-c { text-align: center; }
+
+.fully-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 // display
 .d-ib { display: inline-block; }
+.d-b { display: block; }
 
 .hide-on-mobile {
   @include breakpoint($desktop-breakpoint - 1 down) {
@@ -10,13 +21,25 @@
 }
 
 // color
+.c-white { color: $white; }
 .c-gray2 { color: $gray2; }
 .c-blk { color: $black; }
+
+.bgc-turquoise { background-color: $turquoise; }
+.bgc-red { background-color: $red; }
+.bgc-blk { background-color: $black; }
 
 // margin
 .mt- {
   &1 { margin-top: 1rem;}
   &2 { margin-top: 2rem;}
+  &4 { margin-top: 4rem;}
+}
+
+.small-mb-1 {
+  @include breakpoint(small) {
+    margin-bottom: 1rem;
+  }
 }
 
 .mb- {
@@ -25,7 +48,9 @@
   &2 { margin-bottom: 2rem; }
   &4 { margin-bottom: 4rem; }
   
+  &60 { margin-bottom: 60px; }
   &75 { margin-bottom: 75px; }
+  &80 { margin-bottom: 80px; }
   &200 { margin-bottom: 200px; }
   
   &-6 {
@@ -57,10 +82,12 @@
   &16 { font-size: 16px; }
   &18 { font-size: 18px; }
   &23 { font-size: 23px; }
+  &25 { font-size: 25px; }
   &26 { font-size: 26px; }
 }
 
 // font transforms & misc
+.tt-c { text-transform: capitalize;; }
 .tt-u { text-transform: uppercase; }
 
 .ls-036 { letter-spacing: 0.36px; }
@@ -68,6 +95,7 @@
 .ls-1 { letter-spacing: 1px; }
 .ls-2 { letter-spacing: 2px; }
 .ls-4 { letter-spacing: 4px; }
+.ls-8 { letter-spacing: 8px; }
 
 .lh-14 { line-height: 14px; }
 

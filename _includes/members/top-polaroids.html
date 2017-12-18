@@ -1,0 +1,27 @@
+<style media="screen">
+.polaroids__link:hover > .polaroids__img {
+  background-image: url('/uploads/krill.jpg');
+}
+</style>
+<div class="row mb-80">
+  <div class="column">
+    <ul class="polaroids">
+      {% for member in site.members %}
+      <li class="small-6 medium-3 columns">
+        <a href="#" title="{{ member.first_name }}" class="polaroids__link mb-1">
+          <style media="screen">
+          .polaroids__img {
+            background-image: url({{ member.img }});
+          }
+          </style>
+          <div class="polaroids__img" alt="{{ member.first_name }}"></div>
+        </a>
+        <div class="ta-c pts-r tt-u fs-12">
+          <span class="d-b">{{ member.title }}</span>
+          <span>{{ member.company }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

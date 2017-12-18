@@ -3,22 +3,16 @@ title: Members
 position: 2
 layout: members
 hero_section:
-  img: "uploads/members-hero.jpg"
+  img: "/uploads/members-hero.jpg"
   blurb: "Our Members"
-members:
-  - member:
-    first_name: Brett
-    img: "brett.jpg"
-    title: Programmer
-    company: icanmakeitbetter
-  - member:
-    first_name: Kelly
-    img: "kellyf.jpg"
-    title: Owner
-    company: Society of Work
-  - member:
-    first_name: Mary
-    img: "mary.jpg"
-    title: Community Manager
-    company: Society of Work
+member_spotlight:
+  image: "/uploads/spotlight-brett.jpg"
+  name: "Brett Wise"
+  blurb: "Brett is the lead organizer for ChaDev, the largest developer group in Chattanooga. Learn how Brett takes advantage of community space to connect to other devs." 
+  link: http://google.com
+project_spotlight:
+  image: "/uploads/spotlight-tech-goes.jpg"
+  title: "Tech Goes Home"
+  blurb: "Tech Goes Home is a digital inclusion program and is modeled after the national program based in Boston, MA."
+  link: http://google.com
 ---

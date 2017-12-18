@@ -1,12 +1,15 @@
+.push-below-menu-bar {
+  
+  @include breakpoint($desktop-breakpoint) {
+    margin-top: 86px;
+  }
+}
+
 .hero {
   @include turquoise-bottom-border;
   color: $white;
   height: 800px;
   margin-top: 0;
-  
-  @include breakpoint($desktop-breakpoint) {
-    margin-top: 86px;
-  }
   
   p {
     color: $white;
@@ -36,6 +39,27 @@
   
   &__header-blurb {
     color: $white;
+  }
+}
+
+.text-box {
+  padding: 0 24px;
+}
+
+.banner {
+  @include font-stack($brandon-stack, 700); 
+  text-transform: uppercase;
+  position: relative;
+  top: -16px;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  display: inline-block;
+  height: 35px;
+  width: 250px;
+  
+  span {
+    position: relative;
+    top: 5px;
   }
 }
 

@@ -3,7 +3,7 @@ title: Home
 position: 0
 layout: index
 hero_section:
-  hero_image: "uploads/hero.jpg"
+  hero_image: "/uploads/hero.jpg"
   header_blurb: The Society of Work is a shared coworking space in Chattanooga, TN designed with business flexibility in mind and the resources to help like-minded people connect and create amazing things together.
   left_button_link: https://calendly.com/societyofwork/tour?back=1
   left_button_text: Schedule a Tour

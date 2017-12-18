@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  members:
+    title: Members
+    output: false
 defaults:
 - scope:
     path: '' 
@@ -18,7 +21,15 @@ defaults:
     path: ''
     type: posts
   values:
-    ayout: post
+    layout: post
+- scope:
+    path: ''
+    type: memebers
+  values:
+    first_name:
+    img:
+    title:
+    company:
 description: Society of Work is a shared coworking space in Chattanooga, TN with business flexibility in mind and resources to help like-minded people connect and create amazing things together.
 baseurl:
 facebook: https://www.facebook.com/SocietyOfWork
