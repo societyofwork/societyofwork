@@ -13,10 +13,10 @@ collections:
     output: false
 defaults:
 - scope:
-    path: '' 
+    path: ''
     type: pages
   values:
-      image:
+    image: 
 - scope:
     path: ''
     type: posts
@@ -41,12 +41,12 @@ footer_news_letter_cta: Subscribe to our newsletter
 footer_news_letter_description: Get the latest events and SoW news in your inbox.
 logo: "/assets/img/logo/red-sow-logo.svg"
 address: 1100 Market Street, Floor 6, Chattanooga, TN 37402
-phone_number: "423-449-9112"
+phone_number: 423-449-9112
 url: https://www.societyofwork.com
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
-  cloud_name:
+  cloud_name: 
   verbose: true
   presets:
     default:
