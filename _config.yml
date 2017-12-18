@@ -28,7 +28,7 @@ defaults:
   values:
     first_name: 
     img: 
-    position:
+    position: 
     title: 
     company: 
 description: Society of Work is a shared coworking space in Chattanooga, TN with business
