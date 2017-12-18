@@ -2,7 +2,7 @@
 title: Brett Wise
 position: Programmer
 first_name: Brett
-img: "/uploads/map.png"
+image: "/uploads/map.png"
 company: icanmakeitbetter
 ---
 

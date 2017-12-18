@@ -24,10 +24,10 @@ defaults:
     layout: post
 - scope:
     path: ''
-    type: memebers
+    type: "members"
   values:
     first_name: 
-    img: 
+    image: 
     position:
     title: 
     company: 
