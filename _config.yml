@@ -26,8 +26,8 @@ defaults:
     path: ''
     type: members
   values:
-    first_name: "First and name for admin reference"
-    content: "Nothing goes here"
+    first_name: First and name for admin reference
+    content: Nothing goes here
     image: 
     position: 
     title: 
