@@ -1,6 +1,6 @@
 ---
 title: Kelly Fitzgerald
-position: Owner
+position: 0
 first_name: Kelly
 image: "/uploads/map.png"
 company: Society of Work

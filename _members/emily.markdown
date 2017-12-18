@@ -1,6 +1,6 @@
 ---
 title: Emily Barton
-position: Student
+position: 0
 first_name: Emily
 image: "/uploads/map.png"
 company: UTC
