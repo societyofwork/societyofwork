@@ -29,7 +29,7 @@ defaults:
     first_name: 
     content: Nothing goes here
     image: 
-    crazy_image:
+    crazy_image: 
     position: 
     title: Replace with first and last name // for admin reference
     company: 
