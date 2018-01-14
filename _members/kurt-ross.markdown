@@ -1,0 +1,7 @@
+---
+title: Kurt Ross
+date: 2018-01-11 11:39:00 -05:00
+first_name: Kurt
+company: 'Freelance Motion Graphics Artist / UX '
+---
+
