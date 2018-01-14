@@ -9,7 +9,7 @@ hero_section:
     people connect and create amazing things together.
   left_button_link: https://calendly.com/societyofwork/tour?back=1
   left_button_text: Schedule a Tour
-  right_button_link: 
+  right_button_link: https://external-bookings.apps.cobot.me/29b9a8f5-ca15-4713-8f25-33c58c18d3bd/book
   right_button_text: Book a Conference Room
 map_section:
   header: The heart of Innovation in Chattanooga

@@ -1,0 +1,18 @@
+<li class="small-6 medium-3 columns">
+  <a href="#" title="{{ member.first_name }}" class="polaroids__link polaroids__link{{forloop.index}} mb-1">
+    <style media="screen">
+    .polaroids__img{{forloop.index}} {
+      background-image: url({{ member.image }});
+    }
+    
+    .polaroids__link{{forloop.index}}:hover > .polaroids__img{{forloop.index}} {
+      background-image: url({{ member.crazy_image }});
+    }
+    </style>
+    <div class="polaroids__img polaroids__img{{forloop.index}}" alt="{{ member.first_name }}"></div>
+  </a>
+  <div class="ta-c pts-r tt-u fs-12 mb-2">
+    <span class="d-b">{{ member.title }}</span>
+    <span>{{ member.company }}</span>
+  </div>
+</li>

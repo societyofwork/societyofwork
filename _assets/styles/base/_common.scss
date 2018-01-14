@@ -58,6 +58,10 @@
   }
 }
 
+@include breakpoint(small) {
+  .mb2-for-small { margin-bottom: 2rem; }
+}
+
 // padding
 .pa-2 { padding: 2rem 0; }
 
