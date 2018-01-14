@@ -3,8 +3,10 @@
     <style media="screen">
     .polaroids__img{{forloop.index}} {
       background-image: url({{ member.image }});
+      background-position: top;
+      background-size: cover;
     }
-    
+
     .polaroids__link{{forloop.index}}:hover > .polaroids__img{{forloop.index}} {
       background-image: url({{ member.crazy_image }});
     }

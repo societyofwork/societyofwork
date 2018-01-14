@@ -62,8 +62,8 @@ ul.polaroids a:after {
     }
 
     @include breakpoint(1233px) {
-      height: $square + 125px;
-      width: $square + 125px;
+      height: $square + 135px;
+      width: $square + 135px;
     }
   }
 }
