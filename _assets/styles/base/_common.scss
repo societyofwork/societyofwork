@@ -4,6 +4,13 @@
 
 .ta-c { text-align: center; }
 
+@include breakpoint(small) {
+  .dflex { display: flex; }
+  .flex1 { flex: 1; }
+  .flexdc { flex-direction: column; }
+  .flexg1 { flex-grow: 1; }
+}
+
 .fully-centered {
   display: flex;
   align-items: center;
