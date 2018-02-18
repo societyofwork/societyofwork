@@ -34,22 +34,22 @@ closeButton.addEventListener('click', (e) => toggleMenu(e));
 
 // Starts and initializes the pjax library, barba in order to create faster experience
 // Yes it gracefully degrades!
-// Barba.Pjax.start();
-// Barba.Prefetch.init();
-// 
-// // Add the active class when click on the menu item.
-// Barba.Dispatcher.on('linkClicked', function(HTMLElement) {
-//     if (!menuItems.contains(HTMLElement)) {
-//         return;
-//     }
-// 
-//     [].forEach.call(menuItems.querySelectorAll('a'), function(item) {
-//         item.classList.remove('active');
-//     });
-// 
-//     HTMLElement.classList.add('active');
-// });
-// 
-// Barba.Dispatcher.on('newPageReady', function() {
-//    window.scrollTo(0, 0);
-// });
+Barba.Pjax.start();
+Barba.Prefetch.init();
+
+// Add the active class when click on the menu item.
+Barba.Dispatcher.on('linkClicked', function(HTMLElement) {
+    if (!menuItems.contains(HTMLElement)) {
+        return;
+    }
+
+    [].forEach.call(menuItems.querySelectorAll('a'), function(item) {
+        item.classList.remove('active');
+    });
+
+    HTMLElement.classList.add('active');
+});
+
+Barba.Dispatcher.on('newPageReady', function() {
+   window.scrollTo(0, 0);
+});
