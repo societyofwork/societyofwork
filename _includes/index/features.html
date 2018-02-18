@@ -1,17 +1,16 @@
-<div class="row pb-5">
+<div class="row p-6">
   <div class="columns">
     <p class="br-b fs-15 tt-u">{{ page.feature_section.header }}</p>
     <p class="fs-15">{{ page.feature_section.blurb }}</p>
   </div>
-
+  
   <table>
-  {% for feature in page.feature_section.features %}
-      <tr>
-        <td class="medium-3 columns br-m fs-15">{{ feature.title }}</td>
-        <td class="medium-9 columns fs-14">{{ feature.description }}</td>
-      </tr>
-  {% endfor %}
+    {% for feature in page.feature_section.features %}
+    <tr>
+      <td class="medium-3 columns br-m fs-15 pb-01">{{ feature.title }}</td>
+      <td class="medium-9 columns fs-14">{{ feature.description }}</td>
+    </tr>
+    {% endfor %}
   </table>
-
-  </div>
+  
 </div>

@@ -7,17 +7,17 @@
   {% assign i = 0 %}
   {% for plan in page.pricing_section.plans %}
   {% assign i = i | plus: 1 %}
-    <div class="medium-6 large-3 columns">
+    <div class="small-6 large-3 columns">
       <img class="pricing__pic" src="/assets/img/icons/pic-{{i}}.svg">
-        <p class="br-b fs-18 white mt-1">{{ plan.name }}</p>
+        <p class="br-b fs-18 white mt-1 mb-05">{{ plan.name }}</p>
         <p class="white mb-0 mb--6">Starts from</p>
-        <p class="br-b fs-26 white">${{ plan.price }} / mo</p>
+        <p class="br-b fs-26 white mb-05">${{ plan.price }} / mo</p>
         <p class="white">{{ plan.additional_info }}</p>
     </div>
 
   {% endfor %}
 
-  <div class="text-center">
+  <div class="text-center pa-2">
     <a href="#" class="button secondary mt-2">View Pricing Details</a>
   </div>
 

@@ -2,14 +2,14 @@
   <div class="row">
 
     <div class="large-5 columns">
-      <p class="pts-b tt-u fs-18 mb-0 ls-05"><span class="pr-1">{{ site.title }}</span> {{ site.tagline }}</p>
-      <address>
+      <p class="pts-b tt-u fs-18 mb-0 ls-05"><span class="pr-1">{{ site.title }}</span><span class="pts-r">{{ site.tagline }}</span></p>
+      <address class="pts-r">
         {{site.address}}
       </address>
-      <a href="tel:{{site.phone_number}}">{{site.phone_number}}</a>
+      <a href="tel:{{site.phone_number}}" class="pts-r">{{site.phone_number}}</a>
       <br>
 
-      <span>Find @societyofwork on </span>
+      <span class="pts-r">Find @societyofwork on </span>
       <a class="social-icon" href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       <a class="social-icon" href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a class="social-icon" href="{{ site.instagram }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -17,11 +17,11 @@
     </div>
 
     <div class="large-5 columns large-offset-2">
-      <p class="br-b fs-13 tt-u mb-0">Subscribe to Mailing List</p>
+      <p class="br-b fs-15 tt-u mb-0">Subscribe to Mailing List</p>
       <p>Get latest events and SOW news in your inbox.</p>
 
       <div class="input-group">
-        <input type="email" class="input-group-field">
+        <input placeholder="Your Email Address" type="email" class="input-group-field">
         <div class="input-group-button">
           <input type="submit" class="button" value="Subscribe">
         </div>

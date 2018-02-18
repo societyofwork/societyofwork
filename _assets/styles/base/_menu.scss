@@ -3,6 +3,12 @@ nav {
   float: none !important;
 }
 
+.word-position {
+  position: relative;
+  top: 11px;
+  left: 8px;
+}
+
 // Menu styles for mobile / tablet sized screens. Desktop below this.
 @include breakpoint($desktop-breakpoint - 1 down) {
 
@@ -23,7 +29,7 @@ nav {
   /* Overlay closing cross */
   .overlay .overlay-close {
     border: none;
-    background: url(../img/cross.png) no-repeat center center;
+    background: url(../img/icons/x-icon.svg) no-repeat center center;
     color: transparent;
     cursor: pointer;
     height: 50px;
@@ -40,7 +46,7 @@ nav {
   /* Menu style */
   .overlay nav {
     position: relative;
-    top: 50%;
+    top: 40%;
     height: 60%;
     transform: translateY(-50%);
   }
@@ -50,7 +56,7 @@ nav {
     list-style: none;
     padding: 0;
     position: relative;
-    margin: 0 auto;
+    margin-left: 28px;
     height: 100%;
   }
 
@@ -156,7 +162,8 @@ nav {
       // Imports foundation menu styles right into element.
       @include menu-base;
       position: relative;
-      top: 16px;
+      top: 20px;
+      left: 50px;
 
       li {
 
@@ -207,8 +214,9 @@ nav {
 
     border: 1px solid #DCDCDC;
     border-radius: 25px;
-    color: $black;
+    color: $dark-gray;
     cursor: pointer;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
