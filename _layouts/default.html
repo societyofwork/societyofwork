@@ -17,12 +17,12 @@
       <!-- Checks to see which page we are on and output a data attributes if we are. -->
       <!-- Barba needs this for firing page specific JS -->
       <div class="barba-container"
-      {% if page.url == "/" %} 
-        data-namespace="homepage" 
-        id="homepage"
-      {% elsif page.url == "/members/" %}
-        data-namespace="members"  
-      {% endif %}>
+        {% if page.url == "/" %} 
+          data-namespace="homepage" 
+          id="homepage"
+        {% elsif page.url == "/members/" %}
+          data-namespace="members"  
+        {% endif %}>
       
         
         <!-- This is the container that the mobile menu is pushing aside. -->
