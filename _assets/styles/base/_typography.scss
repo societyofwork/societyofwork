@@ -59,6 +59,9 @@ address {
 .overlay a:hover
 , .overlay .active
 {
+  @include breakpoint($desktop-breakpoint - 1 down) {
+    color: $white;
+  }
   color: $black;
 }
 
