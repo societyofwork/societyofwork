@@ -1,9 +1,13 @@
 <div class="row">
-  <img class="mb2-for-small" src="{{ page.top_picture_section.top }}" alt="">
+  <div style="z-index: 1000;">
+    <img class="mb2-for-small top-top-img" src="{{ page.top_picture_section.top }}" alt="">
+  </div>
   <div class="ta-c">
-    <div class="smaller-photos-large d-ib">
-      <img class="hide-for-small-only bottom-left-img" src="{{ page.top_picture_section.bottom_left }}" alt="">
-      <img class="hide-for-small-only va-t pl-20 bottom-right-img" src="{{ page.top_picture_section.bottom_right }}" alt="">
+    <div class="d-ib mb--400">
+      <img class="hide-for-small-only top-bottom-left-img" src="{{ page.top_picture_section.bottom_left }}" alt="">
+      <div style="z-index: -1;" class="d-i pos-rel b430" >
+        <img class="hide-for-small-only va-t pl-20 top-bottom-right-img" src="{{ page.top_picture_section.bottom_right }}" alt="">
+      </div>
     </div>
   </div>
 </div>

@@ -23,6 +23,7 @@
 }
 
 // display
+.d-i { display: inline; }
 .d-ib { display: inline-block; }
 .d-b { display: block; }
 
@@ -175,6 +176,10 @@
 
 .pos-rel {
   position: relative;
+}
+
+.b430 {
+  bottom: 430px;
 }
 
 .w- {
