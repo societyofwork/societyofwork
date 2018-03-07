@@ -82,7 +82,7 @@ cta_section:
   blue_button_txt: Find Tour Availability
   blue_button_link: https://calendly.com/societyofwork/tour?back=1
   white_button_txt: Book Conference Room
-  white_button_link: 
+  white_button_link: https://external-bookings.apps.cobot.me/29b9a8f5-ca15-4713-8f25-33c58c18d3bd/book
   blue_aside_below_buttons: 'Special offer:'
   aside_below_buttons: free trial day pass with tour!
 review_section:
