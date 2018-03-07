@@ -21,9 +21,9 @@ map_section:
   map_link: https://www.google.com/maps/place/Society+of+Work/@35.043563,-85.3088409,15z/data=!4m2!3m1!1s0x0:0x19103f5df6547e8d?sa=X&ved=0ahUKEwjfxIPKmILXAhXMLSYKHaqfBA4Q_BIIfTAK
   map_link_text: Open directions in Google Maps
 top_picture_section:
-  top: uploads/bench-accounting.jpg
-  bottom_left: uploads/breather.jpg
-  bottom_right: uploads/krill.jpg
+  top: uploads/top-top.jpg
+  bottom_left: uploads/top-left.jpg
+  bottom_right: uploads/top-right.jpg
 feature_section:
   header: A Better Way to Work
   blurb: Society of Work features two floors of coworking space in the heart of Chattanooga's
@@ -54,9 +54,9 @@ social_proof_section:
   - img: uploads/wordpress-logo.png
   - img: uploads/emma-logo.png
 middle_picture_section:
-  top: uploads/bench-accounting.jpg
-  bottom_left: uploads/breather.jpg
-  bottom_right: uploads/krill.jpg
+  top: uploads/bottom-t.jpg
+  bottom_left: uploads/bottom-left.jpg
+  bottom_right: uploads/bottom-right.jpg
 pricing_section:
   header: Pricing Plans
   blurb: For individuals, startups, and small teams with month-to-month flexibility.
