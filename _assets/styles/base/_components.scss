@@ -1,5 +1,5 @@
 .push-below-menu-bar {
-  
+
   @include breakpoint($desktop-breakpoint) {
     margin-top: 86px;
   }
@@ -11,44 +11,44 @@
   color: $white;
   padding-top: 80px;
   padding-bottom: 80px;
-  
+
   @include breakpoint(medium) {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  
+
   margin-top: 0;
-  
+
   p {
     color: $white;
   }
-  
+
   // TODO: probably remove this. removed from hero
   &__right-padding {
     padding-left: 29px;
-    
+
     @include breakpoint(medium) {
       padding-left: 43px;
     }
   }
-  
+
   &__header {
     font-size: 56px;
     line-height: 50px;
     padding-top: 78px;
     letter-spacing: 12px;
-    
+
     @include breakpoint(large) {
       font-size: 76px;
       line-height: 68px;
       padding-top: 98px;
     }
   }
-  
+
   &__header-blurb {
     color: $white;
   }
-  
+
   &__button {
     @include breakpoint(small only) {
       width: 100%;
@@ -58,7 +58,7 @@
 
 .home-page {
   .hero {
-    padding-top: 0px;  
+    padding-top: 0px;
     padding-bottom: 140px;
   }
 }
@@ -68,7 +68,7 @@
 }
 
 .banner {
-  @include font-stack($brandon-stack, 700); 
+  @include font-stack($brandon-stack, 700);
   text-transform: uppercase;
   position: relative;
   top: -16px;
@@ -77,7 +77,7 @@
   display: inline-block;
   height: 35px;
   width: 250px;
-  
+
   span {
     position: relative;
     top: 5px;
@@ -94,13 +94,13 @@
   border-radius: 2px;
   display: inline-block;
   position: relative;
-  
+
   right: 111px;
   bottom: 15px;
-  
+
   height: 9px;
   width: 94px;
-  
+
   @include breakpoint(large) {
     height: 13px;
     width: 119px;
@@ -124,40 +124,40 @@
 }
 
 .bottom- {
-  
+
   &left-img {
     max-width: 51%;
   }
-  
+
   &right-img {
     max-width: 20%;
   }
 }
 
 .pricing {
-  
+
   margin-top: 9rem;
-  
+
   @include breakpoint(small) {
     height: 960px;
   }
-  
+
   @include breakpoint(medium) {
     height: 82rem;
   }
-  
+
   @include breakpoint(large) {
     height: 54rem;
   }
-  
+
   &__pic {
     @include breakpoint(small only) {
       width: 130px;
     }
-    
+
     width: 305px;
     max-width: 305px;
-    
+
     @include breakpoint(large) {
       width: 100%;
     }
@@ -182,7 +182,7 @@ footer {
   padding-bottom: 4rem;
 }
 
-.home-page {
+.extra-mobile-padding {
   .column,
   .columns {
     @include breakpoint(small only) {
@@ -201,10 +201,18 @@ footer {
   max-width: 60%;
 }
 
-.top-bottom-left-img { 
+.top-bottom-left-img {
   max-width: 31.4%;
 }
 
 .top-bottom-right-img {
   max-width: 55%;
+}
+
+.thank-you {
+  margin: 3rem 0 5rem;
+
+  @include breakpoint(large) {
+    margin: 8rem 0 12rem;
+  }
 }

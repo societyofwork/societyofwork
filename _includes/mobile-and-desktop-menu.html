@@ -1,37 +1,43 @@
 <div class="overlay overlay-contentpush main-nav" id="overlay-contentpush">
   <button type="button" class="overlay-close" id="overlay-close">Close</button>
   <nav class="row pl-med-28">
-    
+
     <div class="d-ib hide-on-mobile">
       {% include menu-logo.html %}
     </div>
-    
+
     <ul id="menu-items" class="d-ib">
-      
+
       <li>
         <a href="/" {% if p.url == page.url %}class="active"{% endif %}>
           Home
         </a>
       </li>
-      
+
       <li>
         <a href="/#plans" {% if p.url == page.url %}class="active"{% endif %}>
           Plans
         </a>
       </li>
-      
+
       <li>
         <a href="/members/" {% if p.url == page.url %}class="active"{% endif %}>
           Members
         </a>
       </li>
-      
+
+      <li>
+        <a href="/contact/" {% if p.url == page.url %}class="active"{% endif %}>
+          Contact
+        </a>
+      </li>
+
       <li>
         <a target="_blank" href="https://medium.com/@SocietyofWork" {% if p.url == page.url %}class="active"{% endif %}>
           Blog
         </a>
       </li>
-      
+
     </ul>
   </nav>
 </div>

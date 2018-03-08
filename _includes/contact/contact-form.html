@@ -1,0 +1,17 @@
+<div class="row mb-4">
+  <form class="columns medium-centered medium-7 large-6" name="contact" method="POST" action="/thank-you" netlify>
+    <label>Name:
+      <input type="text" name="name" placeholder="Jane Smith" autocomplete="name">
+    </label>
+    <label>Email:
+      <input type="text" name="email" placeholder="jane@societyofwork.com" autocomplete="name">
+    </label>
+    <label>Message:
+      <textarea name="message" style="height: 118px;" placeholder="I'm ready to be a member forever. How do I do it?"></textarea>
+    </label>
+    <div netlify-recaptcha></div>
+    <div class="text-center">
+      <button class="button float-right" type=”submit”>Send</button>
+    </div>
+  </form>
+</div>
