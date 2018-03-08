@@ -1,5 +1,6 @@
 _site
 assets
+todo.md
 .sass-cache
 .jekyll-metadata
 .DS_Store
