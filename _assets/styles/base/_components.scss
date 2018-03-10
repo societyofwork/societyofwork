@@ -5,7 +5,6 @@
   }
 }
 
-
 .hero {
   @include turquoise-bottom-border;
   color: $white;
@@ -197,8 +196,12 @@ footer {
 
 .mb--400 { margin-bottom: -400px; }
 
-.top-top-img {
-  max-width: 60%;
+.thank-you {
+  margin: 3rem 0 5rem;
+
+  @include breakpoint(large) {
+    margin: 8rem 0 12rem;
+  }
 }
 
 .top-bottom-left-img {
@@ -209,10 +212,20 @@ footer {
   max-width: 55%;
 }
 
-.thank-you {
-  margin: 3rem 0 5rem;
-
-  @include breakpoint(large) {
-    margin: 8rem 0 12rem;
+.top-picture-group {
+  .top-bottom-left-img,
+  .top-bottom-right-img {
+    display: none;
+    @include breakpoint(1100px) {
+      display: inline;
+    }
   }
+
+  .top-top-img {
+    width: 100%;
+    @include breakpoint(1100px) {
+      width: 60%;
+    }
+  }
+
 }
