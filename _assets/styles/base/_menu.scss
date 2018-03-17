@@ -142,6 +142,34 @@ nav {
 }
 
 // Desktop menu styles
+
+@include breakpoint(1100px) {
+  .desktop-contact-button {
+    border: solid 1px;
+    border-radius: 25px;
+    border-color: #DCDCDC;
+    float: right !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    a {
+      color: $black !important;
+      font-weight: 700 !important;
+    }
+  }
+
+  .main-nav {
+    ul {
+      width: 77%;
+
+      li {
+        float: left;
+      }
+    }
+  }
+}
+
 @include breakpoint($desktop-breakpoint) {
 
   .main-nav {
@@ -171,10 +199,10 @@ nav {
         vertical-align: baseline;
 
         a {
-          
+
           @include font-stack($brandon-stack, 400);
           color: $gray2;
-          
+
           &:hover {
             color: $black;
           }
@@ -186,7 +214,6 @@ nav {
         }
       }
     }
-
   }
 
 }
@@ -228,4 +255,3 @@ nav {
     }
   }
 }
-
