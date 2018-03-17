@@ -37,7 +37,8 @@
 //
 // Regular
 .pts-r,
-p
+p,
+td
 { @include font-stack($pt-stack, 400); }
 // Italic
 .pts-i
@@ -84,7 +85,7 @@ header h1    { text-transform: unset; }
 // Font Sizes
 // -----------------------------------------------
 button, .button { font-size: 12px; }
-p { font-size: 13px; }
+p, tr { font-size: 15px; }
 
 // -----------------------------------------------
 // Letter Spacing
