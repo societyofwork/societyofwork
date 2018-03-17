@@ -22,15 +22,6 @@
     color: $white;
   }
 
-  // TODO: probably remove this. removed from hero
-  &__right-padding {
-    padding-left: 29px;
-
-    @include breakpoint(medium) {
-      padding-left: 43px;
-    }
-  }
-
   &__header {
     font-size: 56px;
     line-height: 50px;
