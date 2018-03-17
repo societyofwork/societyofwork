@@ -175,10 +175,8 @@ footer {
 .extra-mobile-padding {
   .column,
   .columns {
-    @include breakpoint(small only) {
-      padding-left: 29px;
-      padding-right: 29px;
-    }
+    padding-left: 29px;
+    padding-right: 29px;
   }
 }
 
