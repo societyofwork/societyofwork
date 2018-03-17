@@ -1,16 +1,16 @@
 .polaroid-min-height {
   min-height: 355px;
-  
+
   @include breakpoint(560px) {
   }
-  
+
   @include breakpoint(667px) {
     min-height: 360px;
   }
-  
+
   @include breakpoint(large) {
-    
-    min-height: 462px; 
+
+    min-height: 462px;
   }
 }
 
@@ -25,142 +25,142 @@ ul.polaroids a:after {
 }
 
 .polaroids {
-  
+
   $square: 135;
   $base-min-height: 191;
-  
+
   margin-left: 0;
-  
+
   &__img {
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
     height: $square * 1px;
     width: $square * 1px;
   }
-  
+
   @include breakpoint(411px) {
     $add: 25px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + 25px;
       width: $square + 25px;
     }
   }
-  
+
   @include breakpoint(480px) {
     $add: 50px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
     }
   }
-  
+
   @include breakpoint(530px) {
     $add: 90px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
     }
   }
-  
+
   @include breakpoint(610px) {
     $add: 130px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
     }
   }
-  
+
   @include breakpoint(667px) {
     $add: 1px;
-    
+
     .polaroid-min-height {
       min-height: 30 + $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square * $add;
       width: $square * $add;
     }
   }
-  
+
   @include breakpoint(685px) {
     $add: 20px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
     }
   }
-  
+
   @include breakpoint(919px) {
     $add: 50px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
     }
   }
-  
+
   @include breakpoint(1024px) {
     $add: 75px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
     }
   }
-  
+
   @include breakpoint(1135px) {
     $add: 100px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
     }
   }
-  
+
   @include breakpoint(1233px) {
     $add: 135px;
-    
+
     .polaroid-min-height {
       min-height: $base-min-height + $square + $add;
     }
-    
+
     &__img {
       height: $square + $add;
       width: $square + $add;
@@ -174,17 +174,17 @@ ul.polaroids a {
   color: #333;
   display: inline;
   float: left;
-  font-family: "Marker Felt", sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-size: 18px;
   padding: 10px 10px 30px;
   text-align: center;
   text-decoration: none;
   width: auto;
-  
+
   @include breakpoint(medium) {
     transition: transform .15s linear;
   }
-  
+
   /* Scale the images on hover, add transitions for smoothing things out, and ensure the hover appears on top */
   @include polaroid-zoom;
 }
@@ -200,4 +200,3 @@ ul.polaroids a {
     box-shadow: inset 0 0 8px rgba(0,0,0,0.6);
   }
 }
-
