@@ -124,9 +124,16 @@
   }
 }
 
-.pricing {
+.section-padding {
 
-  margin-top: 9rem;
+  margin-top: 3rem;
+
+  @include breakpoint(large) {
+    margin-top: 9rem;
+  }
+}
+
+.pricing {
 
   @include breakpoint(small) {
     height: 960px;
