@@ -12,9 +12,12 @@
     }
     </style>
     <div class="polaroids__img polaroids__img{{forloop.index}}" alt="{{ member.first_name }}"></div>
+    <div class="polaroid-background">
+      <img src="/assets/img/polaroid-background.jpg" />
+    </div>
   </a>
   <div class="ta-c pts-r tt-u fs-12 mb-2">
-    <span class="d-b">{{ member.title }}</span>
-    <span>{{ member.company }}</span>
+    <span class="d-b">{{ member.company }}</span>
+    <a href="{{ member.link }}">{{ member.link_text }}</a>
   </div>
 </li>

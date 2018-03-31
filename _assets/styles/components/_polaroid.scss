@@ -168,7 +168,7 @@ ul.polaroids a:after {
   }
 }
 
-ul.polaroids a {
+ul.polaroids .polaroids__link {
   background: #fff;
   box-shadow: 0 3px 6px rgba(0,0,0,.25);
   color: #333;
@@ -176,7 +176,7 @@ ul.polaroids a {
   float: left;
   font-family: 'Permanent Marker', cursive;
   font-size: 18px;
-  padding: 10px 10px 30px;
+  padding: 10px 10px 43px;
   text-align: center;
   text-decoration: none;
   width: auto;
@@ -187,6 +187,20 @@ ul.polaroids a {
 
   /* Scale the images on hover, add transitions for smoothing things out, and ensure the hover appears on top */
   @include polaroid-zoom;
+}
+
+.polaroid-background {
+  position: relative;
+  width: 107.5%;
+
+  img {
+    position: absolute;
+    right: 10px;
+    
+    @include breakpoint(1233px down) {
+      display: none;
+    }
+  }
 }
 
 .inner-shadow {
