@@ -27,8 +27,8 @@ defaults:
     type: members
   values:
     first_name: 
-    link:
-    link_text:
+    link: 
+    link_text: 
     content: Nothing goes here
     image: 
     crazy_image: 
