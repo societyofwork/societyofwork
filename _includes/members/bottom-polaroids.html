@@ -4,6 +4,27 @@
       {% for member in site.members offset: 8 %}
         {% include members/polaroid-core.html %}
       {% endfor %}
+      
+      <li class="small-6 medium-3 columns polaroid-min-height">
+        <a href="#" title="You?" class="polaroids__link mb-1">
+          <style media="screen">
+            .polaroids__img-you {
+              background-image: url(/assets/img/last-polaroid-img.png);
+              background-position: top;
+              background-size: cover;
+            }
+          </style>
+          <div class="polaroids__img polaroids__img-you"></div>
+          <div class="polaroid-background">
+            <img src="/assets/img/polaroid-background.jpg" />
+          </div>
+        </a>
+        <div class="ta-c pts-r tt-u fs-12 mb-2">
+          <span class="d-b">Join Us!</span>
+          <a href="https://calendly.com/societyofwork">Take a Tour</a>
+        </div>
+      </li>
+      
     </ul>
   </div>
 </div>

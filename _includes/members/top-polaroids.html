@@ -1,3 +1,11 @@
+<style media="screen">
+  .preload { opacity: 0; position: absolute; top: -9999px; left: -9999px; }
+</style>
+<div class="preload">
+  {% for member in site.members %}
+    <img src="{{ member.crazy_image }}">
+  {% endfor %}
+</div>
 <div class="row mb-80">
   <div class="column">
     <ul class="polaroids">
