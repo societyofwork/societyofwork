@@ -1,5 +1,6 @@
 ---
 title: Mary Stargel
+published: false
 position: 0
 first_name: Mary
 image: "/uploads/Mary_S.jpg"
