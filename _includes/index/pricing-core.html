@@ -1,11 +1,11 @@
 <div class="row text-center large-text-left">
   <div class="columns">
-    <h6 class="br-b fs-20 ls-2">{{ page.pricing_section.header }}</h6>
-    <p class="fs-18 light-gray">{{ page.pricing_section.blurb }}</p>
+    <h6 class="br-b fs-20 ls-2">{{ site.pricing_section.header }}</h6>
+    <p class="fs-18 light-gray">{{ site.pricing_section.blurb }}</p>
   </div>
 
   {% assign i = 0 %}
-  {% for plan in page.pricing_section.plans %}
+  {% for plan in site.pricing_section.plans %}
   {% assign i = i | plus: 1 %}
     <div class="small-6 large-3 columns">
       <img class="pricing__pic" src="/assets/img/icons/pic-{{i}}.svg">

@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: pages
   values:
-    image: 
+    image:
 - scope:
     path: ''
     type: posts
@@ -26,19 +26,19 @@ defaults:
     path: ''
     type: members
   values:
-    first_name: 
-    link: 
-    link_text: 
+    first_name:
+    link:
+    link_text:
     content: Nothing goes here
-    image: 
-    crazy_image: 
-    position: 
+    image:
+    crazy_image:
+    position:
     title: Replace with first and last name // for admin reference
-    company: 
+    company:
 description: Society of Work is a shared coworking space in Chattanooga, TN with business
   flexibility in mind and resources to help like-minded people connect and create
   amazing things together.
-baseurl: 
+baseurl:
 facebook: https://www.facebook.com/SocietyOfWork
 twitter: https://twitter.com/SocietyofWork
 instagram: http://instagram.com/societyofwork
@@ -50,10 +50,30 @@ logo: "/assets/img/logo/red-sow-logo.svg"
 address: 1100 Market Street, Floor 6, Chattanooga, TN 37402
 phone_number: 423-449-9112
 url: https://www.societyofwork.com
+pricing_section:
+  header: Pricing Plans
+  blurb: For individuals, startups, and small teams with month-to-month flexibility.
+  plans:
+  - plan:
+    name: Day Pass
+    price: 25
+    additional_info: Includes Everything
+  - plan:
+    name: Community Desks
+    price: 150
+    additional_info: No long term contract
+  - plan:
+    name: Reserved Desk
+    price: 350
+    additional_info: No long term contract
+  - plan:
+    name: Private Office
+    price: 550
+    additional_info: 6mo lease / month to month after
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
-  cloud_name: 
+  cloud_name:
   verbose: true
   presets:
     default:

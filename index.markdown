@@ -57,26 +57,6 @@ middle_picture_section:
   top: uploads/bottom-t.jpg
   bottom_left: uploads/bottom-left.jpg
   bottom_right: uploads/bottom-right.jpg
-pricing_section:
-  header: Pricing Plans
-  blurb: For individuals, startups, and small teams with month-to-month flexibility.
-  plans:
-  - plan: 
-    name: Day Pass
-    price: 25
-    additional_info: Includes Everything
-  - plan: 
-    name: Community Desks
-    price: 150
-    additional_info: No long term contract
-  - plan: 
-    name: Reserved Desk
-    price: 350
-    additional_info: No long term contract
-  - plan: 
-    name: Private Office
-    price: 550
-    additional_info: 6mo lease / month to month after
 cta_section:
   header: Ready to visit Society of Work?
   blue_button_txt: Find Tour Availability
@@ -102,4 +82,3 @@ review_section:
       special. Was not disappointed.
     name: Sara Smith
 ---
-
