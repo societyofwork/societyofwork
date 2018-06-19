@@ -15,15 +15,15 @@ map_section:
   header: The heart of Innovation in Chattanooga
   body: Society of Work is located in the Edney building in the heart of Chattanooga's
     Innovation District.
-  link: 
+  link:
   link_text: Learn more on how co-working benefits your business
   map_image: uploads/map.jpg
   map_link: https://www.google.com/maps/place/Society+of+Work/@35.043563,-85.3088409,15z/data=!4m2!3m1!1s0x0:0x19103f5df6547e8d?sa=X&ved=0ahUKEwjfxIPKmILXAhXMLSYKHaqfBA4Q_BIIfTAK
   map_link_text: Open directions in Google Maps
 top_picture_section:
-  top: uploads/top-top.jpg
-  bottom_left: uploads/top-left.jpg
-  bottom_right: uploads/top-right.jpg
+  top: uploads/top-top-left.jpg
+  bottom_left: uploads/top-bottom-left.jpg
+  bottom_right: uploads/top-bottom-right.jpg
 feature_section:
   header: A Better Way to Work
   blurb: Society of Work features two floors of coworking space in the heart of Chattanooga's
@@ -31,20 +31,20 @@ feature_section:
     teams. Whether your idea of a much needed break leads you to a bean bag chair
     in the arcade or out on our rooftop for a breath of fresh air, we've got you covered.
   features:
-  - feature: 
+  - feature:
     title: Gigabit Internet
     description: Reliable gigabit (very fast) wi-fi on all floors including rooftop.
-  - feature: 
+  - feature:
     title: Conference Rooms
     description: Various sized conference rooms are available for members with audio/video
       hookups and whiteboards.
-  - feature: 
+  - feature:
     title: Business Address
     description: Receive and have mail/packages with an official business address.
-  - feature: 
+  - feature:
     title: Printing
     description: Multi-functioning copier/scanner/printer
-  - feature: 
+  - feature:
     title: Phone Booths
     description: Private booths for taking phone calls.
 social_proof_section:
@@ -54,9 +54,9 @@ social_proof_section:
   - img: uploads/wordpress-logo.png
   - img: uploads/emma-logo.png
 middle_picture_section:
-  top: uploads/bottom-t.jpg
-  bottom_left: uploads/bottom-left.jpg
-  bottom_right: uploads/bottom-right.jpg
+  top: uploads/bottom-top-center.jpg
+  bottom_left: uploads/bottom-bottom-left.jpg
+  bottom_right: uploads/bottom-bottom-right.jpg
 cta_section:
   header: Ready to visit Society of Work?
   blue_button_txt: Find Tour Availability
@@ -69,17 +69,16 @@ review_section:
   facebook_link_txt: Find more reviews on facebook
   facebook_link: https://www.facebook.com/pg/SocietyOfWork/reviews/
   reviews:
-  - review: 
+  - review:
     testimonial: All of my best writing was done here at this space. Can't recommend
       it enough.
     name: Ray Bradbury
-  - review: 
+  - review:
     testimonial: After our first trial day it was obvious that the membership fees
       are well worth the cost.
     name: Lisa Simpson
-  - review: 
+  - review:
     testimonial: I knew from the first minute walking in that this was going to be
       special. Was not disappointed.
     name: Sara Smith
 ---
-
