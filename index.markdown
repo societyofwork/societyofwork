@@ -57,29 +57,4 @@ middle_picture_section:
   top: uploads/bottom-top-center.jpg
   bottom_left: uploads/bottom-bottom-left.jpg
   bottom_right: uploads/bottom-bottom-right.jpg
-cta_section:
-  header: Ready to visit Society of Work?
-  blue_button_txt: Find Tour Availability
-  blue_button_link: https://calendly.com/societyofwork/tour?back=1
-  white_button_txt: Book Conference Room
-  white_button_link: https://external-bookings.apps.cobot.me/29b9a8f5-ca15-4713-8f25-33c58c18d3bd/book
-  blue_aside_below_buttons: 'Special offer:'
-  aside_below_buttons: free trial day pass with tour!
-review_section:
-  facebook_link_txt: Find more reviews on facebook
-  facebook_link: https://www.facebook.com/pg/SocietyOfWork/reviews/
-  reviews:
-  - review: 
-    testimonial: All of my best writing was done here at this space. Can't recommend
-      it enough.
-    name: Ray Bradbury
-  - review: 
-    testimonial: After our first trial day it was obvious that the membership fees
-      are well worth the cost.
-    name: Lisa Simpson
-  - review: 
-    testimonial: I knew from the first minute walking in that this was going to be
-      special. Was not disappointed.
-    name: Sara Smith
 ---
-

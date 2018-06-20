@@ -3,6 +3,17 @@ layout: default
 ---
 
 <main role="main" aria-label="Content">
+
   {% include hero.html %}
+
+  <div class="row section-padding">
+    <div class="columns">
+      {{ content }}
+    </div>
+  </div>
+
   {% include index/pricing.html %}
+  {% include index/cta.html %}
+  {% include index/reviews.html %}
+
 </main>

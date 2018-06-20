@@ -1,5 +1,5 @@
 <div class="reviews row mb-75">
-  {% for review in page.review_section.reviews %}
+  {% for review in site.review_section.reviews %}
   <div class="review large-4 columns mb-2">
     <div class="pb-05">
       <img src="/assets/img/icons/review-stars.svg" class="pb-4px">
@@ -11,7 +11,7 @@
   {% endfor %}
 
   <div class="text-center">
-    <a class="pts-b" target="_blank" href="{{ page.review_section.facebook_link }}">{{ page.review_section.facebook_link_txt }}</a>
+    <a class="pts-b" target="_blank" href="{{ site.review_section.facebook_link }}">{{ site.review_section.facebook_link_txt }}</a>
   </div>
 
 </div>
