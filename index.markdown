@@ -47,6 +47,26 @@ feature_section:
   - feature: 
     title: Phone Booths
     description: Private booths for taking phone calls.
+pricing_section:
+  header: Pricing Plans
+  blurb: For individuals, startups, and small teams with month-to-month flexibility.
+  plans:
+  - plan: 
+    name: Day Pass
+    price: 25
+    additional_info: Includes Everything
+  - plan: 
+    name: Community Desks
+    price: 150
+    additional_info: No long term contract
+  - plan: 
+    name: Reserved Desk
+    price: 350
+    additional_info: No long term contract
+  - plan: 
+    name: Private Office
+    price: 550
+    additional_info: 6mo lease / month to month after
 social_proof_section:
   blurb: Some of the brightest minds from the best companies inside and outside of
     Chattanooga are already here.
@@ -58,4 +78,3 @@ middle_picture_section:
   bottom_left: uploads/bottom-bottom-left.jpg
   bottom_right: uploads/bottom-bottom-right.jpg
 ---
-
