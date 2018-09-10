@@ -1,6 +1,7 @@
 ---
 title: Susan Lambert
 date: 2018-01-11 12:17:00 -05:00
+published: false
 first_name: 'Susan '
 image: "/uploads/Susan%20Lambert.JPG"
 crazy_image: "/uploads/Susan%20Lambert%20fun.JPG"
