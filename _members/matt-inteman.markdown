@@ -1,5 +1,5 @@
 ---
-title: Matt Inteman
+title: Matt Intemann
 date: 2018-03-05 11:45:00 -05:00
 first_name: Matt
 image: "/uploads/Matt%20Inteman.jpg"
