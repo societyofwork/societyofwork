@@ -78,3 +78,4 @@ middle_picture_section:
   bottom_left: uploads/bottom-bottom-left.jpg
   bottom_right: uploads/bottom-bottom-right.jpg
 ---
+

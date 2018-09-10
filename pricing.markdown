@@ -10,19 +10,19 @@ pricing_section:
   header: Pricing Plans
   blurb: For individuals, startups, and small teams with month-to-month flexibility.
   plans:
-  - plan:
+  - plan: 
     name: The Runner
     price: 150
     additional_info: No Long Term Contract
-  - plan:
+  - plan: 
     name: The Professional
     price: 190
     additional_info: No long term contract
-  - plan:
+  - plan: 
     name: The Breadwinner
     price: 300
     additional_info: No long term contract
-  - plan:
+  - plan: 
     name: The Red Eye
     price: 350
     additional_info: No long term contract
