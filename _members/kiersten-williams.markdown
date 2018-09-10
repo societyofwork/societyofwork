@@ -1,5 +1,5 @@
 ---
-title: Kirsten Williams
+title: Kiersten Williams
 date: 2018-01-11 12:11:00 -05:00
 first_name: Kirsten
 image: "/uploads/Kiersten%20Williams.JPG"
