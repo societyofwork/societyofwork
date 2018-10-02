@@ -1,7 +1,6 @@
 ---
 title: Home
 position: 0
-layout: index
 hero_section:
   hero_image: "/uploads/hero.jpg"
   header_blurb: The Society of Work is a shared coworking space in Chattanooga, TN
@@ -65,7 +64,7 @@ pricing_section:
     additional_info: No long term contract
   - plan: 
     name: Private Office
-    price: 550
+    price: 550+
     additional_info: 6mo lease / month to month after
 social_proof_section:
   blurb: Some of the brightest minds from the best companies inside and outside of
@@ -77,5 +76,6 @@ middle_picture_section:
   top: uploads/bottom-top-center.jpg
   bottom_left: uploads/bottom-bottom-left.jpg
   bottom_right: uploads/bottom-bottom-right.jpg
+layout: index
 ---
 
