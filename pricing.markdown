@@ -15,8 +15,8 @@ pricing_section:
     additional_info: |-
       This pass assumes you’ll be on the move. It gives you access to our open office 8 days a month.
 
-      8 days/month
-      Seat at an office table
+      - 8 days/month
+      - Seat at an office table
   - plan: 
     name: The Professional
     price: 190
