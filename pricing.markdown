@@ -9,7 +9,7 @@ pricing_section:
   header: Pricing Plans
   blurb: For individuals, startups, and small teams with month-to-month flexibility.
   plans:
-  - plan:
+  - plan: 
     name: The Runner
     price: 150
     additional_info: |-
@@ -17,7 +17,7 @@ pricing_section:
 
       - 8 days/month
       - Seat at an office table
-  - plan:
+  - plan: 
     name: The Professional
     price: 190
     additional_info: |-
@@ -27,7 +27,7 @@ pricing_section:
       - Seat at an office table
       - ­4 Conference Room Hours
       - ­Business Address
-  - plan:
+  - plan: 
     name: The Breadwinner
     price: 300
     additional_info: |-
@@ -37,7 +37,7 @@ pricing_section:
       - Seat at any open table
       - ­6 conference room hours
       - ­Business address
-  - plan:
+  - plan: 
     name: The Red Eye
     price: 350
     additional_info: |-
