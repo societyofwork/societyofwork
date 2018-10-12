@@ -7,12 +7,12 @@
   {% assign i = 0 %}
   {% for plan in page.pricing_section.plans %}
     {% assign i = i | plus: 1 %}
-    <div class="small-6 large-3 columns">
+    <div class="small-6 large-3 columns white">
       <img style="max-width: 267px;" class="pricing__pic" src="/assets/img/icons/pricing-{{i}}.png">
       <p class="br-b fs-18 white mt-1 mb-05">{{ plan.name }}</p>
       <p class="white mb-0 mb--6">Starts from</p>
       <p class="br-b fs-26 white mb-05">${{ plan.price }} / mo</p>
-      <p class="white">{{ plan.additional_info }}</p>
+      <p>{{ plan.additional_info | markdownify }}</p>
     </div>
   {% endfor %}
 

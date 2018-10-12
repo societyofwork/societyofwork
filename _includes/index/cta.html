@@ -1,4 +1,4 @@
-<div class="row columns text-center mb-75">
+<div class="row columns text-center mb-75 {% if page.url == '/pricing/' %}mt-8{% endif %}">
   <h4 class="ls-4 br-b mb-2">{{ site.cta_section.header }}</h4>
   <a href="{{ site.cta_section.blue_button_link }}" class="button" target="_blank">{{ site.cta_section.blue_button_txt }}</a>
   <a href="{{ site.cta_section.white_button_link }}" class="button secondary" target="_blank">{{ site.cta_section.white_button_txt }}</a>

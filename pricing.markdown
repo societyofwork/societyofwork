@@ -9,7 +9,7 @@ pricing_section:
   header: Pricing Plans
   blurb: For individuals, startups, and small teams with month-to-month flexibility.
   plans:
-  - plan: 
+  - plan:
     name: The Runner
     price: 150
     additional_info: |-
@@ -17,38 +17,40 @@ pricing_section:
 
       - 8 days/month
       - Seat at an office table
-  - plan: 
+  - plan:
     name: The Professional
     price: 190
     additional_info: |-
       Now we’re getting somewhere. The Professional is an option for those who have business to handle and need a place to handle it.
 
-      12 days/month
-      Seat at an office table
-      ­4 Conference Room Hours
-      ­Business Address
-  - plan: 
+      - 12 days/month
+      - Seat at an office table
+      - ­4 Conference Room Hours
+      - ­Business Address
+  - plan:
     name: The Breadwinner
     price: 300
     additional_info: |-
       All day, every day. The Breadwinner is a full week access option.
 
-      20 days/month
-      Seat at any open table
-      ­6 conference room hours
-      ­Business address
-  - plan: 
+      - 20 days/month
+      - Seat at any open table
+      - ­6 conference room hours
+      - ­Business address
+  - plan:
     name: The Red Eye
     price: 350
     additional_info: |-
       Never stop. The Red Eye is a comprehensive package for those who eat, sleep and breathe their business.
 
-      Unlimited days per month
-      Reserved desk
-      ­8 conference room hours
-      ­Business address
+      - Unlimited days per month
+      - Reserved desk
+      - ­8 conference room hours
+      - ­Business address
 layout: pricing
 ---
+
+**A Message from Our Founder Kelly Fitzgerald**
 
 At Society of Work, you get a professional office space without the hassle of a commercial lease. You get 24/7 access. You get a dynamite community.
 

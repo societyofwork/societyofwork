@@ -28,7 +28,7 @@ $black:       #222;
 
 
 // color classes
-.white     { color: $white; }
+.white, .white > p   { color: $white; }
 .light-gray      { color: $light-gray; }
 .gray      { color: $gray; }
 .black     { color: $black; }
