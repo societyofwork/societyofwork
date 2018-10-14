@@ -15,7 +15,7 @@ map_section:
   body: Society of Work is located in the Edney building in the heart of Chattanooga's
     Innovation District.
   link: 
-  link_text: Learn more on how co-working benefits your business
+  link_text: Learn more on how coworking benefits your business
   map_image: uploads/map.jpg
   map_link: https://www.google.com/maps/place/Society+of+Work/@35.043563,-85.3088409,15z/data=!4m2!3m1!1s0x0:0x19103f5df6547e8d?sa=X&ved=0ahUKEwjfxIPKmILXAhXMLSYKHaqfBA4Q_BIIfTAK
   map_link_text: Open directions in Google Maps
