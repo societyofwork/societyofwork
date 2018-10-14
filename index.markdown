@@ -27,8 +27,8 @@ feature_section:
   header: A Better Way to Work
   blurb: Society of Work features two floors of coworking space in the heart of Chattanooga's
     Innovation District from common areas to phone booths to private offices for small
-    teams. Whether your idea of a much needed break leads you to a bean bag chair
-    in the arcade or out on our rooftop for a breath of fresh air, we've got you covered.
+    teams. Whether your idea of a much needed break leads you to cup of coffee with
+    a coworker or out on our rooftop for a breath of fresh air, we've got you covered.
   features:
   - feature: 
     title: Gigabit Internet
