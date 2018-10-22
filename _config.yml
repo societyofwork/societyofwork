@@ -63,17 +63,22 @@ review_section:
   facebook_link: https://www.facebook.com/pg/SocietyOfWork/reviews/
   reviews:
   - review: 
-    testimonial: All of my best writing was done here at this space. Can't recommend
-      it enough.
-    name: Ray Bradbury
+    testimonial: Society of Work is THE place to work and connect. I'm so grateful
+      to have this place as source of focus + networking. There is no value I could
+      place on how great this place has been for my work life/flow. And I love the
+      feel of the coworking spaces, the vibe the building, and the amenities it provides!
+    name: Kiersten Willams
   - review: 
-    testimonial: After our first trial day it was obvious that the membership fees
-      are well worth the cost.
-    name: Lisa Simpson
+    testimonial: Most importantly great tenants and hosts. The best place to plug
+      into the startup community with great facilities and a constant flow of events
+      that are enjoyable and topical.
+    name: Tim Youngblood
   - review: 
-    testimonial: I knew from the first minute walking in that this was going to be
-      special. Was not disappointed.
-    name: Sara Smith
+    testimonial: We love working at Society of Work.  After having worked from home
+      for some time, this space has been such a wonderful alternative to allow for
+      more focused work and great interaction with others.  The community of people
+      and the comfortable space is just right for our team. We couldn't be happier!
+    name: Barbara Winchester
 permalink: "/:title/"
 markdown: kramdown
 cloudinary:
