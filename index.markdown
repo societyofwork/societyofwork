@@ -39,7 +39,7 @@ feature_section:
       hookups and whiteboards.
   - feature: 
     title: Business Address
-    description: Receive mail and packages to official downtown business address.
+    description: Receive mail and packages to your official downtown business address.
   - feature: 
     title: Printing
     description: Multi-functioning copier/scanner/printer
