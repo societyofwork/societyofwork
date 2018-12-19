@@ -13,7 +13,7 @@ hero_section:
 map_section:
   header: The heart of Innovation in Chattanooga
   body: Society of Work is located at the corner of Market St and 11th St in the Edney
-    building- the heart of [Chattanooga's Innovation District](https://www.chainnovate.com/).
+    building- the heart of [Chattanooga's Innovation District](https://www.chainnovate.com/)
   link: 
   link_text: Learn more on how coworking benefits your business.
   map_image: uploads/map.jpg
