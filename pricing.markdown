@@ -60,12 +60,11 @@ The simple truth: we want you here. So, we’ve worked out a whole variety of pr
 
 Every membership plan includes the following:
 
-Access to the Conference Room
-High Speed Wifi (some of [the fastest](http://chattanoogagig.com/) in the country)
-Use of the printer/scanner
-Access to the kitchen
-Storage options
-Access to member-shared books in the evolving lending library
-Endless power outlets
-Awesome Coffee
-Ready to see our space? [Book a tour now.](https://calendly.com/societyofwork)
+* Access to the Conference Room
+* High Speed Wifi (some of [the fastest](http://chattanoogagig.com/) in the country)
+* Use of the printer/scanner
+* Access to the kitchen
+* Storage options
+* Endless power outlets
+* Awesome Coffee
+* Ready to see our space? [Book a tour now.](https://calendly.com/societyofwork)
