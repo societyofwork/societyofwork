@@ -7,7 +7,7 @@ hero_section:
   blurb: Pricing
 pricing_section:
   header: Pricing Plans
-  blurb: For individuals, startups, and small teams with month-to-month flexibility.
+  blurb: 'For individuals, small teams, remote workers and everyone in between!  '
   plans:
   - plan: 
     name: The Runner
