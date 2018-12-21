@@ -60,7 +60,7 @@ The simple truth: we want you here. So, we’ve worked out a whole variety of pr
 
 Every membership plan includes the following:
 
-* Access to the Conference Room
+### * Access to the Conference Room
 * High Speed Wifi (some of [the fastest](http://chattanoogagig.com/) in the country)
 * Use of the printer/scanner
 * Access to the kitchen
