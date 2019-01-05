@@ -5,7 +5,7 @@
       {{ page.map_section.header }}
     </p>
     <p>
-      {{ page.map_section.body }}
+      {{ page.map_section.body | markdownify }}
     </p>
     <a class="fs-18" target="_blank" href="{{ page.map_section.link }}">{{ page.map_section.link_text }}</a>
   </div>
