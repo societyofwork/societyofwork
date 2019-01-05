@@ -1,10 +1,10 @@
 <div class="row mb-80">
   <div class="column">
     <ul class="polaroids">
-      {% for member in site.members offset: 8 %}
+      {% for member in site.members offset:2 %}
         {% include members/polaroid-core.html %}
       {% endfor %}
-      
+
       <li class="small-6 medium-3 columns polaroid-min-height">
         <a href="#" title="You?" class="polaroids__link mb-1">
           <style media="screen">
@@ -24,7 +24,7 @@
           <a href="https://calendly.com/societyofwork">Take a Tour</a>
         </div>
       </li>
-      
+
     </ul>
   </div>
 </div>
