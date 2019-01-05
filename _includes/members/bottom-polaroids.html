@@ -1,7 +1,7 @@
 <div class="row mb-80">
   <div class="column">
     <ul class="polaroids">
-      {% for member in site.members offset:2 %}
+      {% for member in site.members %}
         {% include members/polaroid-core.html %}
       {% endfor %}
 
