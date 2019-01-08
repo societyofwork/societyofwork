@@ -53,7 +53,7 @@ pricing_section:
   - plan: 
     name: Day Pass
     price: 25
-    additional_info: Includes Everything
+    additional_info: Perfect if you're passing through
   - plan: 
     name: Community Desks
     price: 150
