@@ -64,7 +64,7 @@ pricing_section:
     additional_info: No long term contract
   - plan: 
     name: Private Office
-    price: 550+
+    price: 560+
     additional_info: 6mo lease / month to month after
 social_proof_section:
   blurb: Some of the brightest minds from the best companies inside and outside of
