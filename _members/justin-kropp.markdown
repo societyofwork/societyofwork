@@ -5,6 +5,8 @@ published: false
 first_name: Justin
 image: "/uploads/Copy%20of%20Justin%20Kropp.jpg"
 crazy_image: "/uploads/Copy%20of%20Justin%20Kropp%20fun.jpg"
-company: Mandy Lamb Designs
+company: 'Kropp
+
+'
 ---
 
