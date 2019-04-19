@@ -53,7 +53,9 @@ pricing_section:
   - plan: 
     name: Day Pass
     price: 25
-    additional_info: Perfect if you're passing through
+    additional_info: |-
+      M-F 8am-5pm
+      Perfect if you're passing through
   - plan: 
     name: Community Desks
     price: 150
