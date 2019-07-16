@@ -1,5 +1,5 @@
 ---
-title: Victoria
+title: Victoria Barr
 date: 2019-07-16 11:35:00 -04:00
 first_name: Victoria Barr
 image: "/uploads/69ECA5C4-3F4A-42F9-A8E0-A76D1AE976CB.JPG"
