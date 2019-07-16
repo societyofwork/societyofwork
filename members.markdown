@@ -5,7 +5,7 @@ hero_section:
   img: "/uploads/members-hero.jpg"
   blurb: Our Members
 member_spotlight:
-  image: "/uploads/Member%20Spotlight-7c7bf9.png"
+  image: "/uploads/2.png"
   name: Kelly Fitzgerald
   blurb: 'Kelly founded and created Society of Work back in 2013. From creating the
     company to all the changes and growth happening since then, read more about the
