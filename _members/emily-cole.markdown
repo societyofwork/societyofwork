@@ -1,7 +1,6 @@
 ---
 title: Emilie Cole
 date: 2018-01-11 12:03:00 -05:00
-published: false
 first_name: Emilie
 image: "/uploads/Emilie%20Cole.JPG"
 crazy_image: "/uploads/Emilie%20Cole%20fun.JPG"
