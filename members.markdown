@@ -15,7 +15,7 @@ project_spotlight:
   title: Tech Goes Home
   blurb: Tech Goes Home is a digital inclusion program and is modeled after the national
     program based in Boston, MA.
-  link: http://google.com
+  link: https://www.chattanoogan.com/2019/8/27/395246/Tech-Goes-Home-Training-Provided-To.aspx
 layout: members
 ---
 
