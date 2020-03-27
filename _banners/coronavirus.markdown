@@ -5,4 +5,4 @@ Pages: Home
 is_Active: false
 ---
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum
+View our COVID-19 response [here](https://medium.com/@SocietyofWork/covid-19-update-5e5f6c392809) 
