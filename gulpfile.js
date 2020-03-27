@@ -31,7 +31,7 @@ sass.compiler      = require('node-sass');
 // and then outputs the file to the appropriate location.
 // Finally fires off browsersync to inject new styles.
 gulp.task('build:styles:main', function() {
-  return gulp.src('./_assets/styles/main.scss')
+  return gulp.src(paths.sassFiles + '/main.scss')
   .pipe(sass({
     sourcemap: true
   })).on('error', sass.logError)
@@ -47,11 +47,10 @@ gulp.task('build:styles:main', function() {
 // and browsersync. It minifies files and removes inline comments
 // before sending to postcss to get vendor prefixes.
 gulp.task('build:styles:main:prod', function() {
-  return sass(paths.sassFiles + '/main.scss', {
-    style: 'compressed',
-    trace: true,
-    loadPath: [paths.sassFiles]
-  })
+  return gulp.src(paths.sassFiles + '/main.scss')
+  .pipe(sass({
+    sourcemap: false
+  })).on('error', sass.logError)
   .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
   .pipe(cleancss())
   .pipe(gulp.dest(paths.jekyllCssFiles))
