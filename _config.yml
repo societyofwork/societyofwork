@@ -2,6 +2,9 @@
 title: Society of Work
 timezone: America/New_York
 collections:
+  banners:
+    title: Banners
+    output: true
   members:
     title: Members
     output: false
