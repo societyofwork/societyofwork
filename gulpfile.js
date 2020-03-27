@@ -18,22 +18,23 @@ var postcss        = require('gulp-postcss');
 var rename         = require('gulp-rename');
 var run            = require('gulp-run');
 var runSequence    = require('run-sequence');
-var sass           = require('gulp-ruby-sass');
+// var sass           = require('gulp-ruby-sass');
+var sass           = require('gulp-sass');
 var sourcemaps     = require('gulp-sourcemaps');
 var uglify         = require('gulp-uglify');
 
 var paths          = require('./_assets/gulp_config/paths');
 
+sass.compiler      = require('node-sass');
 
 // Compiles SCSS to css, adding sourcemaps and vendor prefixes
 // and then outputs the file to the appropriate location.
 // Finally fires off browsersync to inject new styles.
 gulp.task('build:styles:main', function() {
-  return sass(paths.sassFiles + '/main.scss', {
-    trace: true,
-    sourcemap: true,
-    loadPath: [paths.sassFiles]
-  })
+  return gulp.src('./_assets/styles/main.scss')
+  .pipe(sass({
+    sourcemap: true
+  })).on('error', sass.logError)
   .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
   .pipe(sourcemaps.write())
   .pipe(gulp.dest(paths.jekyllCssFiles))

@@ -74,6 +74,21 @@
   }
 }
 
+.sitebanner {
+  background-color: $turquoise;
+  min-height: 40px;
+  > p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+}
+
 .logo-words {
   position: relative;
   top: 9px;

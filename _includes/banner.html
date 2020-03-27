@@ -1,0 +1,8 @@
+
+{% for banner in site.banners %}
+  {% if banner.is_Active == true and banner.Pages == page.title %}
+    <div class="sitebanner">
+    {{ banner.content }}
+    </div>
+  {% endif %}
+{% endfor %}
