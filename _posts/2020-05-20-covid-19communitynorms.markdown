@@ -1,7 +1,6 @@
 ---
 title: COVID-19 Community Norms
 date: 2020-05-20 11:31:00 -04:00
-published: false
 ---
 
 As Soicety of Work members re-enter our office space, we remain committed to creating a healthy and safe workspace and have created COVID-19 Community Norms and Guidelines.
