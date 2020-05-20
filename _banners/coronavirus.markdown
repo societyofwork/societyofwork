@@ -5,4 +5,4 @@ Pages: Home
 is_Active: true
 ---
 
-View our COVID-19 response [here](https://medium.com/@SocietyofWork/covid-19-update-5e5f6c392809) 
+View our COVID-19 response [here](https://medium.com/society-of-work/society-of-work-covid-19-community-norms-6680359ecf2d) 
