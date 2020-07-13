@@ -9,7 +9,7 @@ hero_section:
   left_button_link: https://calendly.com/societyofwork
   left_button_text: Schedule a Tour
   right_button_link: https://forms.gle/8u9kYLdsHhUpa9RGA
-  right_button_text: Join our Office Waitlist
+  right_button_text: Learn more about office space
 map_section:
   header: The heart of Innovation in Chattanooga
   body: Society of Work is located at the corner of Market St and 11th St in the Edney
