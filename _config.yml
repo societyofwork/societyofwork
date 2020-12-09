@@ -56,9 +56,9 @@ url: https://www.societyofwork.com
 cta_section:
   header: Ready to visit Society of Work?
   blue_button_txt: Find Tour Availability
-  blue_button_link: https://calendly.com/societyofwork/tour?back=1
+  blue_button_link: https://calendly.com/societyofwork
   white_button_txt: Book Conference Room
-  white_button_link: mailto:hello@societyofwork.com
+  white_button_link: '"mailto:hello@societyofwork.com"'
   blue_aside_below_buttons: 'Special offer:'
   aside_below_buttons: free trial day pass with tour!
 review_section:
