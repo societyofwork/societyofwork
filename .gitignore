@@ -3,6 +3,7 @@ assets
 todo.md
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 .DS_Store
 node_modules
 UltiSnips
