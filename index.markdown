@@ -79,6 +79,7 @@ middle_picture_section:
   bottom_left: uploads/bottom-bottom-left.jpg
   bottom_right: uploads/bottom-bottom-right.jpg
 Google Analytics: |-
+  <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66844008-1"></script>
   <script>
@@ -88,6 +89,7 @@ Google Analytics: |-
 
   gtag('config', 'UA-66844008-1');
   </script>
+  </head>
 layout: index
 ---
 
