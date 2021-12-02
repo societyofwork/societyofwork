@@ -5,4 +5,4 @@ Pages: Home
 is_Active: true
 ---
 
-View our COVID-19 response [here](https://medium.com/society-of-work/society-of-work-covid-19-community-norms-6680359ecf2d) 
+[BOOK A DAY PASS](https://calendly.com/societyofwork/society-of-work-day-pass) 
