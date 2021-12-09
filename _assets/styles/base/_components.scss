@@ -186,12 +186,15 @@
 
 .pricing__booklink {
   padding: 10px 14px 10px 14px;
-  margin: -110px 0 0 10px;
+  display: block;
+  position: relative;
+  margin: -60px auto 0 auto;
   height: 36px;
+  width: 116px;
 }
 
 .pricing__firstplan {
-  margin-top: -1.563rem;
+  margin-top: 25px;
 }
 
 .button.secondary {
