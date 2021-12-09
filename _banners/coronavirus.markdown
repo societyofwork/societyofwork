@@ -5,4 +5,4 @@ Pages: Home
 is_Active: true
 ---
 
-[BOOK A DAY PASS](https://calendly.com/societyofwork/society-of-work-day-pass) 
+BOOK A [DAY PASS](https://calendly.com/societyofwork/society-of-work-day-pass)
