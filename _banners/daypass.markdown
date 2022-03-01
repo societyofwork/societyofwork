@@ -5,4 +5,4 @@ Pages: Home
 is_Active: true
 ---
 
-Society of Work will be closed December 22nd - January 1st.
+Book a day pass [here.](https://calendly.com/societyofwork/society-of-work-day-pass)
