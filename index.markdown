@@ -58,7 +58,7 @@ pricing_section:
       Perfect if you're passing through
   - plan: 
     name: Community Desks
-    price: 150
+    price: 85
     additional_info: No long term contract
   - plan: 
     name: Reserved Desk

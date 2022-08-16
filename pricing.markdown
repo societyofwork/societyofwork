@@ -10,42 +10,40 @@ pricing_section:
   blurb: 'For individuals, small teams, remote workers and everyone in between!  '
   plans:
   - plan: 
-    name: The Runner
-    price: 150
+    name: The Half Runner
+    price: 85
     additional_info: |-
       This pass assumes you’ll be on the move. It gives you access to our open office 8 days a month.
 
-      - 8 days/month
-      - Seat at an office table
+      - 4 days/month
+      - Seat at any open desk
+  - plan: 
+    name: The Runner
+    price: 175
+    additional_info: |-
+      All day, every day. The Runner is a full time access option.
+      - 24/7 access, unlimited days per month
+      - Seat at any open desk
+      - 3 conference room hours
   - plan: 
     name: The Professional
-    price: 190
+    price: 215
     additional_info: |-
       Now we’re getting somewhere. The Professional is an option for those who have business to handle and need a place to handle it.
 
-      - 12 days/month
-      - Seat at an office table
-      - ­4 Conference Room Hours
+      - 24/7 access, unlimited days per month
+      - Seat at any open desk
+      - 6 Conference Room Hours
       - ­Business Address
-  - plan: 
-    name: The Breadwinner
-    price: 300
-    additional_info: |-
-      All day, every day. The Breadwinner is a full week access option.
-
-      - 20 days/month
-      - Seat at any open table
-      - ­6 conference room hours
-      - ­Business address
   - plan: 
     name: The Red Eye
     price: 350
     additional_info: |-
       Never stop. The Red Eye is a comprehensive package for those who eat, sleep and breathe their business.
 
-      - Unlimited days per month
+      - 24/7 access, unlimited days per month
       - Reserved desk
-      - ­8 conference room hours
+      - 12 conference room hours
       - ­Business address
 layout: pricing
 ---
