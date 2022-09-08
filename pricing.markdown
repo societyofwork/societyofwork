@@ -13,7 +13,7 @@ pricing_section:
     name: The Half Runner
     price: 85
     additional_info: |-
-      This pass assumes you’ll be on the move. It gives you access to our open office 8 days a month.
+      This pass assumes you’ll be on the move. It gives you access to our open office 4 days a month.
 
       - 4 days/month
       - Seat at any open desk
