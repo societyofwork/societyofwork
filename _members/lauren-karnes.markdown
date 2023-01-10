@@ -7,3 +7,4 @@ crazy_image: "/uploads/Lauren%20Karnes%20-%20Fun.jpg"
 company: Society of Work
 ---
 
+.
