@@ -7,4 +7,3 @@ crazy_image: "/uploads/Tim%20Moses%20Tun.jpg"
 company: Chalkstart LLC
 ---
 
-.
