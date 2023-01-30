@@ -1,5 +1,5 @@
 ---
-title: TimRitzema
+title: Tim Ritzema
 date: 2023-01-30 10:01:00 -05:00
 first_name: Tim
 image: "/uploads/TimRitzema.jpg"
