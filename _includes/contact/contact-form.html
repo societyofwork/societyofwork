@@ -1,13 +1,14 @@
 <div class="row mb-4">
   <form class="columns medium-centered medium-7 large-6" name="contact" method="POST" action="/thank-you" netlify>
     <label>Name:
-      <input type="text" name="name" placeholder="Jane Smith" autocomplete="name">
+      <input type="text" name="name" placeholder="Jane Smith" autocomplete="name" required>
     </label>
     <label>Email:
-      <input type="text" name="email" placeholder="jane@societyofwork.com" autocomplete="name">
+      <input type="text" name="email" placeholder="jane@societyofwork.com" autocomplete="name" required>
     </label>
     <label>Message:
-      <textarea name="message" style="height: 118px;" placeholder="I'm ready to be a member forever. How do I do it?"></textarea>
+      <textarea name="message" style="height: 118px;" placeholder="I'm ready to be a member forever. How do I do it?"
+        required></textarea>
     </label>
     <div netlify-recaptcha></div>
     <div class="text-center">
