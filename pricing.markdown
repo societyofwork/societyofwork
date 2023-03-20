@@ -48,16 +48,6 @@ pricing_section:
 layout: pricing
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66844008-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-66844008-1');
-</script>
-
 **A Message from Our Founder Kelly Fitzgerald**
 
 At Society of Work, you get a professional office space without the hassle of a commercial lease. You get 24/7 access. You get a dynamite community.
