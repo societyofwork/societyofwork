@@ -33,7 +33,7 @@
       </li>
 
       <li class="desktop-contact-button">
-        <a href="/contact/" {% if p.url == page.url %}class="no-barba active"{% endif %}>
+        <a href="/contact/" {% if p.url == page.url %}class="active no-barba"{% else %} class="no-barba" {% endif %}>
           Contact
         </a>
       </li>
