@@ -12,10 +12,8 @@ hero_section:
   right_button_text: Learn about office space
 map_section:
   header: Two locations with office space and coworking
-  body: Society of Work is located at the corner of Market St and 11th St in the Edney
-    building- the heart of [Chattanooga's Innovation District](https://www.chainnovate.com/)
-  link: 
-  link_text: Learn more on how coworking benefits your business.
+  body: 'Society of Work has two locations in Chattanooga: [downtown] (https://g.co/kgs/SDiy9Sw)
+    in the Edney Innovation Center and at Somer Station on the [northshore](https://g.co/kgs/MxP9Vrc). '
   map_image: uploads/map.jpg
   map_link: https://www.google.com/maps/place/Society+of+Work/@35.043563,-85.3088409,15z/data=!4m2!3m1!1s0x0:0x19103f5df6547e8d?sa=X&ved=0ahUKEwjfxIPKmILXAhXMLSYKHaqfBA4Q_BIIfTAK
   map_link_text: Open directions in Google Maps
@@ -54,7 +52,7 @@ pricing_section:
     name: Day Pass
     price: 25
     additional_info: |-
-      M-F 8am-5pm
+      M-F 9am-5pm
       Perfect if you're passing through
   - plan: 
     name: Community Desks
