@@ -5,4 +5,4 @@ Pages: Home
 is_Active: true
 ---
 
-Book a day pass for [Edney here](https://calendly.com/societyofwork/edney-day-pass) or [Somer Station here](https://calendly.com/societyofwork/somer-station-day-pass)
+Book a day pass for [Edney here](https://calendly.com/societyofwork-edney/day-pass-at-the-edney) or [Somer Station here](https://calendly.com/societyofwork/somer-station-day-pass).
